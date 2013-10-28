@@ -1,0 +1,267 @@
+{
+  "primitive": {
+    "comment": "PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly",
+    "colors": {
+      "red": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "blue": [
+        57,
+        135,
+        203,
+        1
+      ],
+      "primaryGray": [
+        0,
+        0,
+        0,
+        0.8
+      ],
+      "secondaryGray": [
+        0,
+        0,
+        0,
+        0.55
+      ],
+      "tertiaryGray": [
+        0,
+        0,
+        0,
+        0.25
+      ],
+      "lineGray": [
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "primaryGrayInverted": [
+        255,
+        255,
+        255,
+        1
+      ],
+      "secondaryGrayInverted": [
+        255,
+        255,
+        255,
+        0.8
+      ],
+      "tertiaryGrayInverted": [
+        255,
+        255,
+        255,
+        0.4
+      ],
+      "lineGrayInverted": [
+        255,
+        255,
+        255,
+        0.2
+      ]
+    }
+  },
+  "background": {
+    "comment": "BACKGROUNDS - these are always 100% opacity",
+    "colors": {
+      "backgroundContent": [
+        255,
+        255,
+        255,
+        1
+      ],
+      "backgroundCollection": [
+        231,
+        231,
+        231,
+        1
+      ],
+      "backgroundNav": [
+        247,
+        247,
+        247,
+        1
+      ],
+      "backgroundContentInverted": [
+        44,
+        62,
+        80,
+        1
+      ],
+      "backgroundContentAccent": [
+        226,
+        55,
+        60,
+        1
+      ]
+    }
+  },
+  "default_context": {
+    "comment": "DEFAULT CONTEXT (content on light backgrounds)",
+    "colors": {
+      "textPrimary": [
+        0,
+        0,
+        0,
+        0.8
+      ],
+      "textSecondary": [
+        0,
+        0,
+        0,
+        0.55
+      ],
+      "textTertiary": [
+        0,
+        0,
+        0,
+        0.25
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "link": [
+        57,
+        135,
+        203,
+        1
+      ],
+      "accent": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "yes": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "no": [
+        0,
+        0,
+        0,
+        0.55
+      ],
+      "waitlist": [
+        0,
+        0,
+        0,
+        0.55
+      ],
+      "buttonPrimary": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "buttonSecondary": [
+        0,
+        0,
+        0,
+        0.25
+      ],
+      "buttonTertiaryBorder": [
+        0,
+        0,
+        0,
+        0.25
+      ]
+    }
+  },
+  "inverted_context": {
+    "comment": "INVERTED CONTEXT (content on dark backgrounds)",
+    "colors": {
+      "textPrimaryInverted": [
+        255,
+        255,
+        255,
+        1
+      ],
+      "textSecondaryInverted": [
+        255,
+        255,
+        255,
+        0.8
+      ],
+      "textTertiaryInverted": [
+        255,
+        255,
+        255,
+        0.4
+      ],
+      "borderInverted": [
+        255,
+        255,
+        255,
+        0.2
+      ],
+      "linkInverted": [
+        57,
+        135,
+        203,
+        1
+      ],
+      "accentInverted": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "yesInverted": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "noInverted": [
+        255,
+        255,
+        255,
+        0.8
+      ],
+      "waitlistInverted": [
+        255,
+        255,
+        255,
+        0.8
+      ],
+      "buttonPrimaryInverted": [
+        226,
+        55,
+        60,
+        1
+      ],
+      "buttonSecondaryInverted": [
+        255,
+        255,
+        255,
+        0.4
+      ],
+      "buttonTertiaryBorder": [
+        255,
+        255,
+        255,
+        0.4
+      ]
+    }
+  },
+  "misc": {
+    "comment": "MISC",
+    "colors": {
+      "overlayPressed": [
+        64,
+        197,
+        255,
+        0.2
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<!--  PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly -->
+<color name="red">#64E2373C</color>
+<color name="blue">#643987CB</color>
+<color name="primaryGray">#50000000</color>
+<color name="secondaryGray">#37000000</color>
+<color name="tertiaryGray">#19000000</color>
+<color name="lineGray">#0A000000</color>
+<color name="primaryGrayInverted">#64FFFFFF</color>
+<color name="secondaryGrayInverted">#50FFFFFF</color>
+<color name="tertiaryGrayInverted">#28FFFFFF</color>
+<color name="lineGrayInverted">#14FFFFFF</color>
+ 
+<!--  BACKGROUNDS - these are always 100% opacity -->
+<color name="backgroundContent">#64FFFFFF</color>
+<color name="backgroundCollection">#64E7E7E7</color>
+<color name="backgroundNav">#64F7F7F7</color>
+<color name="backgroundContentInverted">#642C3E50</color>
+<color name="backgroundContentAccent">#64E2373C</color>
+ 
+<!--  DEFAULT CONTEXT (content on light backgrounds) -->
+<color name="textPrimary">#50000000</color>
+<color name="textSecondary">#37000000</color>
+<color name="textTertiary">#19000000</color>
+<color name="border">#0A000000</color>
+<color name="link">#643987CB</color>
+<color name="accent">#64E2373C</color>
+<color name="yes">#64E2373C</color>
+<color name="no">#37000000</color>
+<color name="waitlist">#37000000</color>
+<color name="buttonPrimary">#64E2373C</color>
+<color name="buttonSecondary">#19000000</color>
+<color name="buttonTertiaryBorder">#19000000</color>
+ 
+<!--  INVERTED CONTEXT (content on dark backgrounds) -->
+<color name="textPrimaryInverted">#64FFFFFF</color>
+<color name="textSecondaryInverted">#50FFFFFF</color>
+<color name="textTertiaryInverted">#28FFFFFF</color>
+<color name="borderInverted">#14FFFFFF</color>
+<color name="linkInverted">#643987CB</color>
+<color name="accentInverted">#64E2373C</color>
+<color name="yesInverted">#64E2373C</color>
+<color name="noInverted">#50FFFFFF</color>
+<color name="waitlistInverted">#50FFFFFF</color>
+<color name="buttonPrimaryInverted">#64E2373C</color>
+<color name="buttonSecondaryInverted">#28FFFFFF</color>
+<color name="buttonTertiaryBorder">#28FFFFFF</color>
+ 
+<!--  MISC -->
+<color name="overlayPressed">#1440C5FF</color>
+ 
