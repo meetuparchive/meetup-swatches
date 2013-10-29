@@ -12,8 +12,11 @@ Here they are - standardized and design-approved Meetup colors. For web, mobile 
 2. make sure you have the `bundler` gem installed
 3. run this command to get dev dependencies:
 
+
 	$ bundle install
 
+
 After editing `colors.yaml` use this command to rebuild the consumable files:
+
 
 	$ ruby consumer.rb
