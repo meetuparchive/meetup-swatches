@@ -14,7 +14,7 @@
 <color name="backgroundContent">#64FFFFFF</color>
 <color name="backgroundCollection">#64E7E7E7</color>
 <color name="backgroundNav">#64F7F7F7</color>
-<color name="backgroundContentInverted">#642C3E50</color>
+<color name="backgroundContentInverted">#64333333</color>
 <color name="backgroundContentAccent">#64E2373C</color>
  
 <!--  DEFAULT CONTEXT (content on light backgrounds) -->
