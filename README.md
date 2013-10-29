@@ -13,7 +13,9 @@ Here they are - standardized and design-approved Meetup colors. For web, mobile 
 3. use bundler to install dependencies
 4. After editing `colors.yaml` use this command to rebuild the consumable files
 
+
 	$ bundle install
 	$ edit colors.yaml
 	...
 	$ ruby rebuild.rb
+
