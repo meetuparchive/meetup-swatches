@@ -1,7 +1,8 @@
 require 'yaml'
 require 'json'
+require 'erb'
 
-color_types = YAML.load_file("./colors.yml")
+color_types = YAML.load_file("./colors.yaml")
 
 # SCSS
 sass_lines = []
@@ -40,4 +41,9 @@ File.open("./ios/colors.json", 'w+') do |file|
   file.write(JSON.pretty_generate(color_types))
 end
 
+# SPECIMEN HTML
+@color_types = color_types
+template_file = File.open("specimen.erb", 'r').read
+erb = ERB.new(template_file)
+File.open("specimen.html", 'w+') { |file| file.write(erb.result( binding )) }
 
