@@ -16,4 +16,4 @@ Here they are - standardized and design-approved Meetup colors. For web, mobile 
 
 After editing `colors.yaml` use this command to rebuild the consumable files:
 
-	$ ruby consumer.rb
+	$ ruby rebuild.rb
