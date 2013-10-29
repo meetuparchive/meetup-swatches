@@ -8,6 +8,7 @@
 		"./android"
 	],
 	"ignore": [
+		".ruby-version",
 		"Gemfile",
 		"Gemfile.lock",
 		"Rakefile",
