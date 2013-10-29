@@ -1,0 +1,13 @@
+{
+  "name": "meetup-swatches",
+  "version": "0.0.2",
+  "main": "./sass",
+  "ignore": [
+    "**/.*",
+	 "*.lock",
+	 "Gemfile",
+    "node_modules",
+    "components"
+  ],
+	"license": "MIT"
+}
