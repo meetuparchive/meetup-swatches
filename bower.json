@@ -1,19 +1,13 @@
 {
-	"name": "meetup-swatches",
-	"version": "0.0.1",
-	"description": "Cross-platform colors for Meetup",
-	"main": [
-		"./sass",
-		"./ios"
-		"./android"
-	],
-	"ignore": [
-		".ruby-version",
-		"Gemfile",
-		"Gemfile.lock",
-		"Rakefile",
-		"consumer.rb",
-		"colors.yaml"
-	],
+  "name": "meetup-swatches",
+  "version": "0.0.2",
+  "main": "./sass",
+  "ignore": [
+    "**/.*",
+	 "*.lock",
+	 "Gemfile",
+    "node_modules",
+    "components"
+  ],
 	"license": "MIT"
 }
