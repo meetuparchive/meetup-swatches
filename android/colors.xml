@@ -48,3 +48,14 @@
 <!--  MISC -->
 <color name="overlayPressed">#1440C5FF</color>
  
+<!--  SOCIAL (third party colors) -->
+<color name="facebook">#643B5998</color>
+<color name="twitter">#6433CCFF</color>
+<color name="linkedin">#644875B4</color>
+<color name="tumblr">#642B4964</color>
+<color name="flickr">#64FE0883</color>
+<color name="foursquare">#640CBADF</color>
+<color name="googleplus">#64C63D2D</color>
+<color name="instagram">#644E433C</color>
+<color name="reddit">#64CEE3F8</color>
+ 

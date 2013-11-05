@@ -54,3 +54,15 @@ misc:
     comment: "MISC"
     colors:
         overlayPressed: [64,197,255,.2]
+social:
+    comment: "SOCIAL (third party colors)"
+    colors:
+        facebook: [59,89,152,1]
+        twitter: [51,204,255,1]
+        linkedin: [72,117,180,1]
+        tumblr: [43,73,100,1]
+        flickr: [254,8,131,1]
+        foursquare: [12,186,223,1]
+        googleplus: [198,61,45,1]
+        instagram: [78,67,60,1]
+        reddit: [206,227,248,1]
