@@ -13,7 +13,7 @@ color_types.each_value do |color_type|
   end
   sass_lines << " "
 end 
-File.open("./sass/colors.scss", 'w+') do |file|
+File.open("../sass/colors.scss", 'w+') do |file|
   file.write(sass_lines.join("\n"))
 end
 
@@ -32,12 +32,12 @@ color_types.each_value do |color_type|
   end
   android_lines << " "
 end 
-File.open("./android/colors.xml", 'w+') do |file|
+File.open("../android/colors.xml", 'w+') do |file|
   file.write(android_lines.join("\n"))
 end
 
 # IOS
-File.open("./ios/colors.json", 'w+') do |file|
+File.open("../ios/colors.json", 'w+') do |file|
   file.write(JSON.pretty_generate(color_types))
 end
 
@@ -45,5 +45,5 @@ end
 @color_types = color_types
 template_file = File.open("specimen.erb", 'r').read
 erb = ERB.new(template_file)
-File.open("specimen.html", 'w+') { |file| file.write(erb.result( binding )) }
+File.open("../doc/specimen.html", 'w+') { |file| file.write(erb.result( binding )) }
 
