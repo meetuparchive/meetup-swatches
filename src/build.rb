@@ -1,6 +1,10 @@
 require 'yaml'
 require 'json'
 require 'erb'
+require 'builder'
+
+$: << File.dirname(__FILE__)
+require 'lib/string_exts'
 
 color_types = YAML.load_file("./colors.yaml")
 
@@ -9,7 +13,7 @@ sass_lines = []
 color_types.each_value do |color_type|  
   sass_lines << "// #{color_type["comment"]}"
   color_type["colors"].each do |key, value|
-    sass_lines << "$C_#{key}: rgba(#{value[0]},#{value[1]},#{value[2]},#{value[3]});"
+    sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
   end
   sass_lines << " "
 end 
@@ -18,22 +22,21 @@ File.open("../sass/colors.scss", 'w+') do |file|
 end
 
 # ANDROID
-android_lines = []
-color_types.each_value do |color_type|
-  android_lines << "<!--  #{color_type["comment"]} -->"
-  color_type["colors"].each do |key, value|
-    vals = value.dup
-    vals[3] = vals[3] * 100
-    vals_hexed = vals.map do |v|
-      "%02X" % v.to_i
-    end
-    value_hexed = "##{vals_hexed[3]}#{vals_hexed[0]}#{vals_hexed[1]}#{vals_hexed[2]}"
-    android_lines << "<color name=\"#{key}\">#{value_hexed}</color>"
-  end
-  android_lines << " "
-end 
 File.open("../android/colors.xml", 'w+') do |file|
-  file.write(android_lines.join("\n"))
+  xml = Builder::XmlMarkup.new(:target => file, :indent => 2)
+  xml.instruct!
+  xml.resources do
+    color_types.each_value do |color_type|
+      xml << "\n"
+      xml.comment! color_type["comment"]
+      color_type["colors"].each do |key, value|
+        vals = value.rotate(-1)
+        vals[0] = (vals[0] * 255).round # 1.0 -> 0xff
+        hexcolor = "#" + vals.map{|c| "%02x" % c.to_i}.join
+        xml.color hexcolor, {name: key.underscore}
+      end
+    end
+  end
 end
 
 # IOS
