@@ -41,7 +41,18 @@ end
 
 # IOS
 File.open("../ios/colors.json", 'w+') do |file|
-  file.write(JSON.pretty_generate(color_types))
+  ios_color_types = color_types.dup
+  ios_color_types.each do |color_type_key, color_type|
+    color_type["colors"].each do |color_key, color|
+      # convert r,g,b from 0..255 to 0..1
+      thisc = ios_color_types[color_type_key]["colors"][color_key].dup
+      thisc[0] = (color[0].to_f / 255).round(3)
+      thisc[1] = (color[1].to_f / 255).round(3)
+      thisc[2] = (color[2].to_f / 255).round(3)
+      ios_color_types[color_type_key]["colors"][color_key] = thisc
+    end
+  end
+  file.write(JSON.pretty_generate(ios_color_types))
 end
 
 # SPECIMEN HTML
