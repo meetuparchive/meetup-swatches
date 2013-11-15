@@ -5,6 +5,9 @@
 			font-family: 'helvetica neue', helvetica, sans-serif;
 			font-size: 18px;
 		}
+		.checkered-bg {
+			background-image: url('./checker-bg.png');
+		}
 		ul{
 			list-style: none;
 			padding: 0;
@@ -24,6 +27,8 @@
 <body>
 	<h1>Meetup Swatches</h1>
 	
+	<label><input type="checkbox" class="checker"></input><small> transparency grid</small></label>
+
 	<% @color_types.each do |type_key, type| %>
 		<p><%= type["comment"] %></p>
 		<ul>
@@ -34,6 +39,12 @@
 			<% end %>
 		</ul>
 	<% end %>
-	
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$('.checker').click(function(){
+		  $('body').toggleClass('checkered-bg');
+		});
+	</script>
 </body>
 </html>

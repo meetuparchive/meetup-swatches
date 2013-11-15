@@ -5,6 +5,9 @@
 			font-family: 'helvetica neue', helvetica, sans-serif;
 			font-size: 18px;
 		}
+		.checkered-bg {
+			background-image: url('./checker-bg.png');
+		}
 		ul{
 			list-style: none;
 			padding: 0;
@@ -23,7 +26,7 @@
 </head>
 <body>
 	<h1>Meetup Swatches</h1>
-	
+		<label><input type="checkbox" class="checker"></input><small> transparency grid</small></label>
 	
 		<p>PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly</p>
 		<ul>
@@ -255,6 +258,11 @@
 			
 		</ul>
 	
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$('.checker').click(function(){
+		  $('body').toggleClass('checkered-bg');
+		});
+	</script>
 </body>
 </html>
