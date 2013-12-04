@@ -4,7 +4,7 @@
   <!-- PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly -->
   <color name="red">#ffe2373c</color>
   <color name="blue">#ff3987cb</color>
-  <color name="primary_gray">#d9000000</color>
+  <color name="primary_gray">#f2000000</color>
   <color name="secondary_gray">#a6000000</color>
   <color name="tertiary_gray">#40000000</color>
   <color name="line_gray">#1a000000</color>
@@ -22,7 +22,7 @@
   <color name="background_content_accent">#ffe2373c</color>
 
   <!-- DEFAULT CONTEXT (content on light backgrounds) -->
-  <color name="text_primary">#d9000000</color>
+  <color name="text_primary">#f2000000</color>
   <color name="text_secondary">#a6000000</color>
   <color name="text_tertiary">#40000000</color>
   <color name="border">#1a000000</color>

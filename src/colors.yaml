@@ -4,7 +4,7 @@ primitive:
     colors: 
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
-        primaryGray: &primaryGray [0,0,0,.85]
+        primaryGray: &primaryGray [0,0,0,.95]
         secondaryGray: &secondaryGray [0,0,0,.65]
         tertiaryGray: &tertiaryGray [0,0,0,.25]
         lineGray: &lineGray [0,0,0,.1]
