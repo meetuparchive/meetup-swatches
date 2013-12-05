@@ -6,7 +6,7 @@
   <color name="blue">#ff3987cb</color>
   <color name="primary_gray">#f2000000</color>
   <color name="secondary_gray">#a6000000</color>
-  <color name="tertiary_gray">#40000000</color>
+  <color name="tertiary_gray">#54000000</color>
   <color name="line_gray">#1a000000</color>
   <color name="primary_gray_inverted">#ffffffff</color>
   <color name="secondary_gray_inverted">#ccffffff</color>
@@ -24,7 +24,7 @@
   <!-- DEFAULT CONTEXT (content on light backgrounds) -->
   <color name="text_primary">#f2000000</color>
   <color name="text_secondary">#a6000000</color>
-  <color name="text_tertiary">#40000000</color>
+  <color name="text_tertiary">#54000000</color>
   <color name="border">#1a000000</color>
   <color name="link">#ff3987cb</color>
   <color name="accent">#ffe2373c</color>
@@ -32,8 +32,8 @@
   <color name="no">#a6000000</color>
   <color name="waitlist">#a6000000</color>
   <color name="button_primary">#ffe2373c</color>
-  <color name="button_secondary">#40000000</color>
-  <color name="button_tertiary_border">#40000000</color>
+  <color name="button_secondary">#54000000</color>
+  <color name="button_tertiary_border">#54000000</color>
 
   <!-- INVERTED CONTEXT (content on dark backgrounds) -->
   <color name="text_primary_inverted">#ffffffff</color>

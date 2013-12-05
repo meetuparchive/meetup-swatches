@@ -6,7 +6,7 @@ primitive:
         blue: &blue [57,135,203,1]
         primaryGray: &primaryGray [0,0,0,.95]
         secondaryGray: &secondaryGray [0,0,0,.65]
-        tertiaryGray: &tertiaryGray [0,0,0,.25]
+        tertiaryGray: &tertiaryGray [0,0,0,.33]
         lineGray: &lineGray [0,0,0,.1]
         primaryGrayInverted: &primaryGrayInverted [255,255,255,1]
         secondaryGrayInverted: &secondaryGrayInverted [255,255,255,.8]
