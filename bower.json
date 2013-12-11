@@ -1,6 +1,6 @@
 {
   "name": "meetup-swatches",
-  "version": "0.1.1",
+  "version": "0.1.2",
 	"description": "Color swatches for Meetup",
   "main": "./sass",
   "ignore": [
@@ -13,7 +13,9 @@
 	"**/*.json",
 	"**/*.xml",
 	".ruby-version",
-	"Gemfile"
+	"Gemfile",
+	"./android",
+	"./ios"
   ],
 	"license": "MIT"
 }
