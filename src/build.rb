@@ -11,14 +11,18 @@ color_types = YAML.load_file("./colors.yaml")
 # SCSS
 sass_lines = []
 color_types.each_value do |color_type|  
-  sass_lines << "// #{color_type["comment"]}"
-  color_type["colors"].each do |key, value|
-    sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
-  end
-  sass_lines << " "
-end 
+	sass_lines << "// #{color_type["comment"]}"
+	color_type["colors"].each do |key, value|
+		if value[3] == 1 # optimize opaque alpha channel to rgb css color
+			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
+		else
+			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
+		end
+	end
+	sass_lines << " "
+end
 File.open("../sass/colors.scss", 'w+') do |file|
-  file.write(sass_lines.join("\n"))
+	file.write(sass_lines.join("\n"))
 end
 
 # ANDROID
