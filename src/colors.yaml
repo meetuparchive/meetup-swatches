@@ -1,7 +1,7 @@
 # colors are listed as [r,g,b,a]
-primitive: 
+primitive:
     comment: "PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly"
-    colors: 
+    colors:
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
         primaryGray: &primaryGray [0,0,0,.95]
@@ -19,7 +19,7 @@ background:
         backgroundCollection: [231,231,231,1]
         backgroundNav: [247,247,247,1]
         backgroundFooter: [64,64,64,1]
-        backgroundContentInverted: [51,51,51,1]
+        backgroundContentInverted: [53,62,71,1]
         backgroundContentAccent: *red
 default_context:
     comment: "DEFAULT CONTEXT (content on light backgrounds)"
