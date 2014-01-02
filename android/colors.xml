@@ -17,7 +17,6 @@
   <color name="background_content">#ffffffff</color>
   <color name="background_collection">#ffe7e7e7</color>
   <color name="background_nav">#fff7f7f7</color>
-  <color name="background_footer">#ff404040</color>
   <color name="background_content_inverted">#ff353e47</color>
   <color name="background_content_accent">#ffe2373c</color>
 
