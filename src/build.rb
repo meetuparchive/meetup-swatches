@@ -9,6 +9,7 @@ require 'lib/string_exts'
 color_types = YAML.load_file("./colors.yaml")
 
 # SCSS
+# lighten($color, (1-$alpha)*5%)
 sass_lines = []
 color_types.each_value do |color_type|  
 	sass_lines << "// #{color_type["comment"]}"
@@ -18,6 +19,7 @@ color_types.each_value do |color_type|
 		else
 			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
 		end
+		sass_lines << "@mixin text_#{key} { color: lighten( rgb(#{value[0,3].join(',')}), (1-#{value[3]})*5%); color: $C_#{key}; }"
 	end
 	sass_lines << " "
 end
