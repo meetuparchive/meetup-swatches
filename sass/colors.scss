@@ -7,8 +7,8 @@ $C_primaryGray: rgba(0,0,0,0.95);
 @mixin color_primaryGray { color: lighten( rgb(0,0,0), 5.000000000000004%); color: $C_primaryGray; }
 $C_secondaryGray: rgba(0,0,0,0.65);
 @mixin color_secondaryGray { color: lighten( rgb(0,0,0), 35.0%); color: $C_secondaryGray; }
-$C_tertiaryGray: rgba(0,0,0,0.33);
-@mixin color_tertiaryGray { color: lighten( rgb(0,0,0), 67.0%); color: $C_tertiaryGray; }
+$C_tertiaryGray: rgba(0,0,0,0.4);
+@mixin color_tertiaryGray { color: lighten( rgb(0,0,0), 60.0%); color: $C_tertiaryGray; }
 $C_lineGray: rgba(0,0,0,0.1);
 @mixin color_lineGray { color: lighten( rgb(0,0,0), 90.0%); color: $C_lineGray; }
 $C_primaryGrayInverted: rgb(255,255,255);
@@ -37,8 +37,8 @@ $C_textPrimary: rgba(0,0,0,0.95);
 @mixin color_textPrimary { color: lighten( rgb(0,0,0), 5.000000000000004%); color: $C_textPrimary; }
 $C_textSecondary: rgba(0,0,0,0.65);
 @mixin color_textSecondary { color: lighten( rgb(0,0,0), 35.0%); color: $C_textSecondary; }
-$C_textTertiary: rgba(0,0,0,0.33);
-@mixin color_textTertiary { color: lighten( rgb(0,0,0), 67.0%); color: $C_textTertiary; }
+$C_textTertiary: rgba(0,0,0,0.4);
+@mixin color_textTertiary { color: lighten( rgb(0,0,0), 60.0%); color: $C_textTertiary; }
 $C_border: rgba(0,0,0,0.1);
 @mixin color_border { color: lighten( rgb(0,0,0), 90.0%); color: $C_border; }
 $C_link: rgb(57,135,203);
@@ -53,10 +53,10 @@ $C_waitlist: rgba(0,0,0,0.65);
 @mixin color_waitlist { color: lighten( rgb(0,0,0), 35.0%); color: $C_waitlist; }
 $C_buttonPrimary: rgb(226,55,60);
 @mixin color_buttonPrimary { color: $C_buttonPrimary; }
-$C_buttonSecondary: rgba(0,0,0,0.33);
-@mixin color_buttonSecondary { color: lighten( rgb(0,0,0), 67.0%); color: $C_buttonSecondary; }
-$C_buttonTertiaryBorder: rgba(0,0,0,0.33);
-@mixin color_buttonTertiaryBorder { color: lighten( rgb(0,0,0), 67.0%); color: $C_buttonTertiaryBorder; }
+$C_buttonSecondary: rgba(0,0,0,0.4);
+@mixin color_buttonSecondary { color: lighten( rgb(0,0,0), 60.0%); color: $C_buttonSecondary; }
+$C_buttonTertiaryBorder: rgba(0,0,0,0.4);
+@mixin color_buttonTertiaryBorder { color: lighten( rgb(0,0,0), 60.0%); color: $C_buttonTertiaryBorder; }
  
 // INVERTED CONTEXT (content on dark backgrounds)
 $C_textPrimaryInverted: rgb(255,255,255);
