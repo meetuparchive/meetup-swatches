@@ -9,17 +9,18 @@ require 'lib/string_exts'
 color_types = YAML.load_file("./colors.yaml")
 
 # SCSS
-# lighten($color, (1-$alpha)*5%)
+# (0.65 - 1) * -100
 sass_lines = []
 color_types.each_value do |color_type|  
 	sass_lines << "// #{color_type["comment"]}"
 	color_type["colors"].each do |key, value|
 		if value[3] == 1 # optimize opaque alpha channel to rgb css color
 			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
+			sass_lines << "@mixin color_#{key} { color: $C_#{key}; }"
 		else
 			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
+			sass_lines << "@mixin color_#{key} { color: lighten( rgb(#{value[0,3].join(',')}), #{(value[3] - 1)*-100}%); color: $C_#{key}; }"
 		end
-		sass_lines << "@mixin color_#{key} { color: lighten( rgb(#{value[0,3].join(',')}), (1 - #{value[3]})*2%); color: $C_#{key}; }"
 	end
 	sass_lines << " "
 end
