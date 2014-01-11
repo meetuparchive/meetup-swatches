@@ -18,12 +18,8 @@ color_types.each_value do |color_type|
 			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
 			sass_lines << "@mixin color_#{key} { color: $C_#{key}; }"
 		else
-			lighten_offset = 15
-			if value[3] - lighten_offset < 0
-				lighten_offset = 0
-			end
 			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
-			sass_lines << "@mixin color_#{key} { color: lighten( rgb(#{value[0,3].join(',')}), #{(value[3] - lighten_offset)*100}%); color: $C_#{key}; }"
+			sass_lines << "@mixin color_#{key} { color: lighten( rgb(#{value[0,3].join(',')}), #{(1 - value[3])*100}%); color: $C_#{key}; }"
 		end
 	end
 	sass_lines << " "
