@@ -5,12 +5,12 @@ primitive:
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
         primaryGray: &primaryGray [0,0,0,.95]
-        secondaryGray: &secondaryGray [0,0,0,.65]
-        tertiaryGray: &tertiaryGray [0,0,0,.4]
+        secondaryGray: &secondaryGray [0,0,0,.67]
+        tertiaryGray: &tertiaryGray [0,0,0,.47]
         lineGray: &lineGray [0,0,0,.1]
         primaryGrayInverted: &primaryGrayInverted [255,255,255,1]
-        secondaryGrayInverted: &secondaryGrayInverted [255,255,255,.8]
-        tertiaryGrayInverted: &tertiaryGrayInverted [255,255,255,.4]
+        secondaryGrayInverted: &secondaryGrayInverted [255,255,255,.67]
+        tertiaryGrayInverted: &tertiaryGrayInverted [255,255,255,.47]
         lineGrayInverted: &lineGrayInverted [255,255,255,.2]
 background:
     comment: "BACKGROUNDS - these are always 100% opacity"
