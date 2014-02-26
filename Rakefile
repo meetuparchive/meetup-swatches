@@ -34,7 +34,7 @@ task :push_docs do
 	if "#{branch}" == "master\n"
 		sh "rm -rf .sass-cache"
 		sh "git checkout gh-pages"
-		sh "git pull master #{DOC_DIR}"
+		sh "git checkout master -- #{DOC_DIR}"
 		sh "cp -r #{DOC_DIR} ./"
 		sh "rm -rf #{DOC_DIR}"
 		sh "git add ."
