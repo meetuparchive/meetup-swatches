@@ -66,5 +66,5 @@ end
 @color_types = color_types
 template_file = File.open("specimen.erb", 'r').read
 erb = ERB.new(template_file)
-File.open("../doc/specimen.html", 'w+') { |file| file.write(erb.result( binding )) }
+File.open("../doc/index.html", 'w+') { |file| file.write(erb.result( binding )) }
 
