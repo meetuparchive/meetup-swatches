@@ -15,8 +15,14 @@ Here they are - standardized and design-approved Meetup colors. For web, mobile 
 
 ```
 	$ bundle install
-	$ cd src
-	$ edit colors.yaml
+	$ edit src/colors.yaml
 	...
-	$ ruby build.rb
+	$ rake
+```
+
+### Updating live documentation
+To update the github page for this projcet, run:
+
+```
+	$ rake push_docs
 ```
