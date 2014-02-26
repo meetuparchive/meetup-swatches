@@ -1,4 +1,5 @@
-SRC_DIR     = "src"
+SRC_DIR     = "src/"
+DOC_DIR     = "doc/"
 HR          = "\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\="
 
 # compile sass & copy files into build/
@@ -33,9 +34,9 @@ task :push_docs do
 	if "#{branch}" == "master\n"
 		sh "rm -rf .sass-cache"
 		sh "git checkout gh-pages"
-		sh "git pull master doc/"
-		sh "cp -r doc/ ./"
-		sh "rm -rf doc/"
+		sh "git pull master #{DOC_DIR}"
+		sh "cp -r #{DOC_DIR} ./"
+		sh "rm -rf #{DOC_DIR}"
 		sh "git add ."
 		sh "git commit -a -m \"update live docs\""
 		sh "git push"
