@@ -25,10 +25,10 @@
 		}
 	</style>
 </head>
-<body>
+<body class="checkered-bg">
 	<h1>Meetup Swatches</h1>
 	
-	<label><input type="checkbox" class="checker"></input><small> transparency grid</small></label>
+	<label><input type="checkbox" class="checker" checked></input><small> transparency grid</small></label>
 
 	<% @color_types.each do |type_key, type| %>
 		<p><%= type["comment"] %></p>
