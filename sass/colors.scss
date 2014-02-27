@@ -3,12 +3,18 @@ $C_red: rgb(226,55,60);
 @mixin color_red { color: $C_red; }
 $C_blue: rgb(57,135,203);
 @mixin color_blue { color: $C_blue; }
+$C_white: rgb(255,255,255);
+@mixin color_white { color: $C_white; }
+$C_green: rgb(98,172,117);
+@mixin color_green { color: $C_green; }
 $C_primaryGray: rgba(0,0,0,0.95);
 @mixin color_primaryGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 5%); #{$style}: $C_primaryGray; }
 $C_secondaryGray: rgba(0,0,0,0.67);
 @mixin color_secondaryGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 33%); #{$style}: $C_secondaryGray; }
 $C_tertiaryGray: rgba(0,0,0,0.47);
 @mixin color_tertiaryGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 53%); #{$style}: $C_tertiaryGray; }
+$C_lightestGray: rgb(247,247,247);
+@mixin color_lightestGray { color: $C_lightestGray; }
 $C_lineGray: rgba(0,0,0,0.1);
 @mixin color_lineGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 90%); #{$style}: $C_lineGray; }
 $C_primaryGrayInverted: rgb(255,255,255);
