@@ -4,9 +4,12 @@ primitive:
     colors:
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
+        white: &white [255,255,255,1]
+        green: &green [98,172,117,1]
         primaryGray: &primaryGray [0,0,0,.95]
         secondaryGray: &secondaryGray [0,0,0,.67]
         tertiaryGray: &tertiaryGray [0,0,0,.47]
+        lightestGray: &lightestGray [247,247,247,1]
         lineGray: &lineGray [0,0,0,.1]
         primaryGrayInverted: &primaryGrayInverted [255,255,255,1]
         secondaryGrayInverted: &secondaryGrayInverted [255,255,255,.67]
@@ -15,9 +18,9 @@ primitive:
 background:
     comment: "BACKGROUNDS - these are always 100% opacity"
     colors:
-        backgroundContent: [255,255,255,1]
+        backgroundContent: *white
         backgroundCollection: [231,231,231,1]
-        backgroundNav: [247,247,247,1]
+        backgroundNav: *lightestGray
         backgroundContentInverted: [51,51,51,1]
         backgroundContentInverted: [53,62,71,1]
         backgroundContentAccent: *red
