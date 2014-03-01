@@ -14,6 +14,12 @@ template_file = File.open("specimen.erb", 'r').read
 erb = ERB.new(template_file)
 File.open("../doc/index.html", 'w+') { |file| file.write(erb.result( binding )) }
 
+# SVG SWATCHES
+@color_types = color_types
+template_file = File.open("svg.erb", 'r').read
+erb = ERB.new(template_file)
+File.open("../doc/swatches.svg", 'w+') { |file| file.write(erb.result( binding )) }
+
 # SCSS
 # (0.65 - 1) * -100
 sass_lines = []
