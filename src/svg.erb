@@ -1,0 +1,26 @@
+<%-
+w = 100
+h = 50
+%><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="<%= w*3 %>" height="4000" viewBox="0 0 <%= w*3 %> 4000" enable-background="new 0 0 640 1136" xml:space="preserve">
+<%
+idx_c = 0
+@color_types.each do |type_key, type| 
+%>
+	<text x="0" y="<%= (h * idx_c) + (h/2)%>" font-family="'MyriadPro-Bold'" font-size="14"><%= type["comment"] %></text>
+		<%
+		idx_c += 1
+		type["colors"].each do |c_key, c| 
+		%>
+			<rect x="0" y="<%= (h * idx_c)%>" fill="rgb(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>)" fill-opacity="<%=c[3]%>" width="<%=w%>" height="<%=h%>"/>
+			<text x="<%= w + 8 %>" y="<%= (h * idx_c) + (h/2)%>" font-family="'MyriadPro-Regular'" font-size="12"><%=c_key%></text>
+		<%
+		idx_c += 1
+		end 
+		%>
+<%
+end 
+%>
+</svg>

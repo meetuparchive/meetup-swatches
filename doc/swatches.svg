@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300" height="4000" viewBox="0 0 300 4000" enable-background="new 0 0 640 1136" xml:space="preserve">
+
+	<text x="0" y="25" font-family="'MyriadPro-Bold'" font-size="14">PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly</text>
+		
+			<rect x="0" y="50" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="75" font-family="'MyriadPro-Regular'" font-size="12">red</text>
+		
+			<rect x="0" y="100" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="125" font-family="'MyriadPro-Regular'" font-size="12">blue</text>
+		
+			<rect x="0" y="150" fill="rgb(0, 0, 0)" fill-opacity="0.95" width="100" height="50"/>
+			<text x="108" y="175" font-family="'MyriadPro-Regular'" font-size="12">primaryGray</text>
+		
+			<rect x="0" y="200" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="225" font-family="'MyriadPro-Regular'" font-size="12">secondaryGray</text>
+		
+			<rect x="0" y="250" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="275" font-family="'MyriadPro-Regular'" font-size="12">tertiaryGray</text>
+		
+			<rect x="0" y="300" fill="rgb(0, 0, 0)" fill-opacity="0.1" width="100" height="50"/>
+			<text x="108" y="325" font-family="'MyriadPro-Regular'" font-size="12">lineGray</text>
+		
+			<rect x="0" y="350" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="375" font-family="'MyriadPro-Regular'" font-size="12">primaryGrayInverted</text>
+		
+			<rect x="0" y="400" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="425" font-family="'MyriadPro-Regular'" font-size="12">secondaryGrayInverted</text>
+		
+			<rect x="0" y="450" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="475" font-family="'MyriadPro-Regular'" font-size="12">tertiaryGrayInverted</text>
+		
+			<rect x="0" y="500" fill="rgb(255, 255, 255)" fill-opacity="0.2" width="100" height="50"/>
+			<text x="108" y="525" font-family="'MyriadPro-Regular'" font-size="12">lineGrayInverted</text>
+		
+
+	<text x="0" y="575" font-family="'MyriadPro-Bold'" font-size="14">BACKGROUNDS - these are always 100% opacity</text>
+		
+			<rect x="0" y="600" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="625" font-family="'MyriadPro-Regular'" font-size="12">backgroundContent</text>
+		
+			<rect x="0" y="650" fill="rgb(231, 231, 231)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="675" font-family="'MyriadPro-Regular'" font-size="12">backgroundCollection</text>
+		
+			<rect x="0" y="700" fill="rgb(247, 247, 247)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="725" font-family="'MyriadPro-Regular'" font-size="12">backgroundNav</text>
+		
+			<rect x="0" y="750" fill="rgb(53, 62, 71)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="775" font-family="'MyriadPro-Regular'" font-size="12">backgroundContentInverted</text>
+		
+			<rect x="0" y="800" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="825" font-family="'MyriadPro-Regular'" font-size="12">backgroundContentAccent</text>
+		
+
+	<text x="0" y="875" font-family="'MyriadPro-Bold'" font-size="14">DEFAULT CONTEXT (content on light backgrounds)</text>
+		
+			<rect x="0" y="900" fill="rgb(0, 0, 0)" fill-opacity="0.95" width="100" height="50"/>
+			<text x="108" y="925" font-family="'MyriadPro-Regular'" font-size="12">textPrimary</text>
+		
+			<rect x="0" y="950" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="975" font-family="'MyriadPro-Regular'" font-size="12">textSecondary</text>
+		
+			<rect x="0" y="1000" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="1025" font-family="'MyriadPro-Regular'" font-size="12">textTertiary</text>
+		
+			<rect x="0" y="1050" fill="rgb(0, 0, 0)" fill-opacity="0.1" width="100" height="50"/>
+			<text x="108" y="1075" font-family="'MyriadPro-Regular'" font-size="12">border</text>
+		
+			<rect x="0" y="1100" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1125" font-family="'MyriadPro-Regular'" font-size="12">link</text>
+		
+			<rect x="0" y="1150" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1175" font-family="'MyriadPro-Regular'" font-size="12">accent</text>
+		
+			<rect x="0" y="1200" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1225" font-family="'MyriadPro-Regular'" font-size="12">yes</text>
+		
+			<rect x="0" y="1250" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="1275" font-family="'MyriadPro-Regular'" font-size="12">no</text>
+		
+			<rect x="0" y="1300" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="1325" font-family="'MyriadPro-Regular'" font-size="12">waitlist</text>
+		
+			<rect x="0" y="1350" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1375" font-family="'MyriadPro-Regular'" font-size="12">buttonPrimary</text>
+		
+			<rect x="0" y="1400" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="1425" font-family="'MyriadPro-Regular'" font-size="12">buttonSecondary</text>
+		
+			<rect x="0" y="1450" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="1475" font-family="'MyriadPro-Regular'" font-size="12">buttonTertiaryBorder</text>
+		
+
+	<text x="0" y="1525" font-family="'MyriadPro-Bold'" font-size="14">INVERTED CONTEXT (content on dark backgrounds)</text>
+		
+			<rect x="0" y="1550" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1575" font-family="'MyriadPro-Regular'" font-size="12">textPrimaryInverted</text>
+		
+			<rect x="0" y="1600" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="1625" font-family="'MyriadPro-Regular'" font-size="12">textSecondaryInverted</text>
+		
+			<rect x="0" y="1650" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="1675" font-family="'MyriadPro-Regular'" font-size="12">textTertiaryInverted</text>
+		
+			<rect x="0" y="1700" fill="rgb(255, 255, 255)" fill-opacity="0.2" width="100" height="50"/>
+			<text x="108" y="1725" font-family="'MyriadPro-Regular'" font-size="12">borderInverted</text>
+		
+			<rect x="0" y="1750" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1775" font-family="'MyriadPro-Regular'" font-size="12">linkInverted</text>
+		
+			<rect x="0" y="1800" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1825" font-family="'MyriadPro-Regular'" font-size="12">accentInverted</text>
+		
+			<rect x="0" y="1850" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="1875" font-family="'MyriadPro-Regular'" font-size="12">yesInverted</text>
+		
+			<rect x="0" y="1900" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="1925" font-family="'MyriadPro-Regular'" font-size="12">noInverted</text>
+		
+			<rect x="0" y="1950" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
+			<text x="108" y="1975" font-family="'MyriadPro-Regular'" font-size="12">waitlistInverted</text>
+		
+			<rect x="0" y="2000" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2025" font-family="'MyriadPro-Regular'" font-size="12">buttonPrimaryInverted</text>
+		
+			<rect x="0" y="2050" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="2075" font-family="'MyriadPro-Regular'" font-size="12">buttonSecondaryInverted</text>
+		
+			<rect x="0" y="2100" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
+			<text x="108" y="2125" font-family="'MyriadPro-Regular'" font-size="12">buttonTertiaryBorder</text>
+		
+
+	<text x="0" y="2175" font-family="'MyriadPro-Bold'" font-size="14">MISC</text>
+		
+			<rect x="0" y="2200" fill="rgb(64, 197, 255)" fill-opacity="0.2" width="100" height="50"/>
+			<text x="108" y="2225" font-family="'MyriadPro-Regular'" font-size="12">overlayPressed</text>
+		
+
+	<text x="0" y="2275" font-family="'MyriadPro-Bold'" font-size="14">SOCIAL (third party colors)</text>
+		
+			<rect x="0" y="2300" fill="rgb(59, 89, 152)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2325" font-family="'MyriadPro-Regular'" font-size="12">facebook</text>
+		
+			<rect x="0" y="2350" fill="rgb(51, 204, 255)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2375" font-family="'MyriadPro-Regular'" font-size="12">twitter</text>
+		
+			<rect x="0" y="2400" fill="rgb(72, 117, 180)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2425" font-family="'MyriadPro-Regular'" font-size="12">linkedin</text>
+		
+			<rect x="0" y="2450" fill="rgb(43, 73, 100)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2475" font-family="'MyriadPro-Regular'" font-size="12">tumblr</text>
+		
+			<rect x="0" y="2500" fill="rgb(254, 8, 131)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2525" font-family="'MyriadPro-Regular'" font-size="12">flickr</text>
+		
+			<rect x="0" y="2550" fill="rgb(12, 186, 223)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2575" font-family="'MyriadPro-Regular'" font-size="12">foursquare</text>
+		
+			<rect x="0" y="2600" fill="rgb(198, 61, 45)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2625" font-family="'MyriadPro-Regular'" font-size="12">googleplus</text>
+		
+			<rect x="0" y="2650" fill="rgb(78, 67, 60)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2675" font-family="'MyriadPro-Regular'" font-size="12">instagram</text>
+		
+			<rect x="0" y="2700" fill="rgb(206, 227, 248)" fill-opacity="1" width="100" height="50"/>
+			<text x="108" y="2725" font-family="'MyriadPro-Regular'" font-size="12">reddit</text>
+		
+
+</svg>
