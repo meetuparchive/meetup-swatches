@@ -12,35 +12,40 @@
 			padding: 16px;
 			color: #666;
 		}
-		h1, h3 {
-			color: #444;
+		h1 {
+			color: #222;
+			font-size: 32px;
 		}
 		h3 {
-			font-size: 24px;
-			margin: 32px 0 0px 4px;
+			color: #444;
+			font-size: 20px;
+			margin: 32px 0 0 0;
 		}
 		.resetList {
 			margin: 0;
 			padding: 0;
 			list-style-type: none;
 		}
+		#swatches {
+			margin-left: -4px;
+		}
 		.swatch {
 			position: relative;
 			display: inline-block;
 			vertical-align: top;
 			width: 220px;
-			height: 320px;
+			height: 288px;
 			background: #fff;
-			box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.25);
+			box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.33);
 			box-sizing: border-box;
 			border-bottom: 3px solid rgb(226,55,60);
 			margin: 14px 2px;
 		}
-		.swatch-color {
+		.swatch-checker {
 			width: 100%;
-			height: 220px;
+			height: 200px;
 		}
-		.checker {
+		.swatch-color {
 			width: 100%;
 			height: 100%;
 		}
@@ -57,7 +62,7 @@
 			hyphens: auto;
 		}
 		.swatch-rgba,
-		.swatch-hex {
+		.swatch-alpha {
 			font-size: 11px;
 			position: absolute;
 			bottom: 8px;
@@ -65,7 +70,7 @@
 		.swatch-rgba {
 			left: 8px;
 		}
-		.swatch-hex {
+		.swatch-alpha {
 			right: 8px;
 		}
 	</style>
@@ -76,11 +81,11 @@
 
 	<% @color_types.each do |type_key, type| %>
 		<h3><%= type["comment"] %></h3>
-		<ul class="resetList">
+		<ul id="swatches" class="resetList">
 			<% type["colors"].each do |c_key, c| %>
 				<li class="swatch">
-					<div class="swatch-color" style="background: url('./checker-bg.png');">
-						<div class="checker" style="background: rgba(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>, <%=c[3]%>);"></div>
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>, <%=c[3]%>);"></div>
 					</div>
 					<div class="swatch-description">
 						<div class="swatch-name"><%=c_key%></div>
@@ -88,9 +93,8 @@
 							<li>R: <%=c[0]%></li>
 							<li>G: <%=c[1]%></li>
 							<li>B: <%=c[2]%></li>
-							<li>A: <%=c[3]%></li>
 						</ul>
-						<!--<div class="swatch-hex">#77a0ff</div>-->
+						<div class="swatch-alpha">A: <%=c[3]%></div>
 					</div>
 				</li>
 			<% end %>
