@@ -22,7 +22,7 @@ color_types.each_value do |color_type|
 	color_type["colors"].each do |key, value|
 		if value[3] == 1 # optimize opaque alpha channel to rgb css color
 			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
-			sass_lines << "@mixin color_#{key} { color: $C_#{key}; }"
+			sass_lines << "@mixin color_#{key}($style: 'color') { \#{$style}: $C_#{key}; }"
 		else
 			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
 			sass_lines << "@mixin color_#{key}($style: 'color') { \#{$style}: lighten( rgb(#{value[0,3].join(',')}), #{((1 - value[3])*100).round}%); \#{$style}: $C_#{key}; }"
