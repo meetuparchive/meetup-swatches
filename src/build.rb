@@ -24,8 +24,11 @@ color_types.each_value do |color_type|
 			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
 			sass_lines << "@mixin color_#{key}($style: 'color') { \#{$style}: $C_#{key}; }"
 		else
+			# if it's an inverted color (dark bg), `darken` the opaque equivalent, else `lighten`
+			color_func = key["Inverted"] ? "darken" : "lighten"
+
 			sass_lines << "$C_#{key}: rgba(#{value.join(',')});"
-			sass_lines << "@mixin color_#{key}($style: 'color') { \#{$style}: lighten( rgb(#{value[0,3].join(',')}), #{((1 - value[3])*100).round}%); \#{$style}: $C_#{key}; }"
+			sass_lines << "@mixin color_#{key}($style: 'color') { \#{$style}: #{color_func}( rgb(#{value[0,3].join(',')}), #{((1 - value[3])*100).round}%); \#{$style}: $C_#{key}; }"
 		end
 	end
 	sass_lines << " "
