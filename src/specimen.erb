@@ -1,51 +1,101 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<style>
-		body{
-			font-family: 'helvetica neue', helvetica, sans-serif;
-			font-size: 18px;
-			padding: 1em;
+	<meta charset="UTF-8" />
+	<title>Meetup Swatches</title>
+
+	<style type="text/css">
+		body {
+			font-family: helvetica, arial, sans-serif;
+			font-size: 14px;
+			background-color: rgb(231, 231, 231);
+			padding: 16px;
+			color: #666;
 		}
-		.checkered-bg {
-			background-image: url('./checker-bg.png');
+		h1, h3 {
+			color: #444;
 		}
-		ul{
-			list-style: none;
-			padding: 0;
-			margin: 0 0 18px;
+		h3 {
+			font-size: 24px;
+			margin: 32px 0 0px 4px;
 		}
-		li{
-			padding: 18px;
+		.resetList {
 			margin: 0;
+			padding: 0;
+			list-style-type: none;
 		}
-		.info{
-			background: white;
-			color: black;
+		.swatch {
+			position: relative;
 			display: inline-block;
+			vertical-align: top;
+			width: 220px;
+			height: 320px;
+			background: #fff;
+			box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.25);
+			box-sizing: border-box;
+			border-bottom: 3px solid rgb(226,55,60);
+			margin: 14px 2px;
+		}
+		.swatch-color {
+			width: 100%;
+			height: 220px;
+		}
+		.checker {
+			width: 100%;
+			height: 100%;
+		}
+		.swatch-description {
+			padding: 8px;
+		}
+		.swatch-name {
+			color: #000;
+			font-weight: bold;
+			word-break: break-word;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			hyphens: auto;
+		}
+		.swatch-rgba,
+		.swatch-hex {
+			font-size: 11px;
+			position: absolute;
+			bottom: 8px;
+		}
+		.swatch-rgba {
+			left: 8px;
+		}
+		.swatch-hex {
+			right: 8px;
 		}
 	</style>
 </head>
-<body class="checkered-bg">
+
+<body>
 	<h1>Meetup Swatches</h1>
-	
-	<label><input type="checkbox" class="checker" checked></input><small> transparency grid</small></label>
 
 	<% @color_types.each do |type_key, type| %>
 		<h3><%= type["comment"] %></h3>
-		<ul>
+		<ul class="resetList">
 			<% type["colors"].each do |c_key, c| %>
-				<li style="background: rgba(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>, <%=c[3]%>)">
-					<span class="info"> <%=c_key%> rgba(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>, <%=c[3]%>)</span>
+				<li class="swatch">
+					<div class="swatch-color" style="background: url('./checker-bg.png');">
+						<div class="checker" style="background: rgba(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>, <%=c[3]%>);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name"><%=c_key%></div>
+						<ul class="resetList swatch-rgba">
+							<li>R: <%=c[0]%></li>
+							<li>G: <%=c[1]%></li>
+							<li>B: <%=c[2]%></li>
+							<li>A: <%=c[3]%></li>
+						</ul>
+						<!--<div class="swatch-hex">#77a0ff</div>-->
+					</div>
 				</li>
 			<% end %>
 		</ul>
 	<% end %>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript">
-		$('.checker').click(function(){
-		  $('body').toggleClass('checkered-bg');
-		});
-	</script>
 </body>
 </html>
