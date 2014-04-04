@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = { "Adam Detrick" => "adamd@meetup.com", "Richard Boenigk" => "richard@meetup.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/meetup/meetup-swatches.git", :branch => "master" }
-  s.source_files  = 'ios/colors.json'
+  s.resources  = ['ios/colors.json']
   s.requires_arc = true
 end
