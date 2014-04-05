@@ -57,16 +57,17 @@ end
 
 # IOS
 File.open("../ios/colors.json", 'w+') do |file|
-	ios_color_types = color_types.dup
-	ios_color_types.each do |color_type_key, color_type|
-		color_type["colors"].each do |color_key, color|
-			# convert r,g,b from 0..255 to 0..1
-			thisc = ios_color_types[color_type_key]["colors"][color_key].dup
-			thisc[0] = (color[0].to_f / 255).round(3)
-			thisc[1] = (color[1].to_f / 255).round(3)
-			thisc[2] = (color[2].to_f / 255).round(3)
-			ios_color_types[color_type_key]["colors"][color_key] = thisc
+	palettes = Array.new
+	color_types.each do |name, info|
+		swatches = Array.new
+		info["colors"].each do |name, values|
+			converted_values = values.dup
+			converted_values[0] = (values[0].to_f/255).round(3)
+			converted_values[1] = (values[1].to_f/255).round(3)
+			converted_values[2] = (values[2].to_f/255).round(3)
+			swatches << { :swatch => name, :values => converted_values }
 		end
+		palettes << { :palette => name, :comment => info["comment"], :swatches => swatches }
 	end
-	file.write(JSON.pretty_generate(ios_color_types))
+	file.write(JSON.pretty_generate(palettes))
 end
