@@ -1,326 +1,479 @@
-{
-  "primitive": {
+[
+  {
+    "palette": "primitive",
     "comment": "PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly",
-    "colors": {
-      "red": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "blue": [
-        0.224,
-        0.529,
-        0.796,
-        1
-      ],
-      "primaryGray": [
-        0.0,
-        0.0,
-        0.0,
-        0.95
-      ],
-      "secondaryGray": [
-        0.0,
-        0.0,
-        0.0,
-        0.67
-      ],
-      "tertiaryGray": [
-        0.0,
-        0.0,
-        0.0,
-        0.47
-      ],
-      "lineGray": [
-        0.0,
-        0.0,
-        0.0,
-        0.1
-      ],
-      "primaryGrayInverted": [
-        1.0,
-        1.0,
-        1.0,
-        1
-      ],
-      "secondaryGrayInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.67
-      ],
-      "tertiaryGrayInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.47
-      ],
-      "lineGrayInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.2
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "red",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "blue",
+        "values": [
+          0.224,
+          0.529,
+          0.796,
+          1
+        ]
+      },
+      {
+        "swatch": "primaryGray",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.95
+        ]
+      },
+      {
+        "swatch": "secondaryGray",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "tertiaryGray",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "lineGray",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      },
+      {
+        "swatch": "primaryGrayInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1
+        ]
+      },
+      {
+        "swatch": "secondaryGrayInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "tertiaryGrayInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "lineGrayInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.2
+        ]
+      }
+    ]
   },
-  "background": {
+  {
+    "palette": "background",
     "comment": "BACKGROUNDS - these are always 100% opacity",
-    "colors": {
-      "backgroundContent": [
-        1.0,
-        1.0,
-        1.0,
-        1
-      ],
-      "backgroundCollection": [
-        0.906,
-        0.906,
-        0.906,
-        1
-      ],
-      "backgroundNav": [
-        0.969,
-        0.969,
-        0.969,
-        1
-      ],
-      "backgroundContentInverted": [
-        0.208,
-        0.243,
-        0.278,
-        1
-      ],
-      "backgroundContentAccent": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "backgroundContent",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1
+        ]
+      },
+      {
+        "swatch": "backgroundCollection",
+        "values": [
+          0.906,
+          0.906,
+          0.906,
+          1
+        ]
+      },
+      {
+        "swatch": "backgroundNav",
+        "values": [
+          0.969,
+          0.969,
+          0.969,
+          1
+        ]
+      },
+      {
+        "swatch": "backgroundContentInverted",
+        "values": [
+          0.208,
+          0.243,
+          0.278,
+          1
+        ]
+      },
+      {
+        "swatch": "backgroundContentAccent",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      }
+    ]
   },
-  "default_context": {
+  {
+    "palette": "default_context",
     "comment": "DEFAULT CONTEXT (content on light backgrounds)",
-    "colors": {
-      "textPrimary": [
-        0.0,
-        0.0,
-        0.0,
-        0.95
-      ],
-      "textSecondary": [
-        0.0,
-        0.0,
-        0.0,
-        0.67
-      ],
-      "textTertiary": [
-        0.0,
-        0.0,
-        0.0,
-        0.47
-      ],
-      "border": [
-        0.0,
-        0.0,
-        0.0,
-        0.1
-      ],
-      "link": [
-        0.224,
-        0.529,
-        0.796,
-        1
-      ],
-      "accent": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "yes": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "no": [
-        0.0,
-        0.0,
-        0.0,
-        0.67
-      ],
-      "waitlist": [
-        0.0,
-        0.0,
-        0.0,
-        0.67
-      ],
-      "buttonPrimary": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "buttonSecondary": [
-        0.0,
-        0.0,
-        0.0,
-        0.47
-      ],
-      "buttonTertiaryBorder": [
-        0.0,
-        0.0,
-        0.0,
-        0.47
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "textPrimary",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.95
+        ]
+      },
+      {
+        "swatch": "textSecondary",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "textTertiary",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "border",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      },
+      {
+        "swatch": "link",
+        "values": [
+          0.224,
+          0.529,
+          0.796,
+          1
+        ]
+      },
+      {
+        "swatch": "accent",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "yes",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "no",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "waitlist",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "buttonPrimary",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "buttonSecondary",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "buttonTertiaryBorder",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.47
+        ]
+      }
+    ]
   },
-  "inverted_context": {
+  {
+    "palette": "inverted_context",
     "comment": "INVERTED CONTEXT (content on dark backgrounds)",
-    "colors": {
-      "textPrimaryInverted": [
-        1.0,
-        1.0,
-        1.0,
-        1
-      ],
-      "textSecondaryInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.67
-      ],
-      "textTertiaryInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.47
-      ],
-      "borderInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.2
-      ],
-      "linkInverted": [
-        0.224,
-        0.529,
-        0.796,
-        1
-      ],
-      "accentInverted": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "yesInverted": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "noInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.67
-      ],
-      "waitlistInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.67
-      ],
-      "buttonPrimaryInverted": [
-        0.886,
-        0.216,
-        0.235,
-        1
-      ],
-      "buttonSecondaryInverted": [
-        1.0,
-        1.0,
-        1.0,
-        0.47
-      ],
-      "buttonTertiaryBorder": [
-        1.0,
-        1.0,
-        1.0,
-        0.47
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "textPrimaryInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1
+        ]
+      },
+      {
+        "swatch": "textSecondaryInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "textTertiaryInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "borderInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.2
+        ]
+      },
+      {
+        "swatch": "linkInverted",
+        "values": [
+          0.224,
+          0.529,
+          0.796,
+          1
+        ]
+      },
+      {
+        "swatch": "accentInverted",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "yesInverted",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "noInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "waitlistInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.67
+        ]
+      },
+      {
+        "swatch": "buttonPrimaryInverted",
+        "values": [
+          0.886,
+          0.216,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "buttonSecondaryInverted",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.47
+        ]
+      },
+      {
+        "swatch": "buttonTertiaryBorder",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.47
+        ]
+      }
+    ]
   },
-  "misc": {
+  {
+    "palette": "misc",
     "comment": "MISC",
-    "colors": {
-      "overlayPressed": [
-        0.251,
-        0.773,
-        1.0,
-        0.2
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "overlayPressed",
+        "values": [
+          0.251,
+          0.773,
+          1.0,
+          0.2
+        ]
+      }
+    ]
   },
-  "social": {
+  {
+    "palette": "social",
     "comment": "SOCIAL (third party colors)",
-    "colors": {
-      "facebook": [
-        0.231,
-        0.349,
-        0.596,
-        1
-      ],
-      "twitter": [
-        0.2,
-        0.8,
-        1.0,
-        1
-      ],
-      "linkedin": [
-        0.282,
-        0.459,
-        0.706,
-        1
-      ],
-      "tumblr": [
-        0.169,
-        0.286,
-        0.392,
-        1
-      ],
-      "flickr": [
-        0.996,
-        0.031,
-        0.514,
-        1
-      ],
-      "foursquare": [
-        0.047,
-        0.729,
-        0.875,
-        1
-      ],
-      "googleplus": [
-        0.776,
-        0.239,
-        0.176,
-        1
-      ],
-      "instagram": [
-        0.306,
-        0.263,
-        0.235,
-        1
-      ],
-      "reddit": [
-        0.808,
-        0.89,
-        0.973,
-        1
-      ]
-    }
+    "swatches": [
+      {
+        "swatch": "facebook",
+        "values": [
+          0.231,
+          0.349,
+          0.596,
+          1
+        ]
+      },
+      {
+        "swatch": "twitter",
+        "values": [
+          0.2,
+          0.8,
+          1.0,
+          1
+        ]
+      },
+      {
+        "swatch": "linkedin",
+        "values": [
+          0.282,
+          0.459,
+          0.706,
+          1
+        ]
+      },
+      {
+        "swatch": "tumblr",
+        "values": [
+          0.169,
+          0.286,
+          0.392,
+          1
+        ]
+      },
+      {
+        "swatch": "flickr",
+        "values": [
+          0.996,
+          0.031,
+          0.514,
+          1
+        ]
+      },
+      {
+        "swatch": "foursquare",
+        "values": [
+          0.047,
+          0.729,
+          0.875,
+          1
+        ]
+      },
+      {
+        "swatch": "googleplus",
+        "values": [
+          0.776,
+          0.239,
+          0.176,
+          1
+        ]
+      },
+      {
+        "swatch": "instagram",
+        "values": [
+          0.306,
+          0.263,
+          0.235,
+          1
+        ]
+      },
+      {
+        "swatch": "reddit",
+        "values": [
+          0.808,
+          0.89,
+          0.973,
+          1
+        ]
+      }
+    ]
   }
-}
+]
