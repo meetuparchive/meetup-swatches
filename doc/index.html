@@ -81,7 +81,10 @@
 
 <body>
 	<h1>Meetup Swatches</h1>
-	<p>When using the <strong>Sass</strong> distribution, prepend <code>$C_</code> to color names. For example, "blue" becomes <code>$C_blue</code></p>
+	<p>
+		When using the <strong>Sass</strong> distribution, prepend <code>$C_</code> to color names. For example, "blue" becomes <code>$C_blue</code>. 
+		For text colors in Sass, you should consider using mixins, like <code>@include color_textSecondary()</code>. See <a target="_blank" href="https://github.com/meetup/meetup-swatches/blob/master/sass/colors.scss">Sass output</a> for more details.
+	</p>
 
 	
 		<h3>PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly</h3>
@@ -112,6 +115,21 @@
 							<li>R: 57</li>
 							<li>G: 135</li>
 							<li>B: 203</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(98, 172, 117, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">green</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 98</li>
+							<li>G: 172</li>
+							<li>B: 117</li>
 						</ul>
 						<div class="swatch-alpha">A: 1</div>
 					</div>
@@ -704,6 +722,21 @@
 							<li>B: 255</li>
 						</ul>
 						<div class="swatch-alpha">A: 0.2</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(98, 172, 117, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">money</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 98</li>
+							<li>G: 172</li>
+							<li>B: 117</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
 					</div>
 				</li>
 			
