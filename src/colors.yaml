@@ -5,6 +5,7 @@ primitive:
     colors:
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
+        green: &green [98,172,117,1]
         primaryGray: &primaryGray [0,0,0,.95]
         secondaryGray: &secondaryGray [0,0,0,.67]
         tertiaryGray: &tertiaryGray [0,0,0,.47]
@@ -59,7 +60,7 @@ misc:
     name: "MISC"
     colors:
         overlayPressed: [64,197,255,.2]
-        weirdColor: [10,200,50,.9]
+        money: *green
 social:
     name: "SOCIAL"
     comment: "third party colors"

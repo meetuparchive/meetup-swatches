@@ -5,6 +5,7 @@
   <!-- used in multiple color aliases, try not to use these directly -->
   <color name="red">#ffe2373c</color>
   <color name="blue">#ff3987cb</color>
+  <color name="green">#ff62ac75</color>
   <color name="primary_gray">#f2000000</color>
   <color name="secondary_gray">#ab000000</color>
   <color name="tertiary_gray">#78000000</color>
@@ -55,7 +56,7 @@
   <!-- MISC -->
   <!--  -->
   <color name="overlay_pressed">#3340c5ff</color>
-  <color name="weird_color">#e60ac832</color>
+  <color name="money">#ff62ac75</color>
 
   <!-- SOCIAL -->
   <!-- third party colors -->
