@@ -1,6 +1,7 @@
 {
   "primitive": {
-    "comment": "PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly",
+    "name": "PRIMITIVE COLORS",
+    "comment": "used in multiple color aliases, try not to use these directly",
     "colors": {
       "red": [
         0.886,
@@ -65,7 +66,8 @@
     }
   },
   "background": {
-    "comment": "BACKGROUNDS - these are always 100% opacity",
+    "name": "BACKGROUNDS",
+    "comment": "these are always 100% opacity",
     "colors": {
       "backgroundContent": [
         1.0,
@@ -100,7 +102,8 @@
     }
   },
   "default_context": {
-    "comment": "DEFAULT CONTEXT (content on light backgrounds)",
+    "name": "DEFAULT CONTEXT",
+    "comment": "content on light backgrounds\"",
     "colors": {
       "textPrimary": [
         0.0,
@@ -177,7 +180,8 @@
     }
   },
   "inverted_context": {
-    "comment": "INVERTED CONTEXT (content on dark backgrounds)",
+    "name": "INVERTED CONTEXT",
+    "comment": "content on dark backgrounds",
     "colors": {
       "textPrimaryInverted": [
         1.0,
@@ -254,18 +258,25 @@
     }
   },
   "misc": {
-    "comment": "MISC",
+    "name": "MISC",
     "colors": {
       "overlayPressed": [
         0.251,
         0.773,
         1.0,
         0.2
+      ],
+      "weirdColor": [
+        0.039,
+        0.784,
+        0.196,
+        0.9
       ]
     }
   },
   "social": {
-    "comment": "SOCIAL (third party colors)",
+    "name": "SOCIAL",
+    "comment": "third party colors",
     "colors": {
       "facebook": [
         0.231,

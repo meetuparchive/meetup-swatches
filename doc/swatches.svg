@@ -1,171 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300" height="4000" viewBox="0 0 300 4000" enable-background="new 0 0 640 1136" xml:space="preserve">
+	 width="1264" height="858" viewBox="0 0 1264 858" xml:space="preserve" >
+	 
+	 <defs>
+		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
+	      <rect fill="#111" x="0" y="0" width="8" height="8" />
+	      <rect fill="#222" x="8" y="0" width="8" height="8" />
+	      <rect fill="#222" x="0" y="8" width="8" height="8" />
+	      <rect fill="#111" x="8" y="8" width="8" height="8" />
+	    </pattern>
+		 <pattern id="light_grid" width="16" height="16" patternUnits="userSpaceOnUse">
+	      <rect fill="#fff" x="0" y="0" width="8" height="8" />
+	      <rect fill="#eee" x="8" y="0" width="8" height="8" />
+	      <rect fill="#eee" x="0" y="8" width="8" height="8" />
+	      <rect fill="#fff" x="8" y="8" width="8" height="8" />
+	    </pattern>
+     </defs>
+	 
 
-	<text x="0" y="25" font-family="'MyriadPro-Bold'" font-size="14">PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly</text>
-		
-			<rect x="0" y="50" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="75" font-family="'MyriadPro-Regular'" font-size="12">red</text>
-		
-			<rect x="0" y="100" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="125" font-family="'MyriadPro-Regular'" font-size="12">blue</text>
-		
-			<rect x="0" y="150" fill="rgb(0, 0, 0)" fill-opacity="0.95" width="100" height="50"/>
-			<text x="108" y="175" font-family="'MyriadPro-Regular'" font-size="12">primaryGray</text>
-		
-			<rect x="0" y="200" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="225" font-family="'MyriadPro-Regular'" font-size="12">secondaryGray</text>
-		
-			<rect x="0" y="250" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="275" font-family="'MyriadPro-Regular'" font-size="12">tertiaryGray</text>
-		
-			<rect x="0" y="300" fill="rgb(0, 0, 0)" fill-opacity="0.1" width="100" height="50"/>
-			<text x="108" y="325" font-family="'MyriadPro-Regular'" font-size="12">lineGray</text>
-		
-			<rect x="0" y="350" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="375" font-family="'MyriadPro-Regular'" font-size="12">primaryGrayInverted</text>
-		
-			<rect x="0" y="400" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="425" font-family="'MyriadPro-Regular'" font-size="12">secondaryGrayInverted</text>
-		
-			<rect x="0" y="450" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="475" font-family="'MyriadPro-Regular'" font-size="12">tertiaryGrayInverted</text>
-		
-			<rect x="0" y="500" fill="rgb(255, 255, 255)" fill-opacity="0.2" width="100" height="50"/>
-			<text x="108" y="525" font-family="'MyriadPro-Regular'" font-size="12">lineGrayInverted</text>
-		
+	
 
-	<text x="0" y="575" font-family="'MyriadPro-Bold'" font-size="14">BACKGROUNDS - these are always 100% opacity</text>
-		
-			<rect x="0" y="600" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="625" font-family="'MyriadPro-Regular'" font-size="12">backgroundContent</text>
-		
-			<rect x="0" y="650" fill="rgb(231, 231, 231)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="675" font-family="'MyriadPro-Regular'" font-size="12">backgroundCollection</text>
-		
-			<rect x="0" y="700" fill="rgb(247, 247, 247)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="725" font-family="'MyriadPro-Regular'" font-size="12">backgroundNav</text>
-		
-			<rect x="0" y="750" fill="rgb(53, 62, 71)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="775" font-family="'MyriadPro-Regular'" font-size="12">backgroundContentInverted</text>
-		
-			<rect x="0" y="800" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="825" font-family="'MyriadPro-Regular'" font-size="12">backgroundContentAccent</text>
-		
+	
 
-	<text x="0" y="875" font-family="'MyriadPro-Bold'" font-size="14">DEFAULT CONTEXT (content on light backgrounds)</text>
+		<text x="0" y="25" font-size="14" >
+			<tspan x="0" dy="1.2em" font-weight="bold">BACKGROUNDS</tspan>
+			<tspan x="0" dy="1.2em">these are always 100% opacity</tspan>
+		</text>
 		
-			<rect x="0" y="900" fill="rgb(0, 0, 0)" fill-opacity="0.95" width="100" height="50"/>
-			<text x="108" y="925" font-family="'MyriadPro-Regular'" font-size="12">textPrimary</text>
 		
-			<rect x="0" y="950" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="975" font-family="'MyriadPro-Regular'" font-size="12">textSecondary</text>
 		
-			<rect x="0" y="1000" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="1025" font-family="'MyriadPro-Regular'" font-size="12">textTertiary</text>
 		
-			<rect x="0" y="1050" fill="rgb(0, 0, 0)" fill-opacity="0.1" width="100" height="50"/>
-			<text x="108" y="1075" font-family="'MyriadPro-Regular'" font-size="12">border</text>
+			<rect fill="url(#light_grid)" x="0" y="66" width="66" height="330" />		
 		
-			<rect x="0" y="1100" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1125" font-family="'MyriadPro-Regular'" font-size="12">link</text>
 		
-			<rect x="0" y="1150" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1175" font-family="'MyriadPro-Regular'" font-size="12">accent</text>
 		
-			<rect x="0" y="1200" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1225" font-family="'MyriadPro-Regular'" font-size="12">yes</text>
+			<circle cx="33" cy="99" r="25" fill="rgb(255, 255, 255)" opacity="1" />
+			<text x="74" y="74" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">backgroundContent</tspan>
+				<tspan x="74" dy="1.2em">rgb(255, 255, 255) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="1250" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="1275" font-family="'MyriadPro-Regular'" font-size="12">no</text>
+			<circle cx="33" cy="165" r="25" fill="rgb(231, 231, 231)" opacity="1" />
+			<text x="74" y="140" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">backgroundCollection</tspan>
+				<tspan x="74" dy="1.2em">rgb(231, 231, 231) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="1300" fill="rgb(0, 0, 0)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="1325" font-family="'MyriadPro-Regular'" font-size="12">waitlist</text>
+			<circle cx="33" cy="231" r="25" fill="rgb(247, 247, 247)" opacity="1" />
+			<text x="74" y="206" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">backgroundNav</tspan>
+				<tspan x="74" dy="1.2em">rgb(247, 247, 247) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="1350" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1375" font-family="'MyriadPro-Regular'" font-size="12">buttonPrimary</text>
+			<circle cx="33" cy="297" r="25" fill="rgb(53, 62, 71)" opacity="1" />
+			<text x="74" y="272" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">backgroundContentInverted</tspan>
+				<tspan x="74" dy="1.2em">rgb(53, 62, 71) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="1400" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="1425" font-family="'MyriadPro-Regular'" font-size="12">buttonSecondary</text>
+			<circle cx="33" cy="363" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="74" y="338" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">backgroundContentAccent</tspan>
+				<tspan x="74" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="1450" fill="rgb(0, 0, 0)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="1475" font-family="'MyriadPro-Regular'" font-size="12">buttonTertiaryBorder</text>
 		
+	
 
-	<text x="0" y="1525" font-family="'MyriadPro-Bold'" font-size="14">INVERTED CONTEXT (content on dark backgrounds)</text>
-		
-			<rect x="0" y="1550" fill="rgb(255, 255, 255)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1575" font-family="'MyriadPro-Regular'" font-size="12">textPrimaryInverted</text>
-		
-			<rect x="0" y="1600" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="1625" font-family="'MyriadPro-Regular'" font-size="12">textSecondaryInverted</text>
-		
-			<rect x="0" y="1650" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="1675" font-family="'MyriadPro-Regular'" font-size="12">textTertiaryInverted</text>
-		
-			<rect x="0" y="1700" fill="rgb(255, 255, 255)" fill-opacity="0.2" width="100" height="50"/>
-			<text x="108" y="1725" font-family="'MyriadPro-Regular'" font-size="12">borderInverted</text>
-		
-			<rect x="0" y="1750" fill="rgb(57, 135, 203)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1775" font-family="'MyriadPro-Regular'" font-size="12">linkInverted</text>
-		
-			<rect x="0" y="1800" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1825" font-family="'MyriadPro-Regular'" font-size="12">accentInverted</text>
-		
-			<rect x="0" y="1850" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="1875" font-family="'MyriadPro-Regular'" font-size="12">yesInverted</text>
-		
-			<rect x="0" y="1900" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="1925" font-family="'MyriadPro-Regular'" font-size="12">noInverted</text>
-		
-			<rect x="0" y="1950" fill="rgb(255, 255, 255)" fill-opacity="0.67" width="100" height="50"/>
-			<text x="108" y="1975" font-family="'MyriadPro-Regular'" font-size="12">waitlistInverted</text>
-		
-			<rect x="0" y="2000" fill="rgb(226, 55, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2025" font-family="'MyriadPro-Regular'" font-size="12">buttonPrimaryInverted</text>
-		
-			<rect x="0" y="2050" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="2075" font-family="'MyriadPro-Regular'" font-size="12">buttonSecondaryInverted</text>
-		
-			<rect x="0" y="2100" fill="rgb(255, 255, 255)" fill-opacity="0.47" width="100" height="50"/>
-			<text x="108" y="2125" font-family="'MyriadPro-Regular'" font-size="12">buttonTertiaryBorder</text>
-		
+	
 
-	<text x="0" y="2175" font-family="'MyriadPro-Bold'" font-size="14">MISC</text>
+		<text x="316" y="25" font-size="14" >
+			<tspan x="316" dy="1.2em" font-weight="bold">DEFAULT CONTEXT</tspan>
+			<tspan x="316" dy="1.2em">content on light backgrounds"</tspan>
+		</text>
 		
-			<rect x="0" y="2200" fill="rgb(64, 197, 255)" fill-opacity="0.2" width="100" height="50"/>
-			<text x="108" y="2225" font-family="'MyriadPro-Regular'" font-size="12">overlayPressed</text>
 		
+		
+		
+			<rect fill="url(#light_grid)" x="316" y="66" width="66" height="792" />		
+		
+		
+		
+			<circle cx="349" cy="99" r="25" fill="rgb(0, 0, 0)" opacity="0.95" />
+			<text x="390" y="74" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">textPrimary</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.95)</tspan>
+			</text>
+		
+			<circle cx="349" cy="165" r="25" fill="rgb(0, 0, 0)" opacity="0.67" />
+			<text x="390" y="140" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">textSecondary</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.67)</tspan>
+			</text>
+		
+			<circle cx="349" cy="231" r="25" fill="rgb(0, 0, 0)" opacity="0.47" />
+			<text x="390" y="206" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">textTertiary</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.47)</tspan>
+			</text>
+		
+			<circle cx="349" cy="297" r="25" fill="rgb(0, 0, 0)" opacity="0.1" />
+			<text x="390" y="272" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">border</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.1)</tspan>
+			</text>
+		
+			<circle cx="349" cy="363" r="25" fill="rgb(57, 135, 203)" opacity="1" />
+			<text x="390" y="338" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">link</tspan>
+				<tspan x="390" dy="1.2em">rgb(57, 135, 203) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="349" cy="429" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="390" y="404" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">accent</tspan>
+				<tspan x="390" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="349" cy="495" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="390" y="470" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">yes</tspan>
+				<tspan x="390" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="349" cy="561" r="25" fill="rgb(0, 0, 0)" opacity="0.67" />
+			<text x="390" y="536" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">no</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.67)</tspan>
+			</text>
+		
+			<circle cx="349" cy="627" r="25" fill="rgb(0, 0, 0)" opacity="0.67" />
+			<text x="390" y="602" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">waitlist</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.67)</tspan>
+			</text>
+		
+			<circle cx="349" cy="693" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="390" y="668" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">buttonPrimary</tspan>
+				<tspan x="390" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="349" cy="759" r="25" fill="rgb(0, 0, 0)" opacity="0.47" />
+			<text x="390" y="734" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">buttonSecondary</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.47)</tspan>
+			</text>
+		
+			<circle cx="349" cy="825" r="25" fill="rgb(0, 0, 0)" opacity="0.47" />
+			<text x="390" y="800" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">buttonTertiaryBorder</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.47)</tspan>
+			</text>
+		
+		
+	
 
-	<text x="0" y="2275" font-family="'MyriadPro-Bold'" font-size="14">SOCIAL (third party colors)</text>
+	
+
+		<text x="632" y="25" font-size="14" >
+			<tspan x="632" dy="1.2em" font-weight="bold">INVERTED CONTEXT</tspan>
+			<tspan x="632" dy="1.2em">content on dark backgrounds</tspan>
+		</text>
 		
-			<rect x="0" y="2300" fill="rgb(59, 89, 152)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2325" font-family="'MyriadPro-Regular'" font-size="12">facebook</text>
 		
-			<rect x="0" y="2350" fill="rgb(51, 204, 255)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2375" font-family="'MyriadPro-Regular'" font-size="12">twitter</text>
 		
-			<rect x="0" y="2400" fill="rgb(72, 117, 180)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2425" font-family="'MyriadPro-Regular'" font-size="12">linkedin</text>
 		
-			<rect x="0" y="2450" fill="rgb(43, 73, 100)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2475" font-family="'MyriadPro-Regular'" font-size="12">tumblr</text>
+			<rect fill="url(#dark_grid)" x="632" y="66" width="66" height="792" />
 		
-			<rect x="0" y="2500" fill="rgb(254, 8, 131)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2525" font-family="'MyriadPro-Regular'" font-size="12">flickr</text>
 		
-			<rect x="0" y="2550" fill="rgb(12, 186, 223)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2575" font-family="'MyriadPro-Regular'" font-size="12">foursquare</text>
 		
-			<rect x="0" y="2600" fill="rgb(198, 61, 45)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2625" font-family="'MyriadPro-Regular'" font-size="12">googleplus</text>
+			<circle cx="665" cy="99" r="25" fill="rgb(255, 255, 255)" opacity="1" />
+			<text x="706" y="74" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">textPrimaryInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(1)</tspan>
+			</text>
 		
-			<rect x="0" y="2650" fill="rgb(78, 67, 60)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2675" font-family="'MyriadPro-Regular'" font-size="12">instagram</text>
+			<circle cx="665" cy="165" r="25" fill="rgb(255, 255, 255)" opacity="0.67" />
+			<text x="706" y="140" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">textSecondaryInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.67)</tspan>
+			</text>
 		
-			<rect x="0" y="2700" fill="rgb(206, 227, 248)" fill-opacity="1" width="100" height="50"/>
-			<text x="108" y="2725" font-family="'MyriadPro-Regular'" font-size="12">reddit</text>
+			<circle cx="665" cy="231" r="25" fill="rgb(255, 255, 255)" opacity="0.47" />
+			<text x="706" y="206" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">textTertiaryInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.47)</tspan>
+			</text>
 		
+			<circle cx="665" cy="297" r="25" fill="rgb(255, 255, 255)" opacity="0.2" />
+			<text x="706" y="272" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">borderInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.2)</tspan>
+			</text>
+		
+			<circle cx="665" cy="363" r="25" fill="rgb(57, 135, 203)" opacity="1" />
+			<text x="706" y="338" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">linkInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(57, 135, 203) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="665" cy="429" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="706" y="404" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">accentInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="665" cy="495" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="706" y="470" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">yesInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="665" cy="561" r="25" fill="rgb(255, 255, 255)" opacity="0.67" />
+			<text x="706" y="536" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">noInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.67)</tspan>
+			</text>
+		
+			<circle cx="665" cy="627" r="25" fill="rgb(255, 255, 255)" opacity="0.67" />
+			<text x="706" y="602" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">waitlistInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.67)</tspan>
+			</text>
+		
+			<circle cx="665" cy="693" r="25" fill="rgb(226, 55, 60)" opacity="1" />
+			<text x="706" y="668" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">buttonPrimaryInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(226, 55, 60) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="665" cy="759" r="25" fill="rgb(255, 255, 255)" opacity="0.47" />
+			<text x="706" y="734" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">buttonSecondaryInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.47)</tspan>
+			</text>
+		
+			<circle cx="665" cy="825" r="25" fill="rgb(255, 255, 255)" opacity="0.47" />
+			<text x="706" y="800" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">buttonTertiaryBorder</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.47)</tspan>
+			</text>
+		
+		
+	
+
+	
+
+		<text x="948" y="25" font-size="14" >
+			<tspan x="948" dy="1.2em" font-weight="bold">MISC</tspan>
+			<tspan x="948" dy="1.2em"></tspan>
+		</text>
+		
+		
+		
+		
+			<rect fill="url(#light_grid)" x="948" y="66" width="66" height="132" />		
+		
+		
+		
+			<circle cx="981" cy="99" r="25" fill="rgb(64, 197, 255)" opacity="0.2" />
+			<text x="1022" y="74" font-size="12" >
+				<tspan x="1022" dy="1.2em" font-weight="bold">overlayPressed</tspan>
+				<tspan x="1022" dy="1.2em">rgb(64, 197, 255) opacity(0.2)</tspan>
+			</text>
+		
+			<circle cx="981" cy="165" r="25" fill="rgb(10, 200, 50)" opacity="0.9" />
+			<text x="1022" y="140" font-size="12" >
+				<tspan x="1022" dy="1.2em" font-weight="bold">weirdColor</tspan>
+				<tspan x="1022" dy="1.2em">rgb(10, 200, 50) opacity(0.9)</tspan>
+			</text>
+		
+		
+	
+
+	
 
 </svg>

@@ -24,7 +24,7 @@ File.open("../doc/swatches.svg", 'w+') { |file| file.write(erb.result( binding )
 # (0.65 - 1) * -100
 sass_lines = []
 color_types.each_value do |color_type|
-	sass_lines << "// #{color_type["comment"]}"
+	sass_lines << "// #{color_type["name"]} (#{color_type["comment"]})"
 	color_type["colors"].each do |key, value|
 		if value[3] == 1 # optimize opaque alpha channel to rgb css color
 			sass_lines << "$C_#{key}: rgb(#{value[0,3].join(',')});"
@@ -47,6 +47,7 @@ File.open("../android/colors.xml", 'w+') do |file|
 	xml.resources do
 		color_types.each_value do |color_type|
 			xml << "\n"
+      xml.comment! color_type["name"]
 			xml.comment! color_type["comment"]
 			color_type["colors"].each do |key, value|
 				vals = value.rotate(-1)
