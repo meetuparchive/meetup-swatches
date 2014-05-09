@@ -17,9 +17,8 @@ background:
     comment: "BACKGROUNDS - these are always 100% opacity"
     colors:
         backgroundContent: [255,255,255,1]
-        backgroundCollection: [231,231,231,1]
-        backgroundNav: [247,247,247,1]
-        backgroundContentInverted: [51,51,51,1]
+        backgroundCollection: [228,230,235,1]
+        backgroundNav: [240,243,246,1]
         backgroundContentInverted: [53,62,71,1]
         backgroundContentAccent: *red
 default_context:
