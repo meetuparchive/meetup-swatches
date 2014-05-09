@@ -1,0 +1,73 @@
+<%-
+swatch_size = 50
+spacing = 8
+block_width = 300 + (spacing * 2)
+block_height = swatch_size + (spacing * 2)
+
+exclude = ["primitive", "social"]
+longest = @color_types.max_by { |c_key, c| c["colors"].length }
+total_width = (@color_types.length - exclude.length) * block_width
+total_height = (longest[1]["colors"].length + 1) * block_height
+
+%><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="<%=  total_width%>" height="<%= total_height %>" viewBox="0 0 <%=  total_width%> <%= total_height %>" xml:space="preserve" >
+	 
+	 <defs>
+		 <pattern id="dark_grid" width="<%=spacing * 2%>" height="<%=spacing * 2%>" patternUnits="userSpaceOnUse">
+	      <rect fill="#111" x="0" y="0" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#222" x="<%=spacing%>" y="0" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#222" x="0" y="<%=spacing%>" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#111" x="<%=spacing%>" y="<%=spacing%>" width="<%=spacing%>" height="<%=spacing%>" />
+	    </pattern>
+		 <pattern id="light_grid" width="<%=spacing * 2%>" height="<%=spacing * 2%>" patternUnits="userSpaceOnUse">
+	      <rect fill="#fff" x="0" y="0" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#eee" x="<%=spacing%>" y="0" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#eee" x="0" y="<%=spacing%>" width="<%=spacing%>" height="<%=spacing%>" />
+	      <rect fill="#fff" x="<%=spacing%>" y="<%=spacing%>" width="<%=spacing%>" height="<%=spacing%>" />
+	    </pattern>
+     </defs>
+	 
+<%
+idx_t = 0
+@color_types.each do |type_key, type| 
+idx_c = 0	
+col_offset = block_width * idx_t
+%>
+	<% if !exclude.include?(type_key) %>
+
+		<text x="<%= col_offset %>" y="<%= (block_height * idx_c) + (swatch_size/2)%>" font-size="14" >
+			<tspan x="<%= col_offset %>" dy="1.2em" font-weight="bold"><%= type["name"] %></tspan>
+			<tspan x="<%= col_offset %>" dy="1.2em"><%= type["comment"] %></tspan>
+		</text>
+		
+		<% idx_c += 1 %>
+		
+		<% if type_key == "inverted_context" %>
+			<rect fill="url(#dark_grid)" x="<%= col_offset %>" y="<%= (block_height * idx_c) %>" width="<%=swatch_size + spacing * 2%>" height="<%= (type["colors"].length * block_height ) %>" />
+		<% else %>
+			<rect fill="url(#light_grid)" x="<%= col_offset %>" y="<%= (block_height * idx_c) %>" width="<%=swatch_size + spacing * 2%>" height="<%= (type["colors"].length * block_height ) %>" />		
+		<% end %>
+		
+		<%
+		type["colors"].each do |c_key, c| 
+		%>
+			<circle cx="<%= col_offset + swatch_size/2 + spacing %>" cy="<%= (block_height * idx_c) + (swatch_size/2) + spacing %>" r="<%=swatch_size/2%>" fill="rgb(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>)" opacity="<%=c[3]%>" />
+			<text x="<%= col_offset + swatch_size + spacing * 3 %>" y="<%= (block_height * idx_c) + spacing %>" font-size="12" >
+				<tspan x="<%= col_offset + swatch_size + spacing * 3 %>" dy="1.2em" font-weight="bold"><%=c_key%></tspan>
+				<tspan x="<%= col_offset + swatch_size + spacing * 3 %>" dy="1.2em">rgb(<%=c[0]%>, <%=c[1]%>, <%=c[2]%>) opacity(<%=c[3]%>)</tspan>
+			</text>
+		<%
+		idx_c += 1
+		end 
+		%>
+		
+	<% 
+	idx_t += 1
+	end %>
+<%
+
+end 
+%>
+</svg>

@@ -1,6 +1,7 @@
 # colors are listed as [r,g,b,a]
 primitive:
-    comment: "PRIMITIVE COLORS - used in multiple color aliases, try not to use these directly"
+    name: "PRIMITIVE COLORS"
+    comment: "used in multiple color aliases, try not to use these directly"
     colors:
         red: &red [226,55,60,1]
         blue: &blue [57,135,203,1]
@@ -14,7 +15,8 @@ primitive:
         tertiaryGrayInverted: &tertiaryGrayInverted [255,255,255,.47]
         lineGrayInverted: &lineGrayInverted [255,255,255,.2]
 background:
-    comment: "BACKGROUNDS - these are always 100% opacity"
+    name: "BACKGROUNDS"
+    comment: "these are always 100% opacity"
     colors:
         backgroundContent: [255,255,255,1]
         backgroundCollection: [231,231,231,1]
@@ -23,7 +25,8 @@ background:
         backgroundContentInverted: [53,62,71,1]
         backgroundContentAccent: *red
 default_context:
-    comment: "DEFAULT CONTEXT (content on light backgrounds)"
+    name: "DEFAULT CONTEXT"
+    comment: content on light backgrounds"
     colors:
         textPrimary: *primaryGray
         textSecondary: *secondaryGray
@@ -38,7 +41,8 @@ default_context:
         buttonSecondary: *tertiaryGray
         buttonTertiaryBorder: *tertiaryGray
 inverted_context:
-    comment: "INVERTED CONTEXT (content on dark backgrounds)"
+    name: "INVERTED CONTEXT"
+    comment: "content on dark backgrounds"
     colors:
         textPrimaryInverted: *primaryGrayInverted
         textSecondaryInverted: *secondaryGrayInverted
@@ -53,12 +57,13 @@ inverted_context:
         buttonSecondaryInverted: *tertiaryGrayInverted
         buttonTertiaryBorder: *tertiaryGrayInverted
 misc:
-    comment: "MISC"
+    name: "MISC"
     colors:
         overlayPressed: [64,197,255,.2]
         money: *green
 social:
-    comment: "SOCIAL (third party colors)"
+    name: "SOCIAL"
+    comment: "third party colors"
     colors:
         facebook: [59,89,152,1]
         twitter: [51,204,255,1]

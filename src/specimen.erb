@@ -87,7 +87,8 @@
 	</p>
 
 	<% @color_types.each do |type_key, type| %>
-		<h3><%= type["comment"] %></h3>
+
+		<h3><%= type["name"] %> (<%= type["comment"] %>)</h3>
 		<ul id="swatches" class="resetList">
 			<% type["colors"].each do |c_key, c| %>
 				<li class="swatch">
