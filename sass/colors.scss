@@ -92,6 +92,20 @@ $C_overlayPressed: rgba(64,197,255,0.2);
 $C_money: rgb(98,172,117);
 @mixin color_money($style: 'color') { #{$style}: $C_money; }
  
+// MESSAGING (colors used within the messaging client)
+$C_messagingTextPrimary: rgba(0,0,0,0.8);
+@mixin color_messagingTextPrimary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 20%); #{$style}: $C_messagingTextPrimary; }
+$C_messagingTextSecondary: rgba(0,0,0,0.41);
+@mixin color_messagingTextSecondary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 59%); #{$style}: $C_messagingTextSecondary; }
+$C_messagingTextTertiary: rgba(0,0,0,0.21);
+@mixin color_messagingTextTertiary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 79%); #{$style}: $C_messagingTextTertiary; }
+$C_messagingHighlight: rgb(254,250,233);
+@mixin color_messagingHighlight($style: 'color') { #{$style}: $C_messagingHighlight; }
+$C_messagingLightCollection: rgb(245,245,245);
+@mixin color_messagingLightCollection($style: 'color') { #{$style}: $C_messagingLightCollection; }
+$C_messagingLineGrey: rgb(229,229,229);
+@mixin color_messagingLineGrey($style: 'color') { #{$style}: $C_messagingLineGrey; }
+ 
 // SOCIAL (third party colors)
 $C_facebook: rgb(59,89,152);
 @mixin color_facebook($style: 'color') { #{$style}: $C_facebook; }

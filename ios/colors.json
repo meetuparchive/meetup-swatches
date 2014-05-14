@@ -280,6 +280,48 @@
       ]
     }
   },
+  "messaging": {
+    "name": "MESSAGING",
+    "comment": "colors used within the messaging client",
+    "colors": {
+      "messagingTextPrimary": [
+        0.0,
+        0.0,
+        0.0,
+        0.8
+      ],
+      "messagingTextSecondary": [
+        0.0,
+        0.0,
+        0.0,
+        0.41
+      ],
+      "messagingTextTertiary": [
+        0.0,
+        0.0,
+        0.0,
+        0.21
+      ],
+      "messagingHighlight": [
+        0.996,
+        0.98,
+        0.914,
+        1
+      ],
+      "messagingLightCollection": [
+        0.961,
+        0.961,
+        0.961,
+        1
+      ],
+      "messagingLineGrey": [
+        0.898,
+        0.898,
+        0.898,
+        1
+      ]
+    }
+  },
   "social": {
     "name": "SOCIAL",
     "comment": "third party colors",

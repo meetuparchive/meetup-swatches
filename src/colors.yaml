@@ -61,6 +61,16 @@ misc:
     colors:
         overlayPressed: [64,197,255,.2]
         money: *green
+messaging:
+    name: "MESSAGING"
+    comment: "colors used within the messaging client"
+    colors:
+        messagingTextPrimary: [0,0,0,.80]
+        messagingTextSecondary: [0,0,0,.41]
+        messagingTextTertiary: [0,0,0,.21]
+        messagingHighlight: [254, 250, 233, 1]
+        messagingLightCollection: [245,245,245,1]
+        messagingLineGrey: [229,229,229,1]
 social:
     name: "SOCIAL"
     comment: "third party colors"
