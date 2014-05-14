@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1264" height="858" viewBox="0 0 1264 858" xml:space="preserve" >
+	 width="1580" height="858" viewBox="0 0 1580 858" xml:space="preserve" >
 	 
 	 <defs>
 		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -270,6 +270,59 @@
 			<text x="1022" y="140" font-size="12" >
 				<tspan x="1022" dy="1.2em" font-weight="bold">money</tspan>
 				<tspan x="1022" dy="1.2em">rgb(98, 172, 117) opacity(1)</tspan>
+			</text>
+		
+		
+	
+
+	
+
+		<text x="1264" y="25" font-size="14" >
+			<tspan x="1264" dy="1.2em" font-weight="bold">MESSAGING</tspan>
+			<tspan x="1264" dy="1.2em">colors used within the messaging client</tspan>
+		</text>
+		
+		
+		
+		
+			<rect fill="url(#light_grid)" x="1264" y="66" width="66" height="396" />		
+		
+		
+		
+			<circle cx="1297" cy="99" r="25" fill="rgb(0, 0, 0)" opacity="0.8" />
+			<text x="1338" y="74" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingTextPrimary</tspan>
+				<tspan x="1338" dy="1.2em">rgb(0, 0, 0) opacity(0.8)</tspan>
+			</text>
+		
+			<circle cx="1297" cy="165" r="25" fill="rgb(0, 0, 0)" opacity="0.41" />
+			<text x="1338" y="140" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingTextSecondary</tspan>
+				<tspan x="1338" dy="1.2em">rgb(0, 0, 0) opacity(0.41)</tspan>
+			</text>
+		
+			<circle cx="1297" cy="231" r="25" fill="rgb(0, 0, 0)" opacity="0.21" />
+			<text x="1338" y="206" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingTextTertiary</tspan>
+				<tspan x="1338" dy="1.2em">rgb(0, 0, 0) opacity(0.21)</tspan>
+			</text>
+		
+			<circle cx="1297" cy="297" r="25" fill="rgb(254, 250, 233)" opacity="1" />
+			<text x="1338" y="272" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingHighlight</tspan>
+				<tspan x="1338" dy="1.2em">rgb(254, 250, 233) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="1297" cy="363" r="25" fill="rgb(245, 245, 245)" opacity="1" />
+			<text x="1338" y="338" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingLightCollection</tspan>
+				<tspan x="1338" dy="1.2em">rgb(245, 245, 245) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="1297" cy="429" r="25" fill="rgb(229, 229, 229)" opacity="1" />
+			<text x="1338" y="404" font-size="12" >
+				<tspan x="1338" dy="1.2em" font-weight="bold">messagingLineGrey</tspan>
+				<tspan x="1338" dy="1.2em">rgb(229, 229, 229) opacity(1)</tspan>
 			</text>
 		
 		

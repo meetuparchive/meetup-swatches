@@ -58,6 +58,15 @@
   <color name="overlay_pressed">#3340c5ff</color>
   <color name="money">#ff62ac75</color>
 
+  <!-- MESSAGING -->
+  <!-- colors used within the messaging client -->
+  <color name="messaging_text_primary">#cc000000</color>
+  <color name="messaging_text_secondary">#69000000</color>
+  <color name="messaging_text_tertiary">#36000000</color>
+  <color name="messaging_highlight">#fffefae9</color>
+  <color name="messaging_light_collection">#fff5f5f5</color>
+  <color name="messaging_line_grey">#ffe5e5e5</color>
+
   <!-- SOCIAL -->
   <!-- third party colors -->
   <color name="facebook">#ff3b5998</color>
