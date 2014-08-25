@@ -1,6 +1,6 @@
 {
   "name": "meetup-swatches",
-  "version": "0.5.0",
+  "version": "0.6.0",
 	"description": "Color swatches for Meetup",
   "main": "./sass",
   "ignore": [
