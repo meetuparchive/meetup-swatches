@@ -60,9 +60,9 @@ misc:
     name: "MISC"
     colors:
         overlayPressed: [64,197,255,.2]
-        money: *green
+        money: [46,177,53,1]
 social:
-    name: "SOCIAL"
+    name: "EXTERNAL"
     comment: "third party colors"
     colors:
         facebook: [59,89,152,1]
@@ -74,3 +74,4 @@ social:
         googleplus: [198,61,45,1]
         instagram: [78,67,60,1]
         reddit: [206,227,248,1]
+        wepay: [72,145,220,1]

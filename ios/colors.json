@@ -273,15 +273,15 @@
         0.2
       ],
       "money": [
-        0.384,
-        0.675,
-        0.459,
+        0.18,
+        0.694,
+        0.208,
         1
       ]
     }
   },
   "social": {
-    "name": "SOCIAL",
+    "name": "EXTERNAL",
     "comment": "third party colors",
     "colors": {
       "facebook": [
@@ -336,6 +336,12 @@
         0.808,
         0.89,
         0.973,
+        1
+      ],
+      "wepay": [
+        0.282,
+        0.569,
+        0.863,
         1
       ]
     }
