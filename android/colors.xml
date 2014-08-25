@@ -56,9 +56,9 @@
   <!-- MISC -->
   <!--  -->
   <color name="overlay_pressed">#3340c5ff</color>
-  <color name="money">#ff62ac75</color>
+  <color name="money">#ff2eb135</color>
 
-  <!-- SOCIAL -->
+  <!-- EXTERNAL -->
   <!-- third party colors -->
   <color name="facebook">#ff3b5998</color>
   <color name="twitter">#ff33ccff</color>
@@ -69,4 +69,5 @@
   <color name="googleplus">#ffc63d2d</color>
   <color name="instagram">#ff4e433c</color>
   <color name="reddit">#ffcee3f8</color>
+  <color name="wepay">#ff4891dc</color>
 </resources>
