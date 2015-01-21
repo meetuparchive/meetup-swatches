@@ -1,77 +1,35 @@
 # colors are listed as [r,g,b,a]
-primitive:
-    name: "PRIMITIVE COLORS"
-    comment: "used in multiple color aliases, try not to use these directly"
-    colors:
-        red: &red [226,55,60,1]
-        blue: &blue [57,135,203,1]
-        green: &green [98,172,117,1]
-        primaryGray: &primaryGray [0,0,0,.95]
-        secondaryGray: &secondaryGray [0,0,0,.67]
-        tertiaryGray: &tertiaryGray [0,0,0,.47]
-        lineGray: &lineGray [0,0,0,.1]
-        primaryGrayInverted: &primaryGrayInverted [255,255,255,1]
-        secondaryGrayInverted: &secondaryGrayInverted [255,255,255,.67]
-        tertiaryGrayInverted: &tertiaryGrayInverted [255,255,255,.47]
-        lineGrayInverted: &lineGrayInverted [255,255,255,.2]
-background:
-    name: "BACKGROUNDS"
-    comment: "these are always 100% opacity"
-    colors:
-        backgroundContent: [255,255,255,1]
-        backgroundCollection: [231,231,231,1]
-        backgroundNav: [247,247,247,1]
-        backgroundContentInverted: [51,51,51,1]
-        backgroundContentInverted: [53,62,71,1]
-        backgroundContentAccent: *red
-default_context:
-    name: "DEFAULT CONTEXT"
-    comment: content on light backgrounds"
-    colors:
-        textPrimary: *primaryGray
-        textSecondary: *secondaryGray
-        textTertiary: *tertiaryGray
-        border: *lineGray
-        link: *blue
-        accent: *red
-        "yes": *red
-        "no": *secondaryGray
-        waitlist: *secondaryGray
-        buttonPrimary: *red
-        buttonSecondary: *tertiaryGray
-        buttonTertiaryBorder: *tertiaryGray
-inverted_context:
-    name: "INVERTED CONTEXT"
-    comment: "content on dark backgrounds"
-    colors:
-        textPrimaryInverted: *primaryGrayInverted
-        textSecondaryInverted: *secondaryGrayInverted
-        textTertiaryInverted: *tertiaryGrayInverted
-        borderInverted: *lineGrayInverted
-        linkInverted: *blue
-        accentInverted: *red
-        yesInverted: *red
-        noInverted: *secondaryGrayInverted
-        waitlistInverted: *secondaryGrayInverted
-        buttonPrimaryInverted: *red
-        buttonSecondaryInverted: *tertiaryGrayInverted
-        buttonTertiaryBorder: *tertiaryGrayInverted
-misc:
-    name: "MISC"
-    colors:
-        overlayPressed: [64,197,255,.2]
-        money: [46,177,53,1]
+base:
+   name: "Base color palette"
+   comment: "TK"
+   colors:
+      white: &white [255,255,255,1]
+      darkGray: &darkGray [53,62,72,1]
+      mediumGray: &mediumGray [230,233,236,1]
+      lightGray: &lightGray [243,246,249,1]
+      red: &red [213,87,65,1]
+      green: &green [140,191,106,1]
+      blue: &blue [57,135,203,1]
+      lightBlue: &lightBlue [104,165,217,1]
+      purple: &purple [113,96,170,1]
+      brown: &brown [113,63,25,1]
+ui:
+   name: "UI Colors"
+   comment: "TK"
+   colors:
+      accent: *red
+      link: *blue
 social:
-    name: "EXTERNAL"
-    comment: "third party colors"
-    colors:
-        facebook: [59,89,152,1]
-        twitter: [51,204,255,1]
-        linkedin: [72,117,180,1]
-        tumblr: [43,73,100,1]
-        flickr: [254,8,131,1]
-        foursquare: [12,186,223,1]
-        googleplus: [198,61,45,1]
-        instagram: [78,67,60,1]
-        reddit: [206,227,248,1]
-        wepay: [72,145,220,1]
+   name: "EXTERNAL"
+   comment: "third party colors"
+   colors:
+      facebook: [59,89,152,1]
+      twitter: [51,204,255,1]
+      linkedin: [72,117,180,1]
+      tumblr: [43,73,100,1]
+      flickr: [254,8,131,1]
+      foursquare: [12,186,223,1]
+      googleplus: [198,61,45,1]
+      instagram: [78,67,60,1]
+      reddit: [206,227,248,1]
+      wepay: [72,145,220,1]
