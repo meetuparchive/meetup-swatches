@@ -179,7 +179,7 @@
     return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.47f];
 }
 
-+ (UIColor *)buttonTertiaryBorder {
++ (UIColor *)buttonTertiaryBorderInverted {
     return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.47f];
 }
 

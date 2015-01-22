@@ -55,7 +55,7 @@ inverted_context:
         waitlistInverted: *secondaryGrayInverted
         buttonPrimaryInverted: *red
         buttonSecondaryInverted: *tertiaryGrayInverted
-        buttonTertiaryBorder: *tertiaryGrayInverted
+        buttonTertiaryBorderInverted: *tertiaryGrayInverted
 misc:
     name: "MISC"
     colors:

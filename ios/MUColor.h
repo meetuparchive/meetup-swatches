@@ -62,7 +62,7 @@
 + (UIColor *)waitlistInverted;
 + (UIColor *)buttonPrimaryInverted;
 + (UIColor *)buttonSecondaryInverted;
-+ (UIColor *)buttonTertiaryBorder;
++ (UIColor *)buttonTertiaryBorderInverted;
 
 
 #pragma mark - MISC

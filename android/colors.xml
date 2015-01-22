@@ -51,7 +51,7 @@
   <color name="waitlist_inverted">#abffffff</color>
   <color name="button_primary_inverted">#ffe2373c</color>
   <color name="button_secondary_inverted">#78ffffff</color>
-  <color name="button_tertiary_border">#78ffffff</color>
+  <color name="button_tertiary_border_inverted">#78ffffff</color>
 
   <!-- MISC -->
   <!--  -->
