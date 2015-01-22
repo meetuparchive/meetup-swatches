@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "meetup-swatches"
+  s.name         = "MUSwatches"
   s.version      = "0.6.1"
   s.summary      = "Color swatches for Meetup"
   s.homepage     = "https://github.com/meetup/meetup-swatches"
