@@ -239,7 +239,7 @@
 		
 			<circle cx="665" cy="825" r="25" fill="rgb(255, 255, 255)" opacity="0.47" />
 			<text x="706" y="800" font-size="12" >
-				<tspan x="706" dy="1.2em" font-weight="bold">buttonTertiaryBorder</tspan>
+				<tspan x="706" dy="1.2em" font-weight="bold">buttonTertiaryBorderInverted</tspan>
 				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.47)</tspan>
 			</text>
 		

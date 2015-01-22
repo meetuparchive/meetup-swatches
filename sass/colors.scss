@@ -83,8 +83,8 @@ $C_buttonPrimaryInverted: rgb(226,55,60);
 @mixin color_buttonPrimaryInverted($style: 'color') { #{$style}: $C_buttonPrimaryInverted; }
 $C_buttonSecondaryInverted: rgba(255,255,255,0.47);
 @mixin color_buttonSecondaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 53%); #{$style}: $C_buttonSecondaryInverted; }
-$C_buttonTertiaryBorder: rgba(255,255,255,0.47);
-@mixin color_buttonTertiaryBorder($style: 'color') { #{$style}: lighten( rgb(255,255,255), 53%); #{$style}: $C_buttonTertiaryBorder; }
+$C_buttonTertiaryBorderInverted: rgba(255,255,255,0.47);
+@mixin color_buttonTertiaryBorderInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 53%); #{$style}: $C_buttonTertiaryBorderInverted; }
  
 // MISC ()
 $C_overlayPressed: rgba(64,197,255,0.2);
