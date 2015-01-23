@@ -1,7 +1,7 @@
 # colors are listed as [r,g,b,a]
 base:
    name: "Base color palette"
-   comment: "TK"
+   comment: ""
    colors:
       white: &white [255,255,255,1]
       darkGray: &darkGray [53,62,72,1]
@@ -15,7 +15,7 @@ base:
       brown: &brown [113,63,25,1]
 text:
    name: "Text colors"
-   comment: "TK"
+   comment: ""
    colors:
       textPrimary: [0,0,0,0.87]
       textSecondary: [0,0,0,0.54]
@@ -25,7 +25,7 @@ text:
       textTertiaryInverted: [255,255,255,0.30]
 ui:
    name: "UI Colors"
-   comment: "TK"
+   comment: ""
    colors:
       accent: *red
       link: *blue
@@ -38,7 +38,7 @@ ui:
       textProtection: *shade
 background:
    name: "Background colors"
-   comment: "TK"
+   comment: ""
    colors:
       contentBG: *white
       contentBGInverted: [53,62,72,1]

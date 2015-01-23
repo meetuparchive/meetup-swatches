@@ -2,7 +2,7 @@
 <resources>
 
   <!-- Base color palette -->
-  <!-- TK -->
+  <!--  -->
   <color name="white">#ffffffff</color>
   <color name="dark_gray">#ff353e48</color>
   <color name="medium_gray">#ffe6e9ec</color>
@@ -15,7 +15,7 @@
   <color name="brown">#ff713f19</color>
 
   <!-- Text colors -->
-  <!-- TK -->
+  <!--  -->
   <color name="text_primary">#de000000</color>
   <color name="text_secondary">#8a000000</color>
   <color name="text_tertiary">#42000000</color>
@@ -24,7 +24,7 @@
   <color name="text_tertiary_inverted">#4dffffff</color>
 
   <!-- UI Colors -->
-  <!-- TK -->
+  <!--  -->
   <color name="accent">#ffd55741</color>
   <color name="link">#ff3987cb</color>
   <color name="border">#1f000000</color>
@@ -36,7 +36,7 @@
   <color name="text_protection">#0d000000</color>
 
   <!-- Background colors -->
-  <!-- TK -->
+  <!--  -->
   <color name="content_bg">#ffffffff</color>
   <color name="content_bg_inverted">#ff353e48</color>
   <color name="collection_bg_dark">#ffe6e9ec</color>
