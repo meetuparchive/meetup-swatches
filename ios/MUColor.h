@@ -23,10 +23,35 @@
 + (UIColor *)brown;
 
 
+#pragma mark - Text colors
+
++ (UIColor *)textPrimary;
++ (UIColor *)textSecondary;
++ (UIColor *)textTertiary;
++ (UIColor *)textPrimaryInverted;
++ (UIColor *)textSecondaryInverted;
++ (UIColor *)textTertiaryInverted;
+
+
 #pragma mark - UI Colors
 
 + (UIColor *)accent;
 + (UIColor *)link;
++ (UIColor *)border;
++ (UIColor *)borderInverted;
++ (UIColor *)overlayPressed;
++ (UIColor *)modalShade;
++ (UIColor *)shade;
++ (UIColor *)shadeInverted;
++ (UIColor *)textProtection;
+
+
+#pragma mark - Background colors
+
++ (UIColor *)contentBG;
++ (UIColor *)contentBGInverted;
++ (UIColor *)collectionBGDark;
++ (UIColor *)collectionBGLight;
 
 
 #pragma mark - EXTERNAL

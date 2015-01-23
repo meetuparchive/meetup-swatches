@@ -14,10 +14,33 @@
   <color name="purple">#ff7160aa</color>
   <color name="brown">#ff713f19</color>
 
+  <!-- Text colors -->
+  <!-- TK -->
+  <color name="text_primary">#de000000</color>
+  <color name="text_secondary">#8a000000</color>
+  <color name="text_tertiary">#42000000</color>
+  <color name="text_primary_inverted">#ffffffff</color>
+  <color name="text_secondary_inverted">#b3ffffff</color>
+  <color name="text_tertiary_inverted">#4dffffff</color>
+
   <!-- UI Colors -->
   <!-- TK -->
   <color name="accent">#ffd55741</color>
   <color name="link">#ff3987cb</color>
+  <color name="border">#1f000000</color>
+  <color name="border_inverted">#33ffffff</color>
+  <color name="overlay_pressed">#1a000000</color>
+  <color name="modal_shade">#bf000000</color>
+  <color name="shade">#0d000000</color>
+  <color name="shade_inverted">#1affffff</color>
+  <color name="text_protection">#0d000000</color>
+
+  <!-- Background colors -->
+  <!-- TK -->
+  <color name="content_bg">#ffffffff</color>
+  <color name="content_bg_inverted">#ff353e48</color>
+  <color name="collection_bg_dark">#ffe6e9ec</color>
+  <color name="collection_bg_light">#fff3f6f9</color>
 
   <!-- EXTERNAL -->
   <!-- third party colors -->

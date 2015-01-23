@@ -53,6 +53,34 @@
 
 
 
+#pragma mark - Text colors
+
++ (UIColor *)textPrimary {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.87f];
+}
+
++ (UIColor *)textSecondary {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.54f];
+}
+
++ (UIColor *)textTertiary {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.26f];
+}
+
++ (UIColor *)textPrimaryInverted {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f];
+}
+
++ (UIColor *)textSecondaryInverted {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.7f];
+}
+
++ (UIColor *)textTertiaryInverted {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.3f];
+}
+
+
+
 #pragma mark - UI Colors
 
 + (UIColor *)accent {
@@ -61,6 +89,54 @@
 
 + (UIColor *)link {
     return [UIColor colorWithRed:0.224f green:0.529f blue:0.796f alpha:1.0f];
+}
+
++ (UIColor *)border {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.12f];
+}
+
++ (UIColor *)borderInverted {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.2f];
+}
+
++ (UIColor *)overlayPressed {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.1f];
+}
+
++ (UIColor *)modalShade {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.75f];
+}
+
++ (UIColor *)shade {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.05f];
+}
+
++ (UIColor *)shadeInverted {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.1f];
+}
+
++ (UIColor *)textProtection {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.05f];
+}
+
+
+
+#pragma mark - Background colors
+
++ (UIColor *)contentBG {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f];
+}
+
++ (UIColor *)contentBGInverted {
+    return [UIColor colorWithRed:0.208f green:0.243f blue:0.282f alpha:1.0f];
+}
+
++ (UIColor *)collectionBGDark {
+    return [UIColor colorWithRed:0.902f green:0.914f blue:0.925f alpha:1.0f];
+}
+
++ (UIColor *)collectionBGLight {
+    return [UIColor colorWithRed:0.953f green:0.965f blue:0.976f alpha:1.0f];
 }
 
 

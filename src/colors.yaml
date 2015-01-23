@@ -13,12 +13,37 @@ base:
       lightBlue: &lightBlue [104,165,217,1]
       purple: &purple [113,96,170,1]
       brown: &brown [113,63,25,1]
+text:
+   name: "Text colors"
+   comment: "TK"
+   colors:
+      textPrimary: [0,0,0,0.87]
+      textSecondary: [0,0,0,0.54]
+      textTertiary: [0,0,0,0.26]
+      textPrimaryInverted: [255,255,255,1]
+      textSecondaryInverted: [255,255,255,0.70]
+      textTertiaryInverted: [255,255,255,0.30]
 ui:
    name: "UI Colors"
    comment: "TK"
    colors:
       accent: *red
       link: *blue
+      border: [0,0,0,0.12]
+      borderInverted: [255,255,255,0.2]
+      overlayPressed: [0,0,0,0.1]
+      modalShade: [0,0,0,0.75]
+      shade: &shade [0,0,0,0.05]
+      shadeInverted: [255,255,255,0.1]
+      textProtection: *shade
+background:
+   name: "Background colors"
+   comment: "TK"
+   colors:
+      contentBG: *white
+      contentBGInverted: [53,62,72,1]
+      collectionBGDark: [230,233,236,1]
+      collectionBGLight: [243,246,249,1]
 social:
    name: "EXTERNAL"
    comment: "third party colors"
