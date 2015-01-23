@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="948" height="726" viewBox="0 0 948 726" xml:space="preserve" >
+	 width="948" height="792" viewBox="0 0 948 792" xml:space="preserve" >
 	 
 	 <defs>
 		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -29,7 +29,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="0" y="66" width="66" height="660" />		
+			<rect fill="url(#light_grid)" x="0" y="66" width="66" height="726" />		
 		
 		
 		
@@ -91,6 +91,12 @@
 			<text x="74" y="668" font-size="12" >
 				<tspan x="74" dy="1.2em" font-weight="bold">brown</tspan>
 				<tspan x="74" dy="1.2em">rgb(113, 63, 25) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="33" cy="759" r="25" fill="rgb(240, 203, 79)" opacity="1" />
+			<text x="74" y="734" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">yellow</tspan>
+				<tspan x="74" dy="1.2em">rgb(240, 203, 79) opacity(1)</tspan>
 			</text>
 		
 		

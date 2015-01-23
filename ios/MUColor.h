@@ -21,6 +21,7 @@
 + (UIColor *)lightBlue;
 + (UIColor *)purple;
 + (UIColor *)brown;
++ (UIColor *)yellow;
 
 
 #pragma mark - Text colors

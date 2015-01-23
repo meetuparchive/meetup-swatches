@@ -51,6 +51,10 @@
     return [UIColor colorWithRed:0.443f green:0.247f blue:0.098f alpha:1.0f];
 }
 
++ (UIColor *)yellow {
+    return [UIColor colorWithRed:0.941f green:0.796f blue:0.31f alpha:1.0f];
+}
+
 
 
 #pragma mark - Text colors

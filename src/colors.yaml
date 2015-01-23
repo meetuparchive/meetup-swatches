@@ -13,6 +13,7 @@ base:
       lightBlue: &lightBlue [104,165,217,1]
       purple: &purple [113,96,170,1]
       brown: &brown [113,63,25,1]
+      yellow: &yellow [240,203,79,1]
 text:
    name: "Text colors"
    comment: ""
