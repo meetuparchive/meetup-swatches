@@ -1,12 +1,13 @@
-require 'yaml'
+require 'psych'
 require 'json'
 require 'erb'
 require 'builder'
+require 'time'
 
 $: << File.dirname(__FILE__)
 require 'lib/string_exts'
 
-color_types = YAML.load_file("./colors.yaml")
+color_types = Psych.load_file("./colors.yaml")
 
 # SPECIMEN HTML
 @color_types = color_types
@@ -43,19 +44,27 @@ File.open("../sass/colors.scss", 'w+') do |file|
 end
 
 # ANDROID
+mapping = Psych.parse_file("colors.yaml").root
 File.open("../android/colors.xml", 'w+') do |file|
 	xml = Builder::XmlMarkup.new(:target => file, :indent => 2)
 	xml.instruct!
+	xml.comment! "Generated code -- DO NOT EDIT"
+	xml.comment! "Last update: #{Time.now.strftime('%B %d, %Y')}"
 	xml.resources do
-		color_types.each_value do |color_type|
+		mapping.children.each_slice(2) do |ignore, color_type|
 			xml << "\n"
-      xml.comment! color_type["name"]
-			xml.comment! color_type["comment"]
-			color_type["colors"].each do |key, value|
-				vals = value.rotate(-1)
-				vals[0] = (vals[0] * 255).round # 1.0 -> 0xff
-				hexcolor = "#" + vals.map{|c| "%02x" % c.to_i}.join
-				xml.color hexcolor, {name: key.underscore}
+			xml.comment! color_type.children[1].value
+			comment = color_type.children[3].value
+			xml.comment! comment unless comment.empty?
+			color_type.children[5].children.each_slice(2) do |key, value|
+				if value.is_a?(Psych::Nodes::Sequence)
+					vals = value.children.rotate(-1).map{|n| n.value.to_f}
+					vals[0] = (vals[0] * 255).round # 1.0 -> 0xff
+					hexcolor = "#" + vals.map{|c| "%02x" % c.to_i}.join
+				else
+					hexcolor = "@color/foundation_#{value.anchor.underscore}"
+				end
+				xml.color hexcolor, {name: "foundation_#{key.value.underscore}"}
 			end
 		end
 	end
@@ -64,7 +73,6 @@ end
 
 # IOS
 def ios_file_comment_lines(class_name, is_header)
-	require 'time'
 	filename    = is_header ? "#{class_name}.h" : "#{class_name}.m"
 	import_line = is_header ? '@import UIKit;'  : %(#import "#{class_name}.h")
 	return [
@@ -84,7 +92,7 @@ def ios_lines(class_name, is_header)
 	header_lines = ios_file_comment_lines(class_name, is_header)
 	header_lines << (is_header ? "@interface #{class_name} : NSObject" : "@implementation #{class_name}") << ''
 
-	color_types = YAML.load_file('./colors.yaml')
+	color_types = Psych.load_file('./colors.yaml')
 	color_types.each do |color_type_key, color_type|
 		header_lines << "#pragma mark - #{color_type['name']}"
 		header_lines << ''
