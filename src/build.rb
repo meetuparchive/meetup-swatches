@@ -48,7 +48,7 @@ mapping = Psych.parse_file("colors.yaml").root
 File.open("../android/colors.xml", 'w+') do |file|
 	xml = Builder::XmlMarkup.new(:target => file, :indent => 2)
 	xml.instruct!
-	xml.comment! "Generated code -- DO NOT EDIT"
+	xml.comment! "Generated code: DO NOT EDIT"
 	xml.comment! "Last update: #{Time.now.strftime('%B %d, %Y')}"
 	xml.resources do
 		mapping.children.each_slice(2) do |ignore, color_type|
