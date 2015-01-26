@@ -64,7 +64,7 @@ end
 
 # IOS
 def ios_file_comment_lines(class_name, is_header)
-	require 'Time'
+	require 'time'
 	filename    = is_header ? "#{class_name}.h" : "#{class_name}.m"
 	import_line = is_header ? '@import UIKit;'  : %(#import "#{class_name}.h")
 	return [
