@@ -92,14 +92,14 @@ def ios_lines(class_name, is_header)
 
 		color_type['colors'].each do |color_key, color|
 			if is_header
-				header_lines << "+ (UIColor *)#{color_key};"
+				header_lines << "+ (UIColor *)#{color_key}Color;"
 			else
 				red   = (color[0].to_f / 255).round(3)
 				green = (color[1].to_f / 255).round(3)
 				blue  = (color[2].to_f / 255).round(3)
 				alpha = (color[3].to_f).round(3)
 
-				header_lines << "+ (UIColor *)#{color_key} {"
+				header_lines << "+ (UIColor *)#{color_key}Color {"
 				header_lines << "    return [UIColor colorWithRed:#{red}f green:#{green}f blue:#{blue}f alpha:#{alpha}f];"
 				header_lines << '}'
 				header_lines << ''
