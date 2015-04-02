@@ -1,58 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated code: DO NOT EDIT -->
+<!-- Last update: January 26, 2015 -->
 <resources>
 
   <!-- Base color palette -->
-  <!--  -->
-  <color name="white">#ffffffff</color>
-  <color name="dark_gray">#ff353e48</color>
-  <color name="medium_gray">#ffe6e9ec</color>
-  <color name="light_gray">#fff3f6f9</color>
-  <color name="red">#ffd55741</color>
-  <color name="green">#ff8cbf6a</color>
-  <color name="blue">#ff3987cb</color>
-  <color name="light_blue">#ff68a5d9</color>
-  <color name="purple">#ff7160aa</color>
-  <color name="brown">#ff713f19</color>
-  <color name="yellow">#fff0cb4f</color>
+  <color name="foundation_white">#ffffffff</color>
+  <color name="foundation_dark_gray">#ff353e48</color>
+  <color name="foundation_medium_gray">#ffe6e9ec</color>
+  <color name="foundation_light_gray">#fff3f6f9</color>
+  <color name="foundation_red">#ffd55741</color>
+  <color name="foundation_green">#ff8cbf6a</color>
+  <color name="foundation_blue">#ff3987cb</color>
+  <color name="foundation_light_blue">#ff68a5d9</color>
+  <color name="foundation_purple">#ff7160aa</color>
+  <color name="foundation_brown">#ff713f19</color>
+  <color name="foundation_yellow">#fff0cb4f</color>
 
   <!-- Text colors -->
-  <!--  -->
-  <color name="text_primary">#de000000</color>
-  <color name="text_secondary">#8a000000</color>
-  <color name="text_tertiary">#42000000</color>
-  <color name="text_primary_inverted">#ffffffff</color>
-  <color name="text_secondary_inverted">#b3ffffff</color>
-  <color name="text_tertiary_inverted">#4dffffff</color>
+  <color name="foundation_text_primary">#de000000</color>
+  <color name="foundation_text_secondary">#8a000000</color>
+  <color name="foundation_text_tertiary">#42000000</color>
+  <color name="foundation_text_primary_inverted">#ffffffff</color>
+  <color name="foundation_text_secondary_inverted">#b3ffffff</color>
+  <color name="foundation_text_tertiary_inverted">#4dffffff</color>
 
   <!-- UI Colors -->
-  <!--  -->
-  <color name="accent">#ffd55741</color>
-  <color name="link">#ff3987cb</color>
-  <color name="border">#1f000000</color>
-  <color name="border_inverted">#33ffffff</color>
-  <color name="overlay_pressed">#1a000000</color>
-  <color name="modal_shade">#bf000000</color>
-  <color name="shade">#0d000000</color>
-  <color name="shade_inverted">#1affffff</color>
-  <color name="text_protection">#0d000000</color>
+  <color name="foundation_accent">@color/foundation_red</color>
+  <color name="foundation_link">@color/foundation_blue</color>
+  <color name="foundation_border">#1f000000</color>
+  <color name="foundation_border_inverted">#33ffffff</color>
+  <color name="foundation_overlay_pressed">#1a000000</color>
+  <color name="foundation_modal_shade">#bf000000</color>
+  <color name="foundation_shade">#0d000000</color>
+  <color name="foundation_shade_inverted">#1affffff</color>
+  <color name="foundation_text_protection">@color/foundation_shade</color>
 
   <!-- Background colors -->
-  <!--  -->
-  <color name="content_bg">#ffffffff</color>
-  <color name="content_bg_inverted">#ff353e48</color>
-  <color name="collection_bg_dark">#ffe6e9ec</color>
-  <color name="collection_bg_light">#fff3f6f9</color>
+  <color name="foundation_content_bg">@color/foundation_white</color>
+  <color name="foundation_content_bg_inverted">#ff353e48</color>
+  <color name="foundation_collection_bg_dark">#ffe6e9ec</color>
+  <color name="foundation_collection_bg_light">#fff3f6f9</color>
 
   <!-- EXTERNAL -->
   <!-- third party colors -->
-  <color name="facebook">#ff3b5998</color>
-  <color name="twitter">#ff33ccff</color>
-  <color name="linkedin">#ff4875b4</color>
-  <color name="tumblr">#ff2b4964</color>
-  <color name="flickr">#fffe0883</color>
-  <color name="foursquare">#ff0cbadf</color>
-  <color name="googleplus">#ffc63d2d</color>
-  <color name="instagram">#ff4e433c</color>
-  <color name="reddit">#ffcee3f8</color>
-  <color name="wepay">#ff4891dc</color>
+  <color name="foundation_facebook">#ff3b5998</color>
+  <color name="foundation_twitter">#ff33ccff</color>
+  <color name="foundation_linkedin">#ff4875b4</color>
+  <color name="foundation_tumblr">#ff2b4964</color>
+  <color name="foundation_flickr">#fffe0883</color>
+  <color name="foundation_foursquare">#ff0cbadf</color>
+  <color name="foundation_googleplus">#ffc63d2d</color>
+  <color name="foundation_instagram">#ff4e433c</color>
+  <color name="foundation_reddit">#ffcee3f8</color>
+  <color name="foundation_wepay">#ff4891dc</color>
 </resources>
