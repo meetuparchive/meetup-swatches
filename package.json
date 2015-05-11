@@ -1,0 +1,22 @@
+{
+  "name": "meetup-swatches",
+  "version": "0.0.0",
+  "description": "meetup colors for react",
+  "main": "react/colors.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meetup/meetup-swatches.git#reactnative"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetup/meetup-swatches/issues"
+  },
+  "homepage": "https://github.com/meetup/meetup-swatches"
+}
