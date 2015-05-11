@@ -27,7 +27,7 @@ js_lines << "var swatches = {"
 color_types.each_value do |color_type|
 	js_lines << "// #{color_type["name"]} (#{color_type["comment"]})"
 	color_type["colors"].each do |key, value|
-			js_lines << "#{key}: rgba(#{value.join(',')});"
+			js_lines << "#{key}: 'rgba(#{value.join(',')})',"
 	end
 	js_lines << " "
 end
