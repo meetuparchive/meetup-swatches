@@ -21,6 +21,22 @@ template_file = File.open("svg.erb", 'r').read
 erb = ERB.new(template_file)
 File.open("../doc/swatches.svg", 'w+') { |file| file.write(erb.result( binding )) }
 
+# REACT JS
+js_lines = []
+js_lines << "var swatches = {"
+color_types.each_value do |color_type|
+	js_lines << "// #{color_type["name"]} (#{color_type["comment"]})"
+	color_type["colors"].each do |key, value|
+			js_lines << "#{key}: rgba(#{value.join(',')});"
+	end
+	js_lines << " "
+end
+js_lines << "};"
+js_lines << "module.exports = swatches;"
+File.open("../react/colors.js", 'w+') do |file|
+	file.write(js_lines.join("\n"))
+end
+
 # SCSS
 # (0.65 - 1) * -100
 sass_lines = []
