@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: April 02, 2015 -->
+<!-- Last update: June 02, 2015 -->
 <resources>
 
   <!-- Base color palette -->
@@ -53,4 +53,5 @@
   <color name="foundation_instagram">#ff4e433c</color>
   <color name="foundation_reddit">#ffcee3f8</color>
   <color name="foundation_wepay">#ff4891dc</color>
+  <color name="foundation_yahoo">#ff7b0099</color>
 </resources>
