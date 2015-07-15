@@ -1,8 +1,8 @@
 {
   "name": "meetup-swatches",
-  "version": "1.1.0",
+  "version": "1.1.1",
 	"description": "Color swatches for Meetup",
-  "main": "./sass",
+  "main": "./sass/colors.scss",
   "ignore": [
 	"**/*.rb",
 	"**/*.yaml",
