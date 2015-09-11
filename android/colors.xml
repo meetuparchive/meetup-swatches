@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: June 02, 2015 -->
+<!-- Last update: September 11, 2015 -->
 <resources>
 
   <!-- Base color palette -->
@@ -8,8 +8,8 @@
   <color name="foundation_dark_gray">#ff353e48</color>
   <color name="foundation_medium_gray">#ffe6e9ec</color>
   <color name="foundation_light_gray">#fff3f6f9</color>
-  <color name="foundation_red">#ffd55741</color>
-  <color name="foundation_green">#ff8cbf6a</color>
+  <color name="foundation_red">#ffe2373c</color>
+  <color name="foundation_green">#ff62ac75</color>
   <color name="foundation_blue">#ff3987cb</color>
   <color name="foundation_light_blue">#ff68a5d9</color>
   <color name="foundation_purple">#ff7160aa</color>

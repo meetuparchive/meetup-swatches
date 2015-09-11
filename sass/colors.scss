@@ -3,8 +3,8 @@ $C_white: rgb(255,255,255);
 $C_darkGray: rgb(53,62,72);
 $C_mediumGray: rgb(230,233,236);
 $C_lightGray: rgb(243,246,249);
-$C_red: rgb(213,87,65);
-$C_green: rgb(140,191,106);
+$C_red: rgb(226,55,60);
+$C_green: rgb(98,172,117);
 $C_blue: rgb(57,135,203);
 $C_lightBlue: rgb(104,165,217);
 $C_purple: rgb(113,96,170);
@@ -25,7 +25,7 @@ $C_textTertiaryInverted: rgba(255,255,255,0.3);
 @mixin color_textTertiaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 70%); #{$style}: $C_textTertiaryInverted; }
  
 // UI Colors ()
-$C_accent: rgb(213,87,65);
+$C_accent: rgb(226,55,60);
 $C_link: rgb(57,135,203);
 $C_border: rgba(0,0,0,0.12);
 @mixin color_border($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_border; }
