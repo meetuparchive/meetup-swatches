@@ -1,38 +1,30 @@
 // Base color palette ()
 $C_white: rgb(255,255,255);
-$C_darkGray: rgb(53,62,72);
-$C_mediumGray: rgb(230,233,236);
-$C_lightGray: rgb(243,246,249);
-$C_red: rgb(226,55,60);
-$C_green: rgb(98,172,117);
-$C_blue: rgb(57,135,203);
-$C_lightBlue: rgb(104,165,217);
-$C_purple: rgb(113,96,170);
-$C_brown: rgb(113,63,25);
-$C_yellow: rgb(240,203,79);
+$C_darkGray: rgb(170,0,255);
+$C_mediumGray: rgb(0,170,255);
+$C_lightGray: rgb(170,255,0);
+$C_red: rgb(255,0,170);
+$C_green: rgb(170,255,0);
+$C_blue: rgb(0,170,255);
+$C_lightBlue: rgb(0,170,255);
+$C_purple: rgb(170,0,255);
+$C_brown: rgb(170,255,0);
+$C_yellow: rgb(255,170,0);
  
 // Text colors ()
-$C_textPrimary: rgba(0,0,0,0.87);
-@mixin color_textPrimary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 13%); #{$style}: $C_textPrimary; }
-$C_textSecondary: rgba(0,0,0,0.54);
-@mixin color_textSecondary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 46%); #{$style}: $C_textSecondary; }
-$C_textTertiary: rgba(0,0,0,0.26);
-@mixin color_textTertiary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 74%); #{$style}: $C_textTertiary; }
-$C_textPrimaryInverted: rgb(255,255,255);
-$C_textSecondaryInverted: rgba(255,255,255,0.7);
-@mixin color_textSecondaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 30%); #{$style}: $C_textSecondaryInverted; }
-$C_textTertiaryInverted: rgba(255,255,255,0.3);
-@mixin color_textTertiaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 70%); #{$style}: $C_textTertiaryInverted; }
+$C_textPrimary: rgb(255,0,170);
+$C_textSecondary: rgb(255,170,0);
+$C_textTertiary: rgb(170,255,0);
+$C_textPrimaryInverted: rgb(0,170,255);
+$C_textSecondaryInverted: rgb(170,255,0);
+$C_textTertiaryInverted: rgb(255,170,0);
  
 // UI Colors ()
-$C_accent: rgb(226,55,60);
-$C_link: rgb(57,135,203);
-$C_border: rgba(0,0,0,0.12);
-@mixin color_border($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_border; }
-$C_borderInverted: rgba(255,255,255,0.2);
-@mixin color_borderInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 80%); #{$style}: $C_borderInverted; }
-$C_overlayPressed: rgba(0,0,0,0.1);
-@mixin color_overlayPressed($style: 'color') { #{$style}: lighten( rgb(0,0,0), 90%); #{$style}: $C_overlayPressed; }
+$C_accent: rgb(255,0,170);
+$C_link: rgb(0,170,255);
+$C_border: rgb(170,255,0);
+$C_borderInverted: rgb(0,170,255);
+$C_overlayPressed: rgb(255,170,0);
 $C_modalShade: rgba(0,0,0,0.75);
 @mixin color_modalShade($style: 'color') { #{$style}: lighten( rgb(0,0,0), 25%); #{$style}: $C_modalShade; }
 $C_shade: rgba(0,0,0,0.05);
@@ -44,8 +36,8 @@ $C_textProtection: rgba(0,0,0,0.05);
  
 // Background colors ()
 $C_contentBG: rgb(255,255,255);
-$C_contentBGInverted: rgb(53,62,72);
-$C_collectionBGDark: rgb(230,233,236);
+$C_contentBGInverted: rgb(170,0,255);
+$C_collectionBGDark: rgb(170,0,255);
 $C_collectionBGLight: rgb(243,246,249);
  
 // EXTERNAL (third party colors)

@@ -4,35 +4,35 @@ base:
    comment: ""
    colors:
       white: &white [255,255,255,1]
-      darkGray: &darkGray [53,62,72,1]
-      mediumGray: &mediumGray [230,233,236,1]
-      lightGray: &lightGray [243,246,249,1]
-      red: &red [226,55,60,1]
-      green: &green [98,172,117,1]
-      blue: &blue [57,135,203,1]
-      lightBlue: &lightBlue [104,165,217,1]
-      purple: &purple [113,96,170,1]
-      brown: &brown [113,63,25,1]
-      yellow: &yellow [240,203,79,1]
+      darkGray: &darkGray [170,0,255,1]
+      mediumGray: &mediumGray [0,170,255,1]
+      lightGray: &lightGray [170,255,0,1]
+      red: &red [255,0,170,1]
+      green: &green [170,255,0,1]
+      blue: &blue [0,170,255,1]
+      lightBlue: *blue
+      purple: *darkGray
+      brown: *green
+      yellow: &orange [255,170,0,1]
 text:
    name: "Text colors"
    comment: ""
    colors:
-      textPrimary: [0,0,0,0.87]
-      textSecondary: [0,0,0,0.54]
-      textTertiary: [0,0,0,0.26]
-      textPrimaryInverted: [255,255,255,1]
-      textSecondaryInverted: [255,255,255,0.70]
-      textTertiaryInverted: [255,255,255,0.30]
+      textPrimary: [255,0,170,1]
+      textSecondary: [255,170,0,1]
+      textTertiary: *green
+      textPrimaryInverted: *blue
+      textSecondaryInverted: *green
+      textTertiaryInverted: [255,170,0,1]
 ui:
    name: "UI Colors"
    comment: ""
    colors:
       accent: *red
       link: *blue
-      border: [0,0,0,0.12]
-      borderInverted: [255,255,255,0.2]
-      overlayPressed: [0,0,0,0.1]
+      border: *green
+      borderInverted: *blue
+      overlayPressed: *orange
       modalShade: [0,0,0,0.75]
       shade: &shade [0,0,0,0.05]
       shadeInverted: [255,255,255,0.1]
@@ -42,8 +42,8 @@ background:
    comment: ""
    colors:
       contentBG: *white
-      contentBGInverted: [53,62,72,1]
-      collectionBGDark: [230,233,236,1]
+      contentBGInverted: *darkGray
+      collectionBGDark: *darkGray
       collectionBGLight: [243,246,249,1]
 social:
    name: "EXTERNAL"
