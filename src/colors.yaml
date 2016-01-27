@@ -10,7 +10,7 @@ base:
       red: &red [237,28,64,1]
       purple: &purple [55,30,172,1]
       lightPurple: &lightPurple [31,36,204,1]
-      yellow: &yellow [247,158,55,1]
+      yellow: &yellow [255,145,26,1]
       teal: &teal [33,232,178,1]
 text:
    name: "Text colors"

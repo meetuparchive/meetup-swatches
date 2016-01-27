@@ -6,7 +6,7 @@ $C_lightGray: rgb(238,238,234);
 $C_red: rgb(237,28,64);
 $C_purple: rgb(55,30,172);
 $C_lightPurple: rgb(31,36,204);
-$C_yellow: rgb(247,158,55);
+$C_yellow: rgb(255,145,26);
 $C_teal: rgb(33,232,178);
  
 // Text colors ()
@@ -41,7 +41,7 @@ $C_borderDarkInverted: rgba(255,255,255,0.7);
 $C_separator: rgba(0,0,0,0.26);
 @mixin color_separator($style: 'color') { #{$style}: lighten( rgb(0,0,0), 74%); #{$style}: $C_separator; }
 $C_success: rgb(33,232,178);
-$C_attention: rgb(247,158,55);
+$C_attention: rgb(255,145,26);
 $C_highlight: rgba(0,0,255,0.05);
 @mixin color_highlight($style: 'color') { #{$style}: lighten( rgb(0,0,255), 95%); #{$style}: $C_highlight; }
 $C_selection: rgba(0,0,0,0.05);

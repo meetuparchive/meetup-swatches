@@ -40,7 +40,7 @@
 }
 
 + (UIColor *)yellowColor {
-    return [UIColor colorWithRed:0.969f green:0.62f blue:0.216f alpha:1.0f];
+    return [UIColor colorWithRed:1.0f green:0.569f blue:0.102f alpha:1.0f];
 }
 
 + (UIColor *)tealColor {
@@ -124,7 +124,7 @@
 }
 
 + (UIColor *)attentionColor {
-    return [UIColor colorWithRed:0.969f green:0.62f blue:0.216f alpha:1.0f];
+    return [UIColor colorWithRed:1.0f green:0.569f blue:0.102f alpha:1.0f];
 }
 
 + (UIColor *)highlightColor {

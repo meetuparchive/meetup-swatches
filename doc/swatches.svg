@@ -75,10 +75,10 @@
 				<tspan x="74" dy="1.2em">rgb(31, 36, 204) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="33" cy="561" r="25" fill="rgb(247, 158, 55)" opacity="1" />
+			<circle cx="33" cy="561" r="25" fill="rgb(255, 145, 26)" opacity="1" />
 			<text x="74" y="536" font-size="12" >
 				<tspan x="74" dy="1.2em" font-weight="bold">yellow</tspan>
-				<tspan x="74" dy="1.2em">rgb(247, 158, 55) opacity(1)</tspan>
+				<tspan x="74" dy="1.2em">rgb(255, 145, 26) opacity(1)</tspan>
 			</text>
 		
 			<circle cx="33" cy="627" r="25" fill="rgb(33, 232, 178)" opacity="1" />
@@ -223,10 +223,10 @@
 				<tspan x="706" dy="1.2em">rgb(33, 232, 178) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="693" r="25" fill="rgb(247, 158, 55)" opacity="1" />
+			<circle cx="665" cy="693" r="25" fill="rgb(255, 145, 26)" opacity="1" />
 			<text x="706" y="668" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">attention</tspan>
-				<tspan x="706" dy="1.2em">rgb(247, 158, 55) opacity(1)</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 145, 26) opacity(1)</tspan>
 			</text>
 		
 			<circle cx="665" cy="759" r="25" fill="rgb(0, 0, 255)" opacity="0.05" />
