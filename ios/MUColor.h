@@ -28,10 +28,12 @@
 + (UIColor *)textSecondaryColor;
 + (UIColor *)textTertiaryColor;
 + (UIColor *)textHintColor;
++ (UIColor *)textDisabledColor;
 + (UIColor *)textPrimaryInvertedColor;
 + (UIColor *)textSecondaryInvertedColor;
 + (UIColor *)textTertiaryInvertedColor;
 + (UIColor *)textHintInvertedColor;
++ (UIColor *)textDisabledInvertedColor;
 
 
 #pragma mark - UI Colors

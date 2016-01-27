@@ -20,10 +20,12 @@ text:
       textSecondary: [0,0,0,0.54]
       textTertiary: &textTertiary [0,0,0,0.26]
       textHint: *textTertiary
+      textDisabled: [0,0,0,0.12]
       textPrimaryInverted: [255,255,255,1]
       textSecondaryInverted: [255,255,255,0.70]
       textTertiaryInverted: &textTertiaryInverted [255,255,255,0.30]
       textHintInverted: *textTertiaryInverted
+      textDisabledInverted: [255,255,255,0.12]
 ui:
    name: "UI Colors"
    comment: ""
@@ -31,7 +33,7 @@ ui:
       accent: *red
       link: *lightPurple
       button: *purple
-      border: [0,0,0,0.12]
+      border: &border [0,0,0,0.12]
       borderDark: [0,0,0,0.54]
       borderInverted: [255,255,255,0.2]
       borderDarkInverted: [255,255,255,0.7]

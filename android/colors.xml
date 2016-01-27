@@ -19,10 +19,12 @@
   <color name="foundation_text_secondary">#8a000000</color>
   <color name="foundation_text_tertiary">#42000000</color>
   <color name="foundation_text_hint">@color/foundation_text_tertiary</color>
+  <color name="foundation_text_disabled">#1f000000</color>
   <color name="foundation_text_primary_inverted">#ffffffff</color>
   <color name="foundation_text_secondary_inverted">#b3ffffff</color>
   <color name="foundation_text_tertiary_inverted">#4dffffff</color>
   <color name="foundation_text_hint_inverted">@color/foundation_text_tertiary_inverted</color>
+  <color name="foundation_text_disabled_inverted">#1fffffff</color>
 
   <!-- UI Colors -->
   <color name="foundation_accent">@color/foundation_red</color>

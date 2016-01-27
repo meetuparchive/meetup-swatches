@@ -100,7 +100,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="316" y="66" width="66" height="528" />		
+			<rect fill="url(#light_grid)" x="316" y="66" width="66" height="660" />		
 		
 		
 		
@@ -128,28 +128,40 @@
 				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.26)</tspan>
 			</text>
 		
-			<circle cx="349" cy="363" r="25" fill="rgb(255, 255, 255)" opacity="1" />
+			<circle cx="349" cy="363" r="25" fill="rgb(0, 0, 0)" opacity="0.12" />
 			<text x="390" y="338" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">textDisabled</tspan>
+				<tspan x="390" dy="1.2em">rgb(0, 0, 0) opacity(0.12)</tspan>
+			</text>
+		
+			<circle cx="349" cy="429" r="25" fill="rgb(255, 255, 255)" opacity="1" />
+			<text x="390" y="404" font-size="12" >
 				<tspan x="390" dy="1.2em" font-weight="bold">textPrimaryInverted</tspan>
 				<tspan x="390" dy="1.2em">rgb(255, 255, 255) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="349" cy="429" r="25" fill="rgb(255, 255, 255)" opacity="0.7" />
-			<text x="390" y="404" font-size="12" >
+			<circle cx="349" cy="495" r="25" fill="rgb(255, 255, 255)" opacity="0.7" />
+			<text x="390" y="470" font-size="12" >
 				<tspan x="390" dy="1.2em" font-weight="bold">textSecondaryInverted</tspan>
 				<tspan x="390" dy="1.2em">rgb(255, 255, 255) opacity(0.7)</tspan>
 			</text>
 		
-			<circle cx="349" cy="495" r="25" fill="rgb(255, 255, 255)" opacity="0.3" />
-			<text x="390" y="470" font-size="12" >
+			<circle cx="349" cy="561" r="25" fill="rgb(255, 255, 255)" opacity="0.3" />
+			<text x="390" y="536" font-size="12" >
 				<tspan x="390" dy="1.2em" font-weight="bold">textTertiaryInverted</tspan>
 				<tspan x="390" dy="1.2em">rgb(255, 255, 255) opacity(0.3)</tspan>
 			</text>
 		
-			<circle cx="349" cy="561" r="25" fill="rgb(255, 255, 255)" opacity="0.3" />
-			<text x="390" y="536" font-size="12" >
+			<circle cx="349" cy="627" r="25" fill="rgb(255, 255, 255)" opacity="0.3" />
+			<text x="390" y="602" font-size="12" >
 				<tspan x="390" dy="1.2em" font-weight="bold">textHintInverted</tspan>
 				<tspan x="390" dy="1.2em">rgb(255, 255, 255) opacity(0.3)</tspan>
+			</text>
+		
+			<circle cx="349" cy="693" r="25" fill="rgb(255, 255, 255)" opacity="0.12" />
+			<text x="390" y="668" font-size="12" >
+				<tspan x="390" dy="1.2em" font-weight="bold">textDisabledInverted</tspan>
+				<tspan x="390" dy="1.2em">rgb(255, 255, 255) opacity(0.12)</tspan>
 			</text>
 		
 		

@@ -18,6 +18,8 @@ $C_textTertiary: rgba(0,0,0,0.26);
 @mixin color_textTertiary($style: 'color') { #{$style}: lighten( rgb(0,0,0), 74%); #{$style}: $C_textTertiary; }
 $C_textHint: rgba(0,0,0,0.26);
 @mixin color_textHint($style: 'color') { #{$style}: lighten( rgb(0,0,0), 74%); #{$style}: $C_textHint; }
+$C_textDisabled: rgba(0,0,0,0.12);
+@mixin color_textDisabled($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_textDisabled; }
 $C_textPrimaryInverted: rgb(255,255,255);
 $C_textSecondaryInverted: rgba(255,255,255,0.7);
 @mixin color_textSecondaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 30%); #{$style}: $C_textSecondaryInverted; }
@@ -25,6 +27,8 @@ $C_textTertiaryInverted: rgba(255,255,255,0.3);
 @mixin color_textTertiaryInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 70%); #{$style}: $C_textTertiaryInverted; }
 $C_textHintInverted: rgba(255,255,255,0.3);
 @mixin color_textHintInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 70%); #{$style}: $C_textHintInverted; }
+$C_textDisabledInverted: rgba(255,255,255,0.12);
+@mixin color_textDisabledInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 88%); #{$style}: $C_textDisabledInverted; }
  
 // UI Colors ()
 $C_accent: rgb(237,28,64);

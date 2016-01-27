@@ -67,6 +67,10 @@
     return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.26f];
 }
 
++ (UIColor *)textDisabledColor {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.12f];
+}
+
 + (UIColor *)textPrimaryInvertedColor {
     return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f];
 }
@@ -81,6 +85,10 @@
 
 + (UIColor *)textHintInvertedColor {
     return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.3f];
+}
+
++ (UIColor *)textDisabledInvertedColor {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.12f];
 }
 
 
