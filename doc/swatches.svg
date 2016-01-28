@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="948" height="990" viewBox="0 0 948 990" xml:space="preserve" >
+	 width="948" height="1056" viewBox="0 0 948 1056" xml:space="preserve" >
 	 
 	 <defs>
 		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -177,7 +177,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="924" />		
+			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="990" />		
 		
 		
 		
@@ -263,6 +263,12 @@
 			<text x="706" y="932" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">dimmingOverlay</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.4)</tspan>
+			</text>
+		
+			<circle cx="665" cy="1023" r="25" fill="rgb(45, 25, 139)" opacity="1" />
+			<text x="706" y="998" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">statusBar</tspan>
+				<tspan x="706" dy="1.2em">rgb(45, 25, 139) opacity(1)</tspan>
 			</text>
 		
 		

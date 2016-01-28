@@ -41,6 +41,7 @@
   <color name="foundation_selection">#0d000000</color>
   <color name="foundation_drop_shadow_opaque">@color/foundation_medium_gray</color>
   <color name="foundation_dimming_overlay">#66000000</color>
+  <color name="foundation_status_bar">#ff2d198b</color>
 
   <!-- Background colors -->
   <color name="foundation_content_bg">@color/foundation_white</color>

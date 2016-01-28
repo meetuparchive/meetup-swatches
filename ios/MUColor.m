@@ -151,6 +151,10 @@
     return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.4f];
 }
 
++ (UIColor *)statusBarColor {
+    return [UIColor colorWithRed:0.176f green:0.098f blue:0.545f alpha:1.0f];
+}
+
 
 
 #pragma mark - Background colors

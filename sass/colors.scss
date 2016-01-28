@@ -53,6 +53,7 @@ $C_selection: rgba(0,0,0,0.05);
 $C_dropShadowOpaque: rgb(117,117,117);
 $C_dimmingOverlay: rgba(0,0,0,0.4);
 @mixin color_dimmingOverlay($style: 'color') { #{$style}: lighten( rgb(0,0,0), 60%); #{$style}: $C_dimmingOverlay; }
+$C_statusBar: rgb(45,25,139);
  
 // Background colors ()
 $C_contentBG: rgb(255,255,255);

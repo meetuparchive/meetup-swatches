@@ -52,6 +52,7 @@
 + (UIColor *)selectionColor;
 + (UIColor *)dropShadowOpaqueColor;
 + (UIColor *)dimmingOverlayColor;
++ (UIColor *)statusBarColor;
 
 
 #pragma mark - Background colors

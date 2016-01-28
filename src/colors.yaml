@@ -44,6 +44,7 @@ ui:
       selection: [0,0,0,0.05]
       dropShadowOpaque: *mediumGray
       dimmingOverlay: [0,0,0,0.4]
+      statusBar: [45,25,139,1]
 background:
    name: "Background colors"
    comment: ""
