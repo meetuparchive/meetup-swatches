@@ -107,6 +107,10 @@
     return [UIColor colorWithRed:0.216f green:0.118f blue:0.675f alpha:1.0f];
 }
 
++ (UIColor *)statusBarColor {
+    return [UIColor colorWithRed:0.176f green:0.098f blue:0.545f alpha:1.0f];
+}
+
 + (UIColor *)borderColor {
     return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.12f];
 }
@@ -149,10 +153,6 @@
 
 + (UIColor *)dimmingOverlayColor {
     return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.4f];
-}
-
-+ (UIColor *)statusBarColor {
-    return [UIColor colorWithRed:0.176f green:0.098f blue:0.545f alpha:1.0f];
 }
 
 

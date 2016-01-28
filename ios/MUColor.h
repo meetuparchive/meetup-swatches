@@ -41,6 +41,7 @@
 + (UIColor *)accentColor;
 + (UIColor *)linkColor;
 + (UIColor *)buttonColor;
++ (UIColor *)statusBarColor;
 + (UIColor *)borderColor;
 + (UIColor *)borderDarkColor;
 + (UIColor *)borderInvertedColor;
@@ -52,7 +53,6 @@
 + (UIColor *)selectionColor;
 + (UIColor *)dropShadowOpaqueColor;
 + (UIColor *)dimmingOverlayColor;
-+ (UIColor *)statusBarColor;
 
 
 #pragma mark - Background colors

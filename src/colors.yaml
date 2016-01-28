@@ -33,6 +33,7 @@ ui:
       accent: *red
       link: *lightPurple
       button: *purple
+      statusBar: [45,25,139,1]
       border: &border [0,0,0,0.12]
       borderDark: [0,0,0,0.54]
       borderInverted: [255,255,255,0.2]
@@ -44,7 +45,6 @@ ui:
       selection: [0,0,0,0.05]
       dropShadowOpaque: *mediumGray
       dimmingOverlay: [0,0,0,0.4]
-      statusBar: [45,25,139,1]
 background:
    name: "Background colors"
    comment: ""

@@ -34,6 +34,7 @@ $C_textDisabledInverted: rgba(255,255,255,0.12);
 $C_accent: rgb(237,28,64);
 $C_link: rgb(31,36,204);
 $C_button: rgb(55,30,172);
+$C_statusBar: rgb(45,25,139);
 $C_border: rgba(0,0,0,0.12);
 @mixin color_border($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_border; }
 $C_borderDark: rgba(0,0,0,0.54);
@@ -53,7 +54,6 @@ $C_selection: rgba(0,0,0,0.05);
 $C_dropShadowOpaque: rgb(117,117,117);
 $C_dimmingOverlay: rgba(0,0,0,0.4);
 @mixin color_dimmingOverlay($style: 'color') { #{$style}: lighten( rgb(0,0,0), 60%); #{$style}: $C_dimmingOverlay; }
-$C_statusBar: rgb(45,25,139);
  
 // Background colors ()
 $C_contentBG: rgb(255,255,255);

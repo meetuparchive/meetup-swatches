@@ -199,76 +199,76 @@
 				<tspan x="706" dy="1.2em">rgb(55, 30, 172) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="297" r="25" fill="rgb(0, 0, 0)" opacity="0.12" />
+			<circle cx="665" cy="297" r="25" fill="rgb(45, 25, 139)" opacity="1" />
 			<text x="706" y="272" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">statusBar</tspan>
+				<tspan x="706" dy="1.2em">rgb(45, 25, 139) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="665" cy="363" r="25" fill="rgb(0, 0, 0)" opacity="0.12" />
+			<text x="706" y="338" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">border</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.12)</tspan>
 			</text>
 		
-			<circle cx="665" cy="363" r="25" fill="rgb(0, 0, 0)" opacity="0.54" />
-			<text x="706" y="338" font-size="12" >
+			<circle cx="665" cy="429" r="25" fill="rgb(0, 0, 0)" opacity="0.54" />
+			<text x="706" y="404" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">borderDark</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.54)</tspan>
 			</text>
 		
-			<circle cx="665" cy="429" r="25" fill="rgb(255, 255, 255)" opacity="0.2" />
-			<text x="706" y="404" font-size="12" >
+			<circle cx="665" cy="495" r="25" fill="rgb(255, 255, 255)" opacity="0.2" />
+			<text x="706" y="470" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">borderInverted</tspan>
 				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.2)</tspan>
 			</text>
 		
-			<circle cx="665" cy="495" r="25" fill="rgb(255, 255, 255)" opacity="0.7" />
-			<text x="706" y="470" font-size="12" >
+			<circle cx="665" cy="561" r="25" fill="rgb(255, 255, 255)" opacity="0.7" />
+			<text x="706" y="536" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">borderDarkInverted</tspan>
 				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.7)</tspan>
 			</text>
 		
-			<circle cx="665" cy="561" r="25" fill="rgb(0, 0, 0)" opacity="0.26" />
-			<text x="706" y="536" font-size="12" >
+			<circle cx="665" cy="627" r="25" fill="rgb(0, 0, 0)" opacity="0.26" />
+			<text x="706" y="602" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">separator</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.26)</tspan>
 			</text>
 		
-			<circle cx="665" cy="627" r="25" fill="rgb(33, 232, 178)" opacity="1" />
-			<text x="706" y="602" font-size="12" >
+			<circle cx="665" cy="693" r="25" fill="rgb(33, 232, 178)" opacity="1" />
+			<text x="706" y="668" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">success</tspan>
 				<tspan x="706" dy="1.2em">rgb(33, 232, 178) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="693" r="25" fill="rgb(255, 145, 26)" opacity="1" />
-			<text x="706" y="668" font-size="12" >
+			<circle cx="665" cy="759" r="25" fill="rgb(255, 145, 26)" opacity="1" />
+			<text x="706" y="734" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">attention</tspan>
 				<tspan x="706" dy="1.2em">rgb(255, 145, 26) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="759" r="25" fill="rgb(0, 0, 255)" opacity="0.05" />
-			<text x="706" y="734" font-size="12" >
+			<circle cx="665" cy="825" r="25" fill="rgb(0, 0, 255)" opacity="0.05" />
+			<text x="706" y="800" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">highlight</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 255) opacity(0.05)</tspan>
 			</text>
 		
-			<circle cx="665" cy="825" r="25" fill="rgb(0, 0, 0)" opacity="0.05" />
-			<text x="706" y="800" font-size="12" >
+			<circle cx="665" cy="891" r="25" fill="rgb(0, 0, 0)" opacity="0.05" />
+			<text x="706" y="866" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">selection</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.05)</tspan>
 			</text>
 		
-			<circle cx="665" cy="891" r="25" fill="rgb(117, 117, 117)" opacity="1" />
-			<text x="706" y="866" font-size="12" >
+			<circle cx="665" cy="957" r="25" fill="rgb(117, 117, 117)" opacity="1" />
+			<text x="706" y="932" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">dropShadowOpaque</tspan>
 				<tspan x="706" dy="1.2em">rgb(117, 117, 117) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="957" r="25" fill="rgb(0, 0, 0)" opacity="0.4" />
-			<text x="706" y="932" font-size="12" >
+			<circle cx="665" cy="1023" r="25" fill="rgb(0, 0, 0)" opacity="0.4" />
+			<text x="706" y="998" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">dimmingOverlay</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.4)</tspan>
-			</text>
-		
-			<circle cx="665" cy="1023" r="25" fill="rgb(45, 25, 139)" opacity="1" />
-			<text x="706" y="998" font-size="12" >
-				<tspan x="706" dy="1.2em" font-weight="bold">statusBar</tspan>
-				<tspan x="706" dy="1.2em">rgb(45, 25, 139) opacity(1)</tspan>
 			</text>
 		
 		
