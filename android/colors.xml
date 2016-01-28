@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: January 27, 2016 -->
+<!-- Last update: January 28, 2016 -->
 <resources>
 
   <!-- Base color palette -->
   <color name="foundation_white">#ffffffff</color>
   <color name="foundation_dark_gray">#ff353e48</color>
   <color name="foundation_medium_gray">#ff757575</color>
-  <color name="foundation_light_gray">#ffeeeeea</color>
+  <color name="foundation_light_gray">#fffafafa</color>
   <color name="foundation_red">#ffed1c40</color>
   <color name="foundation_purple">#ff371eac</color>
   <color name="foundation_light_purple">#ff1f24cc</color>

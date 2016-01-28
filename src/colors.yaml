@@ -6,7 +6,7 @@ base:
       white: &white [255,255,255,1]
       darkGray: &darkGray [53,62,72,1]
       mediumGray: &mediumGray [117,117,117,1]
-      lightGray: &lightGray [238,238,234,1]
+      lightGray: &lightGray [250,250,250,1]
       red: &red [237,28,64,1]
       purple: &purple [55,30,172,1]
       lightPurple: &lightPurple [31,36,204,1]
