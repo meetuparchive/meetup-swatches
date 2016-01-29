@@ -29,7 +29,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="0" y="66" width="66" height="594" />		
+			<rect fill="url(#light_grid)" x="0" y="66" width="66" height="660" />		
 		
 		
 		
@@ -85,6 +85,12 @@
 			<text x="74" y="602" font-size="12" >
 				<tspan x="74" dy="1.2em" font-weight="bold">teal</tspan>
 				<tspan x="74" dy="1.2em">rgb(33, 232, 178) opacity(1)</tspan>
+			</text>
+		
+			<circle cx="33" cy="693" r="25" fill="rgb(15, 23, 33)" opacity="1" />
+			<text x="74" y="668" font-size="12" >
+				<tspan x="74" dy="1.2em" font-weight="bold">black</tspan>
+				<tspan x="74" dy="1.2em">rgb(15, 23, 33) opacity(1)</tspan>
 			</text>
 		
 		
@@ -294,10 +300,10 @@
 				<tspan x="1022" dy="1.2em">rgb(255, 255, 255) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="981" cy="165" r="25" fill="rgb(53, 62, 72)" opacity="1" />
+			<circle cx="981" cy="165" r="25" fill="rgb(15, 23, 33)" opacity="1" />
 			<text x="1022" y="140" font-size="12" >
 				<tspan x="1022" dy="1.2em" font-weight="bold">contentBGInverted</tspan>
-				<tspan x="1022" dy="1.2em">rgb(53, 62, 72) opacity(1)</tspan>
+				<tspan x="1022" dy="1.2em">rgb(15, 23, 33) opacity(1)</tspan>
 			</text>
 		
 			<circle cx="981" cy="231" r="25" fill="rgb(250, 250, 250)" opacity="1" />

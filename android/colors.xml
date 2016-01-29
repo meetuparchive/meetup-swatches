@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: January 28, 2016 -->
+<!-- Last update: January 29, 2016 -->
 <resources>
 
   <!-- Base color palette -->
@@ -13,6 +13,7 @@
   <color name="foundation_light_purple">#ff1f24cc</color>
   <color name="foundation_yellow">#ffff911a</color>
   <color name="foundation_teal">#ff21e8b2</color>
+  <color name="foundation_black">#ff0f1721</color>
 
   <!-- Text colors -->
   <color name="foundation_text_primary">#de000000</color>
@@ -45,7 +46,7 @@
 
   <!-- Background colors -->
   <color name="foundation_content_bg">@color/foundation_white</color>
-  <color name="foundation_content_bg_inverted">@color/foundation_dark_gray</color>
+  <color name="foundation_content_bg_inverted">@color/foundation_black</color>
   <color name="foundation_collection_bg">@color/foundation_light_gray</color>
 
   <!-- EXTERNAL -->
