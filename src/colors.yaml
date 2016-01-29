@@ -12,6 +12,7 @@ base:
       lightPurple: &lightPurple [31,36,204,1]
       yellow: &yellow [255,145,26,1]
       teal: &teal [33,232,178,1]
+      black: &black [15,23,33,1]
 text:
    name: "Text colors"
    comment: ""
@@ -50,7 +51,7 @@ background:
    comment: ""
    colors:
       contentBG: *white
-      contentBGInverted: *darkGray
+      contentBGInverted: *black
       collectionBG: *lightGray
 social:
    name: "EXTERNAL"
