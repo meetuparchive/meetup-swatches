@@ -24,8 +24,11 @@ http://meetup.github.io/meetup-swatches/
 ```
 
 ### Updating live documentation
-To update the github page for this projcet, run:
+This is currently a manual process.
 
-```
-	$ rake push_docs
-```
+1. build docs in your branch by running `rake`
+2. `git checkout gh-pages`
+3. `git checkout master -- doc/index.html`
+4. `git add . && git commit -am "update gh-pages" && git push`
+
+**fun fact:** to make a branch-specific or release-specific build of docs live, just copy `doc/index.html` to `gh-pages` as `[someOtherFile.html]`
