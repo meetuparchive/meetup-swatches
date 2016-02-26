@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Meetup Swatches</title>
+
+	<style type="text/css">
+		body {
+			font-family: helvetica, arial, sans-serif;
+			font-size: 14px;
+			background-color: rgb(231, 231, 231);
+			padding: 16px;
+			color: #666;
+		}
+		h1 {
+			color: #222;
+			font-size: 32px;
+		}
+		h3 {
+			color: #444;
+			font-size: 20px;
+			margin: 32px 0 0 0;
+			display: block;
+			padding-top: 8px;
+			border-top: 1px solid #bbb;
+		}
+		.resetList {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		#swatches {
+			margin-left: -4px;
+		}
+		.swatch {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: 220px;
+			height: 288px;
+			background: #fff;
+			box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.33);
+			box-sizing: border-box;
+			border-bottom: 3px solid rgb(237,28,64);
+			margin: 12px 2px;
+		}
+		.swatch-checker {
+			width: 100%;
+			height: 200px;
+		}
+		.swatch-color {
+			width: 100%;
+			height: 100%;
+		}
+		.swatch-description {
+			padding: 8px;
+		}
+		.swatch-name {
+			color: #000;
+			font-weight: bold;
+			word-break: break-word;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			hyphens: auto;
+		}
+		.swatch-rgba,
+		.swatch-alpha {
+			font-size: 11px;
+			position: absolute;
+			bottom: 8px;
+		}
+		.swatch-rgba {
+			left: 8px;
+		}
+		.swatch-alpha {
+			right: 8px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Meetup Swatches</h1>
+	<p>
+		When using the <strong>Sass</strong> distribution, prepend <code>$C_</code> to color names. For example, "blue" becomes <code>$C_blue</code>. 
+		For text colors in Sass, you should consider using mixins, like <code>@include color_textSecondary()</code>. See <a target="_blank" href="https://github.com/meetup/meetup-swatches/blob/master/sass/colors.scss">Sass output</a> for more details.
+	</p>
+
+	
+
+		<h3>Base color palette ()</h3>
+		<ul id="swatches" class="resetList">
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">white</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(53, 62, 72, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">darkGray</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 53</li>
+							<li>G: 62</li>
+							<li>B: 72</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(117, 117, 117, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">mediumGray</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 117</li>
+							<li>G: 117</li>
+							<li>B: 117</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(250, 250, 250, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">lightGray</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 250</li>
+							<li>G: 250</li>
+							<li>B: 250</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(237, 28, 64, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">red</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 237</li>
+							<li>G: 28</li>
+							<li>B: 64</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(55, 30, 172, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">purple</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 55</li>
+							<li>G: 30</li>
+							<li>B: 172</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(31, 36, 204, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">lightPurple</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 31</li>
+							<li>G: 36</li>
+							<li>B: 204</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 145, 26, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">yellow</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 145</li>
+							<li>B: 26</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(33, 232, 178, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">teal</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 33</li>
+							<li>G: 232</li>
+							<li>B: 178</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(15, 23, 33, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">black</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 15</li>
+							<li>G: 23</li>
+							<li>B: 33</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+		</ul>
+	
+
+		<h3>Text colors ()</h3>
+		<ul id="swatches" class="resetList">
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.87);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textPrimary</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.87</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.54);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textSecondary</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.54</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.26);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textTertiary</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.26</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.26);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textHint</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.26</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.12);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textDisabled</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.12</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textPrimaryInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.7);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textSecondaryInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.7</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.3);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textTertiaryInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.3</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.3);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textHintInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.3</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.12);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">textDisabledInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.12</div>
+					</div>
+				</li>
+			
+		</ul>
+	
+
+		<h3>UI Colors ()</h3>
+		<ul id="swatches" class="resetList">
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(237, 28, 64, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">accent</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 237</li>
+							<li>G: 28</li>
+							<li>B: 64</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(31, 36, 204, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">link</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 31</li>
+							<li>G: 36</li>
+							<li>B: 204</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(55, 30, 172, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">button</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 55</li>
+							<li>G: 30</li>
+							<li>B: 172</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(45, 25, 139, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">statusBar</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 45</li>
+							<li>G: 25</li>
+							<li>B: 139</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.12);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">border</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.12</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.54);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">borderDark</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.54</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.2);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">borderInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.2</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 0.7);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">borderDarkInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.7</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.26);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">separator</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.26</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(33, 232, 178, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">success</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 33</li>
+							<li>G: 232</li>
+							<li>B: 178</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 145, 26, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">attention</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 145</li>
+							<li>B: 26</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 255, 0.05);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">highlight</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.05</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.05);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">selection</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.05</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(117, 117, 117, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">dropShadowOpaque</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 117</li>
+							<li>G: 117</li>
+							<li>B: 117</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 0, 0, 0.4);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">dimmingOverlay</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 0</li>
+							<li>B: 0</li>
+						</ul>
+						<div class="swatch-alpha">A: 0.4</div>
+					</div>
+				</li>
+			
+		</ul>
+	
+
+		<h3>Background colors ()</h3>
+		<ul id="swatches" class="resetList">
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(255, 255, 255, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">contentBG</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 255</li>
+							<li>G: 255</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(15, 23, 33, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">contentBGInverted</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 15</li>
+							<li>G: 23</li>
+							<li>B: 33</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(250, 250, 250, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">collectionBG</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 250</li>
+							<li>G: 250</li>
+							<li>B: 250</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+		</ul>
+	
+
+		<h3>EXTERNAL (third party colors)</h3>
+		<ul id="swatches" class="resetList">
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(59, 89, 152, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">facebook</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 59</li>
+							<li>G: 89</li>
+							<li>B: 152</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(51, 204, 255, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">twitter</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 51</li>
+							<li>G: 204</li>
+							<li>B: 255</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(72, 117, 180, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">linkedin</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 72</li>
+							<li>G: 117</li>
+							<li>B: 180</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(43, 73, 100, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">tumblr</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 43</li>
+							<li>G: 73</li>
+							<li>B: 100</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(254, 8, 131, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">flickr</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 254</li>
+							<li>G: 8</li>
+							<li>B: 131</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(12, 186, 223, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">foursquare</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 12</li>
+							<li>G: 186</li>
+							<li>B: 223</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(198, 61, 45, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">googleplus</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 198</li>
+							<li>G: 61</li>
+							<li>B: 45</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(78, 67, 60, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">instagram</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 78</li>
+							<li>G: 67</li>
+							<li>B: 60</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(206, 227, 248, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">reddit</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 206</li>
+							<li>G: 227</li>
+							<li>B: 248</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(72, 145, 220, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">wepay</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 72</li>
+							<li>G: 145</li>
+							<li>B: 220</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(123, 0, 153, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">yahoo</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 123</li>
+							<li>G: 0</li>
+							<li>B: 153</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+				<li class="swatch">
+					<div class="swatch-checker" style="background: url('./checker-bg.png');">
+						<div class="swatch-color" style="background: rgba(0, 114, 198, 1);"></div>
+					</div>
+					<div class="swatch-description">
+						<div class="swatch-name">outlook</div>
+						<ul class="resetList swatch-rgba">
+							<li>R: 0</li>
+							<li>G: 114</li>
+							<li>B: 198</li>
+						</ul>
+						<div class="swatch-alpha">A: 1</div>
+					</div>
+				</li>
+			
+		</ul>
+	
+
+</body>
+</html>
