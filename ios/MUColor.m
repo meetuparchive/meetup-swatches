@@ -104,7 +104,7 @@
 }
 
 + (UIColor *)linkColor {
-    return [UIColor colorWithRed:0.122f green:0.141f blue:0.8f alpha:1.0f];
+    return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
 }
 
 + (UIColor *)buttonColor {

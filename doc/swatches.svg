@@ -193,10 +193,10 @@
 				<tspan x="706" dy="1.2em">rgb(237, 28, 64) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="165" r="25" fill="rgb(31, 36, 204)" opacity="1" />
+			<circle cx="665" cy="165" r="25" fill="rgb(237, 28, 64)" opacity="1" />
 			<text x="706" y="140" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">link</tspan>
-				<tspan x="706" dy="1.2em">rgb(31, 36, 204) opacity(1)</tspan>
+				<tspan x="706" dy="1.2em">rgb(237, 28, 64) opacity(1)</tspan>
 			</text>
 		
 			<circle cx="665" cy="231" r="25" fill="rgb(55, 30, 172)" opacity="1" />

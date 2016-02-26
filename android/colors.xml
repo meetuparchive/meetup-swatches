@@ -29,7 +29,7 @@
 
   <!-- UI Colors -->
   <color name="foundation_accent">@color/foundation_red</color>
-  <color name="foundation_link">@color/foundation_light_purple</color>
+  <color name="foundation_link">@color/foundation_red</color>
   <color name="foundation_button">@color/foundation_purple</color>
   <color name="foundation_status_bar">#ff2d198b</color>
   <color name="foundation_border">#1f000000</color>
