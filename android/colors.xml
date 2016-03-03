@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: February 26, 2016 -->
+<!-- Last update: March 03, 2016 -->
 <resources>
 
   <!-- Base color palette -->
@@ -29,8 +29,8 @@
 
   <!-- UI Colors -->
   <color name="foundation_accent">@color/foundation_red</color>
-  <color name="foundation_link">@color/foundation_red</color>
-  <color name="foundation_button">@color/foundation_purple</color>
+  <color name="foundation_link">@color/foundation_light_purple</color>
+  <color name="foundation_button">@color/foundation_red</color>
   <color name="foundation_status_bar">#ff2d198b</color>
   <color name="foundation_border">#1f000000</color>
   <color name="foundation_border_dark">#8a000000</color>
