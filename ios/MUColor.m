@@ -35,12 +35,12 @@
     return [UIColor colorWithRed:0.216f green:0.118f blue:0.675f alpha:1.0f];
 }
 
-+ (UIColor *)lightPurpleColor {
-    return [UIColor colorWithRed:0.122f green:0.141f blue:0.8f alpha:1.0f];
++ (UIColor *)blueColor {
+    return [UIColor colorWithRed:0.302f green:0.82f blue:0.929f alpha:1.0f];
 }
 
-+ (UIColor *)lightPurpleInvertedColor {
-    return [UIColor colorWithRed:0.373f green:0.392f blue:1.0f alpha:1.0f];
++ (UIColor *)lightPurpleColor {
+    return [UIColor colorWithRed:0.122f green:0.141f blue:0.8f alpha:1.0f];
 }
 
 + (UIColor *)orangeColor {
@@ -112,7 +112,7 @@
 }
 
 + (UIColor *)linkInvertedColor {
-    return [UIColor colorWithRed:0.373f green:0.392f blue:1.0f alpha:1.0f];
+    return [UIColor colorWithRed:0.302f green:0.82f blue:0.929f alpha:1.0f];
 }
 
 + (UIColor *)buttonColor {

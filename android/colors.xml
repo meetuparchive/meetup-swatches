@@ -10,8 +10,8 @@
   <color name="foundation_light_gray">#fffafafa</color>
   <color name="foundation_red">#ffed1c40</color>
   <color name="foundation_purple">#ff371eac</color>
+  <color name="foundation_blue">#ff4dd1ed</color>
   <color name="foundation_light_purple">#ff1f24cc</color>
-  <color name="foundation_light_purple_inverted">#ff5f64ff</color>
   <color name="foundation_orange">#ffff911a</color>
   <color name="foundation_teal">#ff21e8b2</color>
   <color name="foundation_black">#ff0f1721</color>
@@ -31,7 +31,7 @@
   <!-- UI Colors -->
   <color name="foundation_accent">@color/foundation_red</color>
   <color name="foundation_link">@color/foundation_light_purple</color>
-  <color name="foundation_link_inverted">@color/foundation_light_purple_inverted</color>
+  <color name="foundation_link_inverted">@color/foundation_blue</color>
   <color name="foundation_button">@color/foundation_red</color>
   <color name="foundation_status_bar">#ff2d198b</color>
   <color name="foundation_border">#1f000000</color>
