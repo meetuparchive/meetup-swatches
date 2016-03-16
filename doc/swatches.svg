@@ -83,7 +83,7 @@
 		
 			<circle cx="33" cy="627" r="25" fill="rgb(255, 145, 26)" opacity="1" />
 			<text x="74" y="602" font-size="12" >
-				<tspan x="74" dy="1.2em" font-weight="bold">yellow</tspan>
+				<tspan x="74" dy="1.2em" font-weight="bold">orange</tspan>
 				<tspan x="74" dy="1.2em">rgb(255, 145, 26) opacity(1)</tspan>
 			</text>
 		

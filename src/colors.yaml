@@ -11,7 +11,7 @@ base:
       purple: &purple [55,30,172,1]
       lightPurple: &lightPurple [31,36,204,1]
       lightPurpleInverted: &lightPurpleInverted [95,100,255,1]
-      yellow: &yellow [255,145,26,1]
+      orange: &orange [255,145,26,1]
       teal: &teal [33,232,178,1]
       black: &black [15,23,33,1]
 text:
@@ -43,7 +43,7 @@ ui:
       borderDarkInverted: [255,255,255,0.7]
       separator: [0,0,0,0.26]
       success: *teal
-      attention: *yellow
+      attention: *orange
       highlight: [0,0,255,0.05]
       selection: [0,0,0,0.05]
       dropShadowOpaque: *mediumGray
