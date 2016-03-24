@@ -34,6 +34,7 @@ ui:
    colors:
       accent: *red
       link: *lightPurple
+      linkApps: *red
       linkInverted: *blue
       button: *red
       statusBar: [45,25,139,1]
