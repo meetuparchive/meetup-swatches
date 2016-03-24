@@ -34,7 +34,7 @@
   <color name="foundation_link_apps">@color/foundation_red</color>
   <color name="foundation_link_inverted">@color/foundation_blue</color>
   <color name="foundation_button">@color/foundation_red</color>
-  <color name="foundation_status_bar">#ff2d198b</color>
+  <color name="foundation_status_bar">#ffc70e33</color>
   <color name="foundation_border">#1f000000</color>
   <color name="foundation_border_dark">#8a000000</color>
   <color name="foundation_border_inverted">#33ffffff</color>

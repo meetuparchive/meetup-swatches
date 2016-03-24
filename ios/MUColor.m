@@ -124,7 +124,7 @@
 }
 
 + (UIColor *)statusBarColor {
-    return [UIColor colorWithRed:0.176f green:0.098f blue:0.545f alpha:1.0f];
+    return [UIColor colorWithRed:0.78f green:0.055f blue:0.2f alpha:1.0f];
 }
 
 + (UIColor *)borderColor {

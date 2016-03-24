@@ -38,7 +38,7 @@ $C_link: rgb(31,36,204);
 $C_linkApps: rgb(237,28,64);
 $C_linkInverted: rgb(77,209,237);
 $C_button: rgb(237,28,64);
-$C_statusBar: rgb(45,25,139);
+$C_statusBar: rgb(199,14,51);
 $C_border: rgba(0,0,0,0.12);
 @mixin color_border($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_border; }
 $C_borderDark: rgba(0,0,0,0.54);

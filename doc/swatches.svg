@@ -223,10 +223,10 @@
 				<tspan x="706" dy="1.2em">rgb(237, 28, 64) opacity(1)</tspan>
 			</text>
 		
-			<circle cx="665" cy="429" r="25" fill="rgb(45, 25, 139)" opacity="1" />
+			<circle cx="665" cy="429" r="25" fill="rgb(199, 14, 51)" opacity="1" />
 			<text x="706" y="404" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">statusBar</tspan>
-				<tspan x="706" dy="1.2em">rgb(45, 25, 139) opacity(1)</tspan>
+				<tspan x="706" dy="1.2em">rgb(199, 14, 51) opacity(1)</tspan>
 			</text>
 		
 			<circle cx="665" cy="495" r="25" fill="rgb(0, 0, 0)" opacity="0.12" />
