@@ -34,9 +34,10 @@ ui:
    colors:
       accent: *red
       link: *lightPurple
+      linkApps: *red
       linkInverted: *blue
       button: *red
-      statusBar: [45,25,139,1]
+      statusBar: [199,14,51,1]
       border: &border [0,0,0,0.12]
       borderDark: [0,0,0,0.54]
       borderInverted: [255,255,255,0.2]
