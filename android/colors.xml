@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: March 24, 2016 -->
+<!-- Last update: March 31, 2016 -->
 <resources>
 
   <!-- Base color palette -->
@@ -13,7 +13,7 @@
   <color name="foundation_blue">#ff4dd1ed</color>
   <color name="foundation_light_purple">#ff1f24cc</color>
   <color name="foundation_orange">#ffff911a</color>
-  <color name="foundation_teal">#ff21e8b2</color>
+  <color name="foundation_teal">#ff0fd9a3</color>
   <color name="foundation_black">#ff0f1721</color>
 
   <!-- Text colors -->

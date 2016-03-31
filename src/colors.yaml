@@ -12,7 +12,7 @@ base:
       blue: &blue [77,209,237,1]
       lightPurple: &lightPurple [31,36,204,1]
       orange: &orange [255,145,26,1]
-      teal: &teal [33,232,178,1]
+      teal: &teal [15,217,163,1]
       black: &black [15,23,33,1]
 text:
    name: "Text colors"
