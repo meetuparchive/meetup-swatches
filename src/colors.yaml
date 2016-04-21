@@ -8,6 +8,7 @@ base:
       mediumGray: &mediumGray [117,117,117,1]
       lightGray: &lightGray [250,250,250,1]
       red: &red [237,28,64,1]
+      darkRed: &darkRed [199,14,51,1]
       purple: &purple [55,30,172,1]
       blue: &blue [77,209,237,1]
       lightPurple: &lightPurple [31,36,204,1]
@@ -37,7 +38,7 @@ ui:
       linkApps: *red
       linkInverted: *blue
       button: *red
-      statusBar: [199,14,51,1]
+      statusBar: *darkRed
       border: &border [0,0,0,0.12]
       borderDark: [0,0,0,0.54]
       borderInverted: [255,255,255,0.2]

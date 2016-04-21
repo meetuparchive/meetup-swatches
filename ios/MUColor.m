@@ -31,6 +31,10 @@
     return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
 }
 
++ (UIColor *)darkRedColor {
+    return [UIColor colorWithRed:0.78f green:0.055f blue:0.2f alpha:1.0f];
+}
+
 + (UIColor *)purpleColor {
     return [UIColor colorWithRed:0.216f green:0.118f blue:0.675f alpha:1.0f];
 }

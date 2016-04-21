@@ -16,6 +16,7 @@
 + (UIColor *)mediumGrayColor;
 + (UIColor *)lightGrayColor;
 + (UIColor *)redColor;
++ (UIColor *)darkRedColor;
 + (UIColor *)purpleColor;
 + (UIColor *)blueColor;
 + (UIColor *)lightPurpleColor;
