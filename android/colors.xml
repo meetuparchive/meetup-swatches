@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: January 19, 2016 -->
+<!-- Last update: April 21, 2016 -->
 <resources>
 
   <!-- Base color palette -->
   <color name="foundation_white">#ffffffff</color>
   <color name="foundation_dark_gray">#ff353e48</color>
-  <color name="foundation_medium_gray">#ffe6e9ec</color>
-  <color name="foundation_light_gray">#fff3f6f9</color>
-  <color name="foundation_red">#ffe2373c</color>
-  <color name="foundation_green">#ff62ac75</color>
-  <color name="foundation_blue">#ff3987cb</color>
-  <color name="foundation_light_blue">#ff68a5d9</color>
-  <color name="foundation_purple">#ff7160aa</color>
-  <color name="foundation_brown">#ff713f19</color>
-  <color name="foundation_yellow">#fff0cb4f</color>
+  <color name="foundation_medium_gray">#ff757575</color>
+  <color name="foundation_light_gray">#fffafafa</color>
+  <color name="foundation_red">#ffed1c40</color>
+  <color name="foundation_dark_red">#ffc70e33</color>
+  <color name="foundation_purple">#ff371eac</color>
+  <color name="foundation_blue">#ff4dd1ed</color>
+  <color name="foundation_light_purple">#ff1f24cc</color>
+  <color name="foundation_orange">#ffff911a</color>
+  <color name="foundation_teal">#ff0fd9a3</color>
+  <color name="foundation_black">#ff0f1721</color>
 
   <!-- Text colors -->
   <color name="foundation_text_primary">#de000000</color>
   <color name="foundation_text_secondary">#8a000000</color>
   <color name="foundation_text_tertiary">#42000000</color>
+  <color name="foundation_text_hint">@color/foundation_text_tertiary</color>
+  <color name="foundation_text_disabled">#1f000000</color>
   <color name="foundation_text_primary_inverted">#ffffffff</color>
   <color name="foundation_text_secondary_inverted">#b3ffffff</color>
   <color name="foundation_text_tertiary_inverted">#4dffffff</color>
+  <color name="foundation_text_hint_inverted">@color/foundation_text_tertiary_inverted</color>
+  <color name="foundation_text_disabled_inverted">#1fffffff</color>
 
   <!-- UI Colors -->
   <color name="foundation_accent">@color/foundation_red</color>
-  <color name="foundation_link">@color/foundation_blue</color>
+  <color name="foundation_link">@color/foundation_light_purple</color>
+  <color name="foundation_link_apps">@color/foundation_red</color>
+  <color name="foundation_link_inverted">@color/foundation_blue</color>
+  <color name="foundation_button">@color/foundation_red</color>
+  <color name="foundation_status_bar">@color/foundation_dark_red</color>
   <color name="foundation_border">#1f000000</color>
+  <color name="foundation_border_dark">#8a000000</color>
   <color name="foundation_border_inverted">#33ffffff</color>
-  <color name="foundation_overlay_pressed">#1a000000</color>
-  <color name="foundation_modal_shade">#bf000000</color>
-  <color name="foundation_shade">#0d000000</color>
-  <color name="foundation_shade_inverted">#1affffff</color>
-  <color name="foundation_text_protection">@color/foundation_shade</color>
+  <color name="foundation_border_dark_inverted">#b3ffffff</color>
+  <color name="foundation_separator">#42000000</color>
+  <color name="foundation_success">@color/foundation_teal</color>
+  <color name="foundation_attention">@color/foundation_orange</color>
+  <color name="foundation_highlight">#0d0000ff</color>
+  <color name="foundation_selection">#0d000000</color>
+  <color name="foundation_drop_shadow_opaque">@color/foundation_medium_gray</color>
+  <color name="foundation_dimming_overlay">#66000000</color>
 
   <!-- Background colors -->
   <color name="foundation_content_bg">@color/foundation_white</color>
-  <color name="foundation_content_bg_inverted">#ff353e48</color>
-  <color name="foundation_collection_bg_dark">#ffe6e9ec</color>
-  <color name="foundation_collection_bg_light">#fff3f6f9</color>
+  <color name="foundation_content_bg_inverted">@color/foundation_black</color>
+  <color name="foundation_collection_bg">@color/foundation_light_gray</color>
 
   <!-- EXTERNAL -->
   <!-- third party colors -->
