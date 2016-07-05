@@ -50,7 +50,8 @@ File.open("../android/colors.xml", 'w+') do |file|
 	xml.instruct!
 	xml.comment! "Generated code: DO NOT EDIT"
 	xml.comment! "Last update: #{Time.now.strftime('%B %d, %Y')}"
-	xml.resources do
+	xml.resources "xmlns:tools" => "http://schemas.android.com/tools",
+	              "tools:ignore" => "UnusedResources" do
 		mapping.children.each_slice(2) do |ignore, color_type|
 			xml << "\n"
 			xml.comment! color_type.children[1].value

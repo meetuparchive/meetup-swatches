@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: June 02, 2016 -->
-<resources>
+<!-- Last update: July 05, 2016 -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
   <!-- Base color palette -->
   <color name="foundation_white">#ffffffff</color>
