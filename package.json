@@ -1,0 +1,19 @@
+{
+  "name": "meetup-swatches",
+  "version": "3.0.1",
+  "description": "cross-platform color management",
+  "main": "index.js",
+  "directories": {
+    "dist": "sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetup/meetup-swatches.git"
+  },
+  "author": "adamd@meetup.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meetup/meetup-swatches/issues"
+  },
+  "homepage": "http://meetup.github.io/meetup-swatches/"
+}
