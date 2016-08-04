@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: July 05, 2016 -->
+<!-- Last update: August 04, 2016 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
   <!-- Base color palette -->
@@ -10,11 +10,14 @@
   <color name="foundation_light_gray">#fffafafa</color>
   <color name="foundation_red">#ffed1c40</color>
   <color name="foundation_dark_red">#ffc70e33</color>
+  <color name="foundation_pink">#ffff65c4</color>
+  <color name="foundation_yellow">#ffffe600</color>
   <color name="foundation_purple">#ff371eac</color>
   <color name="foundation_blue">#ff4dd1ed</color>
   <color name="foundation_light_purple">#ff1f24cc</color>
   <color name="foundation_orange">#ffff911a</color>
   <color name="foundation_teal">#ff0fd9a3</color>
+  <color name="foundation_shamrock">#ff00f900</color>
   <color name="foundation_black">#ff0f1721</color>
 
   <!-- Text colors -->
