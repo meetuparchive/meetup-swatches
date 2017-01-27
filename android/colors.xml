@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: September 06, 2016 -->
+<!-- Last update: January 27, 2017 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
   <!-- Base color palette -->
@@ -66,6 +66,7 @@
   <color name="foundation_flickr">#fffe0883</color>
   <color name="foundation_foursquare">#ff0cbadf</color>
   <color name="foundation_googleplus">#ffc63d2d</color>
+  <color name="foundation_googleplusbutton">#ffffffff</color>
   <color name="foundation_instagram">#ff4e433c</color>
   <color name="foundation_reddit">#ffcee3f8</color>
   <color name="foundation_wepay">#ff4891dc</color>
