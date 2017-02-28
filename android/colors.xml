@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: January 27, 2017 -->
+<!-- Last update: February 28, 2017 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
   <!-- Base color palette -->
@@ -51,6 +51,8 @@
   <color name="foundation_selection">#0d000000</color>
   <color name="foundation_drop_shadow_opaque">@color/foundation_medium_gray</color>
   <color name="foundation_dimming_overlay">#66000000</color>
+  <color name="foundation_tappable">#e638380f</color>
+  <color name="foundation_tappable_inverted">#45fff6c4</color>
 
   <!-- Background colors -->
   <color name="foundation_content_bg">@color/foundation_white</color>

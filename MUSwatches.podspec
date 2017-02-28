@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MUSwatches"
-  s.version      = "0.6.2"
+  s.version      = "3.1.3"
   s.summary      = "Color swatches for Meetup"
   s.homepage     = "https://github.com/meetup/meetup-swatches"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }

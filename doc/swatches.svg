@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="948" height="1188" viewBox="0 0 948 1188" xml:space="preserve" >
+	 width="948" height="1320" viewBox="0 0 948 1320" xml:space="preserve" >
 	 
 	 <defs>
 		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -219,7 +219,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="1122" />		
+			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="1254" />		
 		
 		
 		
@@ -323,6 +323,18 @@
 			<text x="706" y="1130" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">dimmingOverlay</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.4)</tspan>
+			</text>
+		
+			<circle cx="665" cy="1221" r="25" fill="rgb(56, 56, 15)" opacity="0.9" />
+			<text x="706" y="1196" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">tappable</tspan>
+				<tspan x="706" dy="1.2em">rgb(56, 56, 15) opacity(0.9)</tspan>
+			</text>
+		
+			<circle cx="665" cy="1287" r="25" fill="rgb(255, 246, 196)" opacity="0.27" />
+			<text x="706" y="1262" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">tappableInverted</tspan>
+				<tspan x="706" dy="1.2em">rgb(255, 246, 196) opacity(0.27)</tspan>
 			</text>
 		
 		
