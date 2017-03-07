@@ -54,7 +54,7 @@ ui:
       selection: [0,0,0,0.05]
       dropShadowOpaque: *mediumGray
       dimmingOverlay: [0,0,0,0.4]
-      tappable: [56,56,15,0.9]
+      tappable: [56,56,15,0.09]
       tappableInverted: [255,246,196,0.27]
 background:
    name: "Background colors"

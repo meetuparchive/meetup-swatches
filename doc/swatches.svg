@@ -325,10 +325,10 @@
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.4)</tspan>
 			</text>
 		
-			<circle cx="665" cy="1221" r="25" fill="rgb(56, 56, 15)" opacity="0.9" />
+			<circle cx="665" cy="1221" r="25" fill="rgb(56, 56, 15)" opacity="0.09" />
 			<text x="706" y="1196" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">tappable</tspan>
-				<tspan x="706" dy="1.2em">rgb(56, 56, 15) opacity(0.9)</tspan>
+				<tspan x="706" dy="1.2em">rgb(56, 56, 15) opacity(0.09)</tspan>
 			</text>
 		
 			<circle cx="665" cy="1287" r="25" fill="rgb(255, 246, 196)" opacity="0.27" />

@@ -63,8 +63,8 @@ $C_selection: rgba(0,0,0,0.05);
 $C_dropShadowOpaque: rgb(117,117,117);
 $C_dimmingOverlay: rgba(0,0,0,0.4);
 @mixin color_dimmingOverlay($style: 'color') { #{$style}: lighten( rgb(0,0,0), 60%); #{$style}: $C_dimmingOverlay; }
-$C_tappable: rgba(56,56,15,0.9);
-@mixin color_tappable($style: 'color') { #{$style}: lighten( rgb(56,56,15), 10%); #{$style}: $C_tappable; }
+$C_tappable: rgba(56,56,15,0.09);
+@mixin color_tappable($style: 'color') { #{$style}: lighten( rgb(56,56,15), 91%); #{$style}: $C_tappable; }
 $C_tappableInverted: rgba(255,246,196,0.27);
 @mixin color_tappableInverted($style: 'color') { #{$style}: darken( rgb(255,246,196), 73%); #{$style}: $C_tappableInverted; }
  
