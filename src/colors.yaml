@@ -7,17 +7,20 @@ base:
       darkGray: &darkGray [53,62,72,1]
       mediumGray: &mediumGray [117,117,117,1]
       lightGray: &lightGray [250,250,250,1]
+      lightGrayTransp: &lightGray [0,0,0,.02]
       red: &red [241,58,89,1]
       darkRed: &darkRed [199,14,51,1]
-      pink: &pink [255,101,196,1]
-      yellow: &yellow [255,230,0,1]
-      purple: &purple [55,30,172,1]
+      pink: &pink [255,153,209,1]
+      yellow: &yellow [255,2290,51,1]
+      #blue should be renamed to lightBlue when we switch to swarm-constants
       blue: &blue [77,209,237,1]
+      purple: &purple [55,30,172,1]
+      #lightPurple is now more blue. should rename when we switch to `swarm-constants`
       lightPurple: &lightPurple [63,87,239,1]
       plum: &plum [112,0,176,1]
-      orange: &orange [234,104,0,1]
+      orange: &orange [233,104,0,1]
       teal: &teal [15,217,163,1]
-      shamrock: &shamrock [0,249,0,1]
+      shamrock: &shamrock [89,219,51,1]
       black: &black [15,23,33,1]
 text:
    name: "Text colors"
@@ -45,7 +48,7 @@ ui:
       statusBar: *darkRed
       border: &border [0,0,0,0.12]
       borderDark: [0,0,0,0.54]
-      borderInverted: [255,255,255,0.2]
+      borderInverted: &borderInverted [255,255,255,0.2]
       borderDarkInverted: [255,255,255,0.7]
       separator: [0,0,0,0.26]
       success: *teal
@@ -56,6 +59,10 @@ ui:
       dimmingOverlay: [0,0,0,0.4]
       tappable: [56,56,15,0.09]
       tappableInverted: [255,246,196,0.27]
+      fieldBG: [0,0,0,0.09]
+      fieldBGInverted: *borderInverted
+      fieldBGDisabled: [0,0,0,0.02]
+      fieldBGInvertedDisabled: [255,255,255,0.05]
 background:
    name: "Background colors"
    comment: ""
