@@ -1,19 +1,23 @@
 // Base color palette ()
 $C_white: rgb(255,255,255);
+$C_whiteTransp05: rgba(255,255,255,0.05);
+@mixin color_whiteTransp05($style: 'color') { #{$style}: lighten( rgb(255,255,255), 95%); #{$style}: $C_whiteTransp05; }
 $C_darkGray: rgb(53,62,72);
 $C_mediumGray: rgb(117,117,117);
 $C_lightGray: rgb(250,250,250);
 $C_lightGrayTransp: rgba(0,0,0,0.02);
 @mixin color_lightGrayTransp($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_lightGrayTransp; }
+$C_grayTransp09: rgba(0,0,0,0.09);
+@mixin color_grayTransp09($style: 'color') { #{$style}: lighten( rgb(0,0,0), 91%); #{$style}: $C_grayTransp09; }
 $C_red: rgb(241,58,89);
-$C_darkRed: rgb(199,14,51);
+$C_darkRed: rgb(211,45,74);
 $C_pink: rgb(255,153,209);
 $C_yellow: rgb(255,2290,51);
 $C_blue: rgb(77,209,237);
 $C_purple: rgb(55,30,172);
 $C_lightPurple: rgb(63,87,239);
 $C_plum: rgb(112,0,176);
-$C_orange: rgb(234,104,0);
+$C_orange: rgb(233,104,0);
 $C_teal: rgb(15,217,163);
 $C_shamrock: rgb(89,219,51);
 $C_black: rgb(15,23,33);
@@ -45,7 +49,7 @@ $C_link: rgb(63,87,239);
 $C_linkApps: rgb(241,58,89);
 $C_linkInverted: rgb(77,209,237);
 $C_button: rgb(241,58,89);
-$C_statusBar: rgb(199,14,51);
+$C_statusBar: rgb(211,45,74);
 $C_border: rgba(0,0,0,0.12);
 @mixin color_border($style: 'color') { #{$style}: lighten( rgb(0,0,0), 88%); #{$style}: $C_border; }
 $C_borderDark: rgba(0,0,0,0.54);
@@ -57,7 +61,7 @@ $C_borderDarkInverted: rgba(255,255,255,0.7);
 $C_separator: rgba(0,0,0,0.26);
 @mixin color_separator($style: 'color') { #{$style}: lighten( rgb(0,0,0), 74%); #{$style}: $C_separator; }
 $C_success: rgb(15,217,163);
-$C_attention: rgb(234,104,0);
+$C_attention: rgb(233,104,0);
 $C_highlight: rgba(0,0,255,0.05);
 @mixin color_highlight($style: 'color') { #{$style}: lighten( rgb(0,0,255), 95%); #{$style}: $C_highlight; }
 $C_selection: rgba(0,0,0,0.05);
@@ -69,20 +73,11 @@ $C_tappable: rgba(56,56,15,0.09);
 @mixin color_tappable($style: 'color') { #{$style}: lighten( rgb(56,56,15), 91%); #{$style}: $C_tappable; }
 $C_tappableInverted: rgba(255,246,196,0.27);
 @mixin color_tappableInverted($style: 'color') { #{$style}: darken( rgb(255,246,196), 73%); #{$style}: $C_tappableInverted; }
-$C_fieldBG: rgba(0,0,0,0.09);
-@mixin color_fieldBG($style: 'color') { #{$style}: lighten( rgb(0,0,0), 91%); #{$style}: $C_fieldBG; }
-$C_fieldBGInverted: rgba(255,255,255,0.2);
-@mixin color_fieldBGInverted($style: 'color') { #{$style}: darken( rgb(255,255,255), 80%); #{$style}: $C_fieldBGInverted; }
-$C_fieldBGDisabled: rgba(0,0,0,0.02);
-@mixin color_fieldBGDisabled($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_fieldBGDisabled; }
-$C_fieldBGInvertedDisabled: rgba(255,255,255,0.05);
-@mixin color_fieldBGInvertedDisabled($style: 'color') { #{$style}: darken( rgb(255,255,255), 95%); #{$style}: $C_fieldBGInvertedDisabled; }
  
 // Background colors ()
 $C_contentBG: rgb(255,255,255);
 $C_contentBGInverted: rgb(15,23,33);
-$C_collectionBG: rgba(0,0,0,0.02);
-@mixin color_collectionBG($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_collectionBG; }
+$C_collectionBG: rgb(250,250,250);
  
 // EXTERNAL (third party colors)
 $C_facebook: rgb(59,89,152);
