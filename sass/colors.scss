@@ -1,18 +1,14 @@
 // Base color palette ()
 $C_white: rgb(255,255,255);
-$C_whiteTransp05: rgba(255,255,255,0.05);
-@mixin color_whiteTransp05($style: 'color') { #{$style}: lighten( rgb(255,255,255), 95%); #{$style}: $C_whiteTransp05; }
 $C_darkGray: rgb(53,62,72);
 $C_mediumGray: rgb(117,117,117);
 $C_lightGray: rgb(250,250,250);
-$C_lightGrayTransp: rgba(0,0,0,0.02);
-@mixin color_lightGrayTransp($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_lightGrayTransp; }
-$C_grayTransp09: rgba(0,0,0,0.09);
-@mixin color_grayTransp09($style: 'color') { #{$style}: lighten( rgb(0,0,0), 91%); #{$style}: $C_grayTransp09; }
+$C_transparentLightGray: rgba(0,0,0,0.02);
+@mixin color_transparentLightGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_transparentLightGray; }
 $C_red: rgb(241,58,89);
 $C_darkRed: rgb(211,45,74);
 $C_pink: rgb(255,153,209);
-$C_yellow: rgb(255,2290,51);
+$C_yellow: rgb(255,229,51);
 $C_blue: rgb(77,209,237);
 $C_purple: rgb(55,30,172);
 $C_lightPurple: rgb(63,87,239);
@@ -73,6 +69,12 @@ $C_tappable: rgba(56,56,15,0.09);
 @mixin color_tappable($style: 'color') { #{$style}: lighten( rgb(56,56,15), 91%); #{$style}: $C_tappable; }
 $C_tappableInverted: rgba(255,246,196,0.27);
 @mixin color_tappableInverted($style: 'color') { #{$style}: darken( rgb(255,246,196), 73%); #{$style}: $C_tappableInverted; }
+$C_fieldGray: rgba(0,0,0,0.05);
+@mixin color_fieldGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 95%); #{$style}: $C_fieldGray; }
+$C_fieldGrayInvertedDisabled: rgba(255,255,255,0.05);
+@mixin color_fieldGrayInvertedDisabled($style: 'color') { #{$style}: darken( rgb(255,255,255), 95%); #{$style}: $C_fieldGrayInvertedDisabled; }
+$C_fieldGrayDisabled: rgba(0,0,0,0.02);
+@mixin color_fieldGrayDisabled($style: 'color') { #{$style}: lighten( rgb(0,0,0), 98%); #{$style}: $C_fieldGrayDisabled; }
  
 // Background colors ()
 $C_contentBG: rgb(255,255,255);

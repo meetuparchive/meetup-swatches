@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated code: DO NOT EDIT -->
-<!-- Last update: May 18, 2017 -->
+<!-- Last update: May 19, 2017 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
   <!-- Base color palette -->
   <color name="foundation_white">#ffffffff</color>
-  <color name="foundation_white_transp05">#0dffffff</color>
   <color name="foundation_dark_gray">#ff353e48</color>
   <color name="foundation_medium_gray">#ff757575</color>
   <color name="foundation_light_gray">#fffafafa</color>
-  <color name="foundation_light_gray_transp">#05000000</color>
-  <color name="foundation_gray_transp09">#17000000</color>
+  <color name="foundation_transparent_light_gray">#05000000</color>
   <color name="foundation_red">#fff13a59</color>
   <color name="foundation_dark_red">#ffd32d4a</color>
   <color name="foundation_pink">#ffff99d1</color>
-  <color name="foundation_yellow">#ffff8f233</color>
+  <color name="foundation_yellow">#ffffe533</color>
   <color name="foundation_blue">#ff4dd1ed</color>
   <color name="foundation_purple">#ff371eac</color>
   <color name="foundation_light_purple">#ff3f57ef</color>
@@ -56,6 +54,9 @@
   <color name="foundation_dimming_overlay">#66000000</color>
   <color name="foundation_tappable">#1738380f</color>
   <color name="foundation_tappable_inverted">#45fff6c4</color>
+  <color name="foundation_field_gray">#0d000000</color>
+  <color name="foundation_field_gray_inverted_disabled">#0dffffff</color>
+  <color name="foundation_field_gray_disabled">#05000000</color>
 
   <!-- Background colors -->
   <color name="foundation_content_bg">@color/foundation_white</color>
