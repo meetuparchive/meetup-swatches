@@ -27,32 +27,36 @@
     return [UIColor colorWithRed:0.98f green:0.98f blue:0.98f alpha:1.0f];
 }
 
++ (UIColor *)transparentLightGrayColor {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.02f];
+}
+
 + (UIColor *)redColor {
-    return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
+    return [UIColor colorWithRed:0.945f green:0.227f blue:0.349f alpha:1.0f];
 }
 
 + (UIColor *)darkRedColor {
-    return [UIColor colorWithRed:0.78f green:0.055f blue:0.2f alpha:1.0f];
+    return [UIColor colorWithRed:0.827f green:0.176f blue:0.29f alpha:1.0f];
 }
 
 + (UIColor *)pinkColor {
-    return [UIColor colorWithRed:1.0f green:0.396f blue:0.769f alpha:1.0f];
+    return [UIColor colorWithRed:1.0f green:0.6f blue:0.82f alpha:1.0f];
 }
 
 + (UIColor *)yellowColor {
-    return [UIColor colorWithRed:1.0f green:0.902f blue:0.0f alpha:1.0f];
-}
-
-+ (UIColor *)purpleColor {
-    return [UIColor colorWithRed:0.216f green:0.118f blue:0.675f alpha:1.0f];
+    return [UIColor colorWithRed:1.0f green:0.898f blue:0.2f alpha:1.0f];
 }
 
 + (UIColor *)blueColor {
     return [UIColor colorWithRed:0.302f green:0.82f blue:0.929f alpha:1.0f];
 }
 
++ (UIColor *)purpleColor {
+    return [UIColor colorWithRed:0.216f green:0.118f blue:0.675f alpha:1.0f];
+}
+
 + (UIColor *)lightPurpleColor {
-    return [UIColor colorWithRed:0.122f green:0.141f blue:0.8f alpha:1.0f];
+    return [UIColor colorWithRed:0.247f green:0.341f blue:0.937f alpha:1.0f];
 }
 
 + (UIColor *)plumColor {
@@ -60,7 +64,7 @@
 }
 
 + (UIColor *)orangeColor {
-    return [UIColor colorWithRed:1.0f green:0.569f blue:0.102f alpha:1.0f];
+    return [UIColor colorWithRed:0.914f green:0.408f blue:0.0f alpha:1.0f];
 }
 
 + (UIColor *)tealColor {
@@ -68,7 +72,7 @@
 }
 
 + (UIColor *)shamrockColor {
-    return [UIColor colorWithRed:0.0f green:0.976f blue:0.0f alpha:1.0f];
+    return [UIColor colorWithRed:0.349f green:0.859f blue:0.2f alpha:1.0f];
 }
 
 + (UIColor *)blackColor {
@@ -124,15 +128,15 @@
 #pragma mark - UI Colors
 
 + (UIColor *)accentColor {
-    return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
+    return [UIColor colorWithRed:0.945f green:0.227f blue:0.349f alpha:1.0f];
 }
 
 + (UIColor *)linkColor {
-    return [UIColor colorWithRed:0.122f green:0.141f blue:0.8f alpha:1.0f];
+    return [UIColor colorWithRed:0.247f green:0.341f blue:0.937f alpha:1.0f];
 }
 
 + (UIColor *)linkAppsColor {
-    return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
+    return [UIColor colorWithRed:0.945f green:0.227f blue:0.349f alpha:1.0f];
 }
 
 + (UIColor *)linkInvertedColor {
@@ -140,11 +144,11 @@
 }
 
 + (UIColor *)buttonColor {
-    return [UIColor colorWithRed:0.929f green:0.11f blue:0.251f alpha:1.0f];
+    return [UIColor colorWithRed:0.945f green:0.227f blue:0.349f alpha:1.0f];
 }
 
 + (UIColor *)statusBarColor {
-    return [UIColor colorWithRed:0.78f green:0.055f blue:0.2f alpha:1.0f];
+    return [UIColor colorWithRed:0.827f green:0.176f blue:0.29f alpha:1.0f];
 }
 
 + (UIColor *)borderColor {
@@ -172,7 +176,7 @@
 }
 
 + (UIColor *)attentionColor {
-    return [UIColor colorWithRed:1.0f green:0.569f blue:0.102f alpha:1.0f];
+    return [UIColor colorWithRed:0.914f green:0.408f blue:0.0f alpha:1.0f];
 }
 
 + (UIColor *)highlightColor {
@@ -197,6 +201,18 @@
 
 + (UIColor *)tappableInvertedColor {
     return [UIColor colorWithRed:1.0f green:0.965f blue:0.769f alpha:0.27f];
+}
+
++ (UIColor *)fieldGrayColor {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.05f];
+}
+
++ (UIColor *)fieldGrayInvertedDisabledColor {
+    return [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.05f];
+}
+
++ (UIColor *)fieldGrayDisabledColor {
+    return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.02f];
 }
 
 

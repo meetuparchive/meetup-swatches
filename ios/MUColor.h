@@ -15,12 +15,13 @@
 + (UIColor *)darkGrayColor;
 + (UIColor *)mediumGrayColor;
 + (UIColor *)lightGrayColor;
++ (UIColor *)transparentLightGrayColor;
 + (UIColor *)redColor;
 + (UIColor *)darkRedColor;
 + (UIColor *)pinkColor;
 + (UIColor *)yellowColor;
-+ (UIColor *)purpleColor;
 + (UIColor *)blueColor;
++ (UIColor *)purpleColor;
 + (UIColor *)lightPurpleColor;
 + (UIColor *)plumColor;
 + (UIColor *)orangeColor;
@@ -64,6 +65,9 @@
 + (UIColor *)dimmingOverlayColor;
 + (UIColor *)tappableColor;
 + (UIColor *)tappableInvertedColor;
++ (UIColor *)fieldGrayColor;
++ (UIColor *)fieldGrayInvertedDisabledColor;
++ (UIColor *)fieldGrayDisabledColor;
 
 
 #pragma mark - Background colors
