@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Meetup_Swatches" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="948" height="1518" viewBox="0 0 948 1518" xml:space="preserve" >
+	 width="948" height="1584" viewBox="0 0 948 1584" xml:space="preserve" >
 	 
 	 <defs>
 		 <pattern id="dark_grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -225,7 +225,7 @@
 		
 		
 		
-			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="1452" />		
+			<rect fill="url(#light_grid)" x="632" y="66" width="66" height="1518" />		
 		
 		
 		
@@ -343,20 +343,26 @@
 				<tspan x="706" dy="1.2em">rgb(255, 246, 196) opacity(0.27)</tspan>
 			</text>
 		
-			<circle cx="665" cy="1353" r="25" fill="rgb(0, 0, 0)" opacity="0.05" />
+			<circle cx="665" cy="1353" r="25" fill="rgb(0, 0, 0)" opacity="0.09" />
 			<text x="706" y="1328" font-size="12" >
+				<tspan x="706" dy="1.2em" font-weight="bold">buttonGray</tspan>
+				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.09)</tspan>
+			</text>
+		
+			<circle cx="665" cy="1419" r="25" fill="rgb(0, 0, 0)" opacity="0.05" />
+			<text x="706" y="1394" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">fieldGray</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.05)</tspan>
 			</text>
 		
-			<circle cx="665" cy="1419" r="25" fill="rgb(255, 255, 255)" opacity="0.05" />
-			<text x="706" y="1394" font-size="12" >
+			<circle cx="665" cy="1485" r="25" fill="rgb(255, 255, 255)" opacity="0.05" />
+			<text x="706" y="1460" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">fieldGrayInvertedDisabled</tspan>
 				<tspan x="706" dy="1.2em">rgb(255, 255, 255) opacity(0.05)</tspan>
 			</text>
 		
-			<circle cx="665" cy="1485" r="25" fill="rgb(0, 0, 0)" opacity="0.02" />
-			<text x="706" y="1460" font-size="12" >
+			<circle cx="665" cy="1551" r="25" fill="rgb(0, 0, 0)" opacity="0.02" />
+			<text x="706" y="1526" font-size="12" >
 				<tspan x="706" dy="1.2em" font-weight="bold">fieldGrayDisabled</tspan>
 				<tspan x="706" dy="1.2em">rgb(0, 0, 0) opacity(0.02)</tspan>
 			</text>
