@@ -69,6 +69,8 @@ $C_tappable: rgba(56,56,15,0.09);
 @mixin color_tappable($style: 'color') { #{$style}: lighten( rgb(56,56,15), 91%); #{$style}: $C_tappable; }
 $C_tappableInverted: rgba(255,246,196,0.27);
 @mixin color_tappableInverted($style: 'color') { #{$style}: darken( rgb(255,246,196), 73%); #{$style}: $C_tappableInverted; }
+$C_buttonGray: rgba(0,0,0,0.09);
+@mixin color_buttonGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 91%); #{$style}: $C_buttonGray; }
 $C_fieldGray: rgba(0,0,0,0.05);
 @mixin color_fieldGray($style: 'color') { #{$style}: lighten( rgb(0,0,0), 95%); #{$style}: $C_fieldGray; }
 $C_fieldGrayInvertedDisabled: rgba(255,255,255,0.05);
