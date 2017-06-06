@@ -59,7 +59,7 @@ ui:
       dimmingOverlay: [0,0,0,0.4]
       tappable: [56,56,15,0.09]
       tappableInverted: [255,246,196,0.27]
-      buttonGray: &fieldGray [0,0,0,0.09]
+      buttonGray: &buttonGray [0,0,0,0.09]
       fieldGray: &fieldGray [0,0,0,0.05]
       fieldGrayInvertedDisabled: &fieldGrayInvertedDisabled [255,255,255,0.05]
       fieldGrayDisabled: &fieldGrayDisabled [0,0,0,0.02]
